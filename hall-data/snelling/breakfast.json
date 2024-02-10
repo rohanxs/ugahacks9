@@ -21,10 +21,10 @@
     
     "cinnamon_raisin_bread": {
         "name": "Cinnamon Raisin Bread",
-        "categories": ["Heart Healthy", "Vegan", "Meatless", "Wheat", "Soybeans"],
+        "allergens": ["Heart Healthy", "Vegan", "Meatless", "Wheat", "Soybeans"],
         "nutrition_info": {
           "serving_size": "1 Slice",
-          "calories": "91",
+          "calories": 91,
           "total_fat": "1g",
           "saturated_fat": "0g",
           "trans_fat": "0g",
@@ -43,10 +43,10 @@
 
     "everything_bagel": {
         "name": "Everything Bagel",
-        "categories": ["Meatless", "Milk", "Eggs", "Wheat", "Soybeans", "Grain"],
+        "allergens": ["Meatless", "Milk", "Eggs", "Wheat", "Soybeans", "Grain"],
         "nutrition_info": {
         "serving_size": "1 Each",
-        "calories": "301",
+        "calories": 301,
         "total_fat": "4g",
         "saturated_fat": "0.50g",
         "trans_fat": "0g",
@@ -64,10 +64,10 @@
 
     "honey_wheat_bread": {
         "name": "Honey Wheat Bread",
-        "categories": ["Heart Healthy", "Meatless", "Wheat", "Soybeans", "Grain"],
+        "allergens": ["Heart Healthy", "Meatless", "Wheat", "Soybeans", "Grain"],
         "nutrition_info": {
           "serving_size": "1 Slice",
-          "calories": "69",
+          "calories": 69,
           "total_fat": "0.50g",
           "saturated_fat": "0g",
           "trans_fat": "0g",
@@ -86,10 +86,10 @@
 
       "new_york_rye_bread": {
         "name": "New York Rye Bread",
-        "categories": ["Heart Healthy", "Vegan", "Meatless", "Wheat", "Soybeans", "Grain"],
+        "allergens": ["Heart Healthy", "Vegan", "Meatless", "Wheat", "Soybeans", "Grain"],
         "nutrition_info": {
           "serving_size": "1 Slice",
-          "calories": "109",
+          "calories": 109,
           "total_fat": "1.50g",
           "saturated_fat": "0g",
           "trans_fat": "0g",
@@ -108,10 +108,10 @@
 
       "plain_bagel": {
         "name": "Plain Bagel",
-        "categories": ["Meatless", "Milk", "Eggs", "Wheat", "Soybeans", "Grain"],
+        "allergens": ["Meatless", "Milk", "Eggs", "Wheat", "Soybeans", "Grain"],
         "nutrition_info": {
           "serving_size": "1 Each",
-          "calories": "281",
+          "calories": 281,
           "total_fat": "1g",
           "saturated_fat": "0g",
           "trans_fat": "0g",
@@ -129,10 +129,10 @@
 
       "very_berry_bagel": {
         "name": "Very Berry Bagel",
-        "categories": ["Meatless", "Milk", "Eggs", "Wheat", "Soybeans", "Grain"],
+        "allergens": ["Meatless", "Milk", "Eggs", "Wheat", "Soybeans", "Grain"],
         "nutrition_info": {
           "serving_size": "1 Each",
-          "calories": "291",
+          "calories": 291,
           "total_fat": "1.50g",
           "saturated_fat": "0g",
           "trans_fat": "0g",
@@ -150,10 +150,10 @@
 
       "wheat_bran_oats_bagel": {
         "name": "Wheat Bran and Oats Bagel",
-        "categories": ["Heart Healthy", "Meatless", "Milk", "Eggs", "Wheat", "Soybeans", "Grain"],
+        "allergens": ["Heart Healthy", "Meatless", "Milk", "Eggs", "Wheat", "Soybeans", "Grain"],
         "nutrition_info": {
           "serving_size": "1 Each",
-          "calories": "281",
+          "calories": 281,
           "total_fat": "1.50g",
           "saturated_fat": "0g",
           "trans_fat": "0g",
@@ -171,10 +171,10 @@
 
       "white_bread": {
         "name": "White Bread",
-        "categories": ["Heart Healthy", "Vegan", "Meatless", "Wheat", "Soybeans", "Grain"],
+        "allergens": ["Heart Healthy", "Vegan", "Meatless", "Wheat", "Soybeans", "Grain"],
         "nutrition_info": {
           "serving_size": "1 Slice",
-          "calories": "69",
+          "calories": 69,
           "total_fat": "0.80g",
           "saturated_fat": "0g",
           "trans_fat": "0g",
@@ -193,10 +193,10 @@
 
     "whole_wheat_bread": {
     "name": "Whole Wheat Bread",
-    "categories": ["Heart Healthy", "Vegan", "Meatless", "Wheat", "Grain"],
+    "allergens": ["Heart Healthy", "Vegan", "Meatless", "Wheat", "Grain"],
     "nutrition_info": {
         "serving_size": "1 Each",
-        "calories": "60",
+        "calories": 60,
         "total_fat": "0.50g",
         "saturated_fat": "0g",
         "trans_fat": "0g",
@@ -213,10 +213,10 @@
     },
     "gluten_free_blueberry_muffin": {
         "name": "Gluten-Free Blueberry Muffin",
-        "categories": ["Meatless", "Eggs"],
+        "allergens": ["Meatless", "Eggs"],
         "nutrition_info": {
           "serving_size": "1 Each",
-          "calories": "220",
+          "calories": 220,
           "total_fat": "8g",
           "saturated_fat": "1g",
           "trans_fat": "0g",
@@ -235,10 +235,10 @@
 
       "gluten_free_double_chocolate_muffin": {
         "name": "Gluten-Free Double Chocolate Muffin",
-        "categories": ["Eggs"],
+        "allergens": ["Eggs"],
         "nutrition_info": {
           "serving_size": "1 Each",
-          "calories": "306",
+          "calories": 306,
           "total_fat": "17g",
           "saturated_fat": "3.50g",
           "trans_fat": "0g",
@@ -256,10 +256,10 @@
     },
     "gluten_free_hamburger_bun": {
         "name": "Gluten-Free Hamburger Bun",
-        "categories": ["Free of Gluten", "Heart Healthy", "Meatless", "Eggs"],
+        "allergens": ["Free of Gluten", "Heart Healthy", "Meatless", "Eggs"],
         "nutrition_info": {
           "serving_size": "1 Each",
-          "calories": "227",
+          "calories": 227,
           "total_fat": "7g",
           "saturated_fat": "0.50g",
           "trans_fat": "0g",
@@ -278,10 +278,10 @@
 
       "gluten_free_plain_bagel": {
         "name": "Gluten-Free Plain Bagel",
-        "categories": ["Free of Gluten", "Heart Healthy", "Meatless", "Eggs", "Soybeans", "Grain"],
+        "allergens": ["Free of Gluten", "Heart Healthy", "Meatless", "Eggs", "Soybeans", "Grain"],
         "nutrition_info": {
           "serving_size": "1 Each",
-          "calories": "178",
+          "calories": 178,
           "total_fat": "3g",
           "saturated_fat": "0g",
           "trans_fat": "0g",
@@ -300,10 +300,10 @@
 
       "gluten_free_white_bread": {
         "name": "Gluten-Free White Bread",
-        "categories": ["Free of Gluten", "Vegan", "Meatless", "Soybeans", "Grain"],
+        "allergens": ["Free of Gluten", "Vegan", "Meatless", "Soybeans", "Grain"],
         "nutrition_info": {
           "serving_size": "1 Slice",
-          "calories": "90",
+          "calories": 90,
           "total_fat": "3g",
           "saturated_fat": "0g",
           "trans_fat": "0g",
@@ -322,9 +322,9 @@
 
       "sweet_tea": {
         "name": "Sweet Tea",
-        "categories": ["Free of Gluten", "Vegan", "Meatless"],
+        "allergens": ["Free of Gluten", "Vegan", "Meatless"],
         "nutrition_info": {
-          "calories": "203",
+          "calories": 203,
           "total_fat": "0g",
           "saturated_fat": "0g",
           "trans_fat": "0g",
@@ -343,9 +343,9 @@
 
       "2% milk": {
         "name": "2% Milk",
-        "categories": ["Free of Gluten", "Meatless"],
+        "allergens": ["Free of Gluten", "Meatless"],
         "nutrition_info": {
-          "calories": "246",
+          "calories": 246,
           "total_fat": "10.30g",
           "saturated_fat": "6.20g",
           "trans_fat": "0g",
@@ -361,10 +361,10 @@
       },
       "white_chocolate_caramel_cappuccino": {
         "name": "White Chocolate Caramel Cappuccino",
-        "categories": ["Milk"],
+        "allergens": ["Milk"],
         "nutrition_info": {
           "serving_size": "8 Fl Oz",
-          "calories": "0",
+          "calories": 0,
           "total_fat": "0g",
           "saturated_fat": "0g",
           "cholesterol": "0mg",
@@ -380,9 +380,9 @@
 
       "brazilian_dark_roast": {
         "name": "Brazilian Dark Roast",
-        "categories": ["Free of Gluten", "Meatless"],
+        "allergens": ["Free of Gluten", "Meatless"],
         "nutrition_info": {
-          "calories": "0",
+          "calories": 0,
           "total_fat": "0g",
           "saturated_fat": "0g",
           "cholesterol": "0mg",
@@ -397,10 +397,10 @@
       },
       "assorted_scones": {
         "name": "Assorted Scones",
-        "categories": ["Meatless", "Milk", "Eggs", "Wheat", "Grain"],
+        "allergens": ["Meatless", "Milk", "Eggs", "Wheat", "Grain"],
         "nutrition_info": {
           "serving_size": "1 Each",
-          "calories": "431",
+          "calories": 431,
           "total_fat": "21g",
           "saturated_fat": "11g",
           "trans_fat": "0g",
@@ -418,10 +418,10 @@
 
       "chocolate_glazed_donut": {
         "name": "Chocolate Glazed Donut",
-        "categories": ["Meatless", "Milk", "Eggs", "Wheat", "Soybeans"],
+        "allergens": ["Meatless", "Milk", "Eggs", "Wheat", "Soybeans"],
         "nutrition_info": {
           "serving_size": "1 Each",
-          "calories": "431",
+          "calories": 431,
           "total_fat": "25g",
           "saturated_fat": "11g",
           "trans_fat": "0g",
@@ -440,10 +440,10 @@
 
       "glazed_donut": {
         "name": "Glazed Donut",
-        "categories": ["Meatless", "Milk", "Eggs", "Wheat", "Soybeans"],
+        "allergens": ["Meatless", "Milk", "Eggs", "Wheat", "Soybeans"],
         "nutrition_info": {
           "serving_size": "1 Each",
-          "calories": "400",
+          "calories": 400,
           "total_fat": "20g",
           "saturated_fat": "9g",
           "trans_fat": "0g",
@@ -463,10 +463,10 @@
 
       "warm_cinnamon_roll": {
         "name": "Warm Cinnamon Roll",
-        "categories": ["Meatless", "Milk", "Wheat", "Soybeans", "Grain"],
+        "allergens": ["Meatless", "Milk", "Wheat", "Soybeans", "Grain"],
         "nutrition_info": {
           "serving_size": "1 Each",
-          "calories": "169",
+          "calories": 169,
           "total_fat": "5g",
           "saturated_fat": "2.50g",
           "trans_fat": "1g",
@@ -486,10 +486,10 @@
 
       "whole_wheat_banana_muffins": {
         "name": "Whole Wheat Banana Muffins",
-        "categories": ["Meatless", "Milk", "Eggs", "Wheat", "Grain"],
+        "allergens": ["Meatless", "Milk", "Eggs", "Wheat", "Grain"],
         "nutrition_info": {
           "serving_size": "1 Each",
-          "calories": "194",
+          "calories": 194,
           "total_fat": "7g",
           "saturated_fat": "1g",
           "trans_fat": "0g",
@@ -509,10 +509,10 @@
 
       "zucchini_bread": {
         "name": "Zucchini Bread",
-        "categories": ["Meatless", "Taste of Home", "Eggs", "Wheat", "Grain"],
+        "allergens": ["Meatless", "Taste of Home", "Eggs", "Wheat", "Grain"],
         "nutrition_info": {
           "serving_size": "1 Each",
-          "calories": "313",
+          "calories": 313,
           "total_fat": "15g",
           "saturated_fat": "2.40g",
           "trans_fat": "0g",
@@ -532,10 +532,10 @@
 
       "bacon": {
         "name": "Bacon",
-        "categories": ["Free of Gluten", "Protein"],
+        "allergens": ["Free of Gluten", "Protein"],
         "nutrition_info": {
           "serving_size": "3 Each",
-          "calories": "128",
+          "calories": 128,
           "total_fat": "11g",
           "saturated_fat": "4.30g",
           "trans_fat": "0g",
@@ -548,10 +548,10 @@
 
       "biscuit_sausage_gravy": {
         "name": "Biscuit Sausage Gravy",
-        "categories": ["Milk", "Eggs", "Wheat", "Soybeans", "Grain"],
+        "allergens": ["Milk", "Eggs", "Wheat", "Soybeans", "Grain"],
         "nutrition_info": {
           "serving_size": "2 Oz",
-          "calories": "79",
+          "calories": 79,
           "total_fat": "5g",
           "saturated_fat": "2g",
           "trans_fat": "0g",
@@ -571,10 +571,10 @@
 
       "breakfast_chicken_fritter": {
         "name": "Breakfast Chicken Fritter",
-        "categories": ["Milk", "Eggs", "Fish", "Crustacean Shellfish", "Wheat", "Soybeans", "Protein"],
+        "allergens": ["Milk", "Eggs", "Fish", "Crustacean Shellfish", "Wheat", "Soybeans", "Protein"],
         "nutrition_info": {
           "serving_size": "1 Each",
-          "calories": "188",
+          "calories": 188,
           "total_fat": "11g",
           "saturated_fat": "1.40g",
           "trans_fat": "0g",
@@ -593,10 +593,10 @@
 
       "buttermilk_biscuits": {
         "name": "Buttermilk Biscuits",
-        "categories": ["Meatless", "Milk", "Eggs", "Wheat", "Soybeans", "Grain"],
+        "allergens": ["Meatless", "Milk", "Eggs", "Wheat", "Soybeans", "Grain"],
         "nutrition_info": {
           "serving_size": "1 Each",
-          "calories": "201",
+          "calories": 201,
           "total_fat": "11g",
           "saturated_fat": "11g",
           "trans_fat": "0g",
@@ -614,10 +614,10 @@
 
       "cheese_grits": {
         "name": "Cheese Grits",
-        "categories": ["Meatless", "Milk", "Wheat", "Grain"],
+        "allergens": ["Meatless", "Milk", "Wheat", "Grain"],
         "nutrition_info": {
           "serving_size": "4 Oz",
-          "calories": "94",
+          "calories": 94,
           "total_fat": "4.20g",
           "saturated_fat": "2.70g",
           "trans_fat": "0g",
@@ -636,7 +636,7 @@
       },
       "cooked_eggs": {
         "name": "Cooked Eggs",
-        "categories": ["Free of Gluten", "Heart Healthy", "Meatless", "Eggs", "Protein"],
+        "allergens": ["Free of Gluten", "Heart Healthy", "Meatless", "Eggs", "Protein"],
         "nutrition_info": {
           "serving_size": "1 Egg",
           "calories": "N/A",
@@ -659,10 +659,10 @@
 
       "grits": {
         "name": "Grits",
-        "categories": ["Heart Healthy", "Vegan", "Meatless", "Wheat", "Grain"],
+        "allergens": ["Heart Healthy", "Vegan", "Meatless", "Wheat", "Grain"],
         "nutrition_info": {
           "serving_size": "4 Oz",
-          "calories": "50",
+          "calories": 50,
           "total_fat": "0g",
           "saturated_fat": "0g",
           "trans_fat": "0g",
@@ -682,10 +682,10 @@
 
       "mini_potato_pancakes": {
         "name": "Mini Potato Pancakes",
-        "categories": ["Milk", "Eggs", "Fish", "Crustacean Shellfish", "Wheat", "Soybeans"],
+        "allergens": ["Milk", "Eggs", "Fish", "Crustacean Shellfish", "Wheat", "Soybeans"],
         "nutrition_info": {
           "serving_size": "3 Each",
-          "calories": "147",
+          "calories": 147,
           "total_fat": "11g",
           "saturated_fat": "1.30g",
           "trans_fat": "0g",
@@ -705,10 +705,10 @@
 
       "oatmeal": {
         "name": "Oatmeal",
-        "categories": ["Heart Healthy", "Vegan", "Meatless", "Grain"],
+        "allergens": ["Heart Healthy", "Vegan", "Meatless", "Grain"],
         "nutrition_info": {
           "serving_size": "4 Oz",
-          "calories": "62",
+          "calories": 62,
           "total_fat": "1.20g",
           "saturated_fat": "0g",
           "trans_fat": "0g",
@@ -728,10 +728,10 @@
 
       "pork_sausage_patties": {
         "name": "Pork Sausage Patties",
-        "categories": ["Free of Gluten", "Protein"],
+        "allergens": ["Free of Gluten", "Protein"],
         "nutrition_info": {
           "serving_size": "1 Each",
-          "calories": "180",
+          "calories": 180,
           "total_fat": "18g",
           "saturated_fat": "6g",
           "trans_fat": "0g",
@@ -749,10 +749,10 @@
 
       "quinoa_breakfast_cereal": {
         "name": "Quinoa Breakfast Cereal",
-        "categories": ["Free of Gluten", "Heart Healthy", "Vegan", "Meatless", "Grain"],
+        "allergens": ["Free of Gluten", "Heart Healthy", "Vegan", "Meatless", "Grain"],
         "nutrition_info": {
           "serving_size": "4 Oz",
-          "calories": "143",
+          "calories": 143,
           "total_fat": "2.10g",
           "saturated_fat": "0g",
           "cholesterol": "0mg",
@@ -771,10 +771,10 @@
 
       "scrambled_eggs": {
         "name": "Scrambled Eggs",
-        "categories": ["Free of Gluten", "Meatless", "Eggs", "Protein"],
+        "allergens": ["Free of Gluten", "Meatless", "Eggs", "Protein"],
         "nutrition_info": {
           "serving_size": "4 Oz",
-          "calories": "204",
+          "calories": 204,
           "total_fat": "15g",
           "saturated_fat": "4.20g",
           "trans_fat": "0g",
@@ -792,10 +792,10 @@
 
       "scrambled_eggs_with_cheese": {
         "name": "Scrambled Eggs with Cheese",
-        "categories": ["Free of Gluten", "Meatless", "Milk", "Eggs"],
+        "allergens": ["Free of Gluten", "Meatless", "Milk", "Eggs"],
         "nutrition_info": {
           "serving_size": "4 Oz",
-          "calories": "213",
+          "calories": 213,
           "total_fat": "16g",
           "saturated_fat": "5g",
           "trans_fat": "0g",
@@ -813,10 +813,10 @@
 
       "sweet_potato_french_toast_casserole": {
         "name": "Sweet Potato French Toast Casserole",
-        "categories": ["Meatless", "Taste of Home", "Milk", "Eggs", "Wheat", "Soybeans"],
+        "allergens": ["Meatless", "Taste of Home", "Milk", "Eggs", "Wheat", "Soybeans"],
         "nutrition_info": {
           "serving_size": "4 Oz",
-          "calories": "228",
+          "calories": 228,
           "total_fat": "7g",
           "saturated_fat": "3.10g",
           "trans_fat": "0g",
@@ -836,10 +836,10 @@
 
       "veggie_sausage_patty": {
         "name": "Veggie Sausage Patty",
-        "categories": ["Heart Healthy", "Meatless", "Milk", "Eggs", "Wheat", "Soybeans", "Protein"],
+        "allergens": ["Heart Healthy", "Meatless", "Milk", "Eggs", "Wheat", "Soybeans", "Protein"],
         "nutrition_info": {
           "serving_size": "1 Each",
-          "calories": "80",
+          "calories": 80,
           "total_fat": "3g",
           "saturated_fat": "0g",
           "trans_fat": "0g",
@@ -858,7 +858,7 @@
 
       "capn_crunch_cereal": {
         "name": "Cap'N Crunch Cereal",
-        "categories": ["Vegan", "Meatless", "Wheat", "Grain"],
+        "allergens": ["Vegan", "Meatless", "Wheat", "Grain"],
         "nutrition_info": {
           "serving_size": "1 Cups",
           "calories": 146,
@@ -881,7 +881,7 @@
 
       "cheerios_cereal": {
         "name": "Cheerios Cereal",
-        "categories": ["Free of Gluten", "Heart Healthy", "Vegan", "Meatless", "Grain"],
+        "allergens": ["Free of Gluten", "Heart Healthy", "Vegan", "Meatless", "Grain"],
         "nutrition_info": {
           "serving_size": "1 Cups",
           "calories": 95,
@@ -904,7 +904,7 @@
 
       "a1_sauce": {
         "name": "A1",
-        "categories": ["Free of Gluten", "Vegan", "Meatless"],
+        "allergens": ["Free of Gluten", "Vegan", "Meatless"],
         "nutrition_info": {
           "serving_size": "0.12 Fl Oz",
           "calories": 3,
@@ -923,7 +923,7 @@
 
       "apple": {
         "name": "Apple",
-        "categories": ["Free of Gluten", "Heart Healthy", "Vegan", "Meatless", "Fruit"],
+        "allergens": ["Free of Gluten", "Heart Healthy", "Vegan", "Meatless", "Fruit"],
         "nutrition_info": {
           "serving_size": "1 Each",
           "calories": 86,
@@ -942,7 +942,7 @@
 
       "bananas": {
         "name": "Bananas",
-        "categories": ["Free of Gluten", "Heart Healthy", "Vegan", "Meatless", "Fruit"],
+        "allergens": ["Free of Gluten", "Heart Healthy", "Vegan", "Meatless", "Fruit"],
         "nutrition_info": {
           "serving_size": "1 Each",
           "calories": "N/A",
@@ -962,7 +962,7 @@
 
       "sliced_almonds": {
         "name": "Almonds, Sliced",
-        "categories": ["Heart Healthy", "Vegan", "Meatless", "Peanuts", "Tree Nuts", "Milk", "Eggs", "Wheat", "Soybeans", "Protein"],
+        "allergens": ["Heart Healthy", "Vegan", "Meatless", "Peanuts", "Tree Nuts", "Milk", "Eggs", "Wheat", "Soybeans", "Protein"],
         "nutrition_info": {
           "serving_size": "0.5 Oz",
           "calories": "N/A",
@@ -983,7 +983,7 @@
 
       "peanut_butter": {
         "name": "Peanut Butter",
-        "categories": ["Free of Gluten", "Vegan", "Meatless", "Peanuts", "Protein"],
+        "allergens": ["Free of Gluten", "Vegan", "Meatless", "Peanuts", "Protein"],
         "nutrition_info": {
           "serving_size": "1 Oz",
           "calories": 163,
@@ -1006,7 +1006,7 @@
 
       "peanuts": {
         "name": "Peanuts",
-        "categories": ["Heart Healthy", "Vegan", "Meatless", "Peanuts", "Tree Nuts", "Milk", "Eggs", "Wheat", "Soybeans"],
+        "allergens": ["Heart Healthy", "Vegan", "Meatless", "Peanuts", "Tree Nuts", "Milk", "Eggs", "Wheat", "Soybeans"],
         "nutrition_info": {
           "serving_size": "0.5 Oz",
           "calories": 91,
@@ -1028,7 +1028,7 @@
 
       "make_your_own_belgian_waffle": {
         "name": "Make-Your-Own Belgian Waffle",
-        "categories": ["Meatless", "Milk", "Eggs", "Wheat", "Soybeans"],
+        "allergens": ["Meatless", "Milk", "Eggs", "Wheat", "Soybeans"],
         "nutrition_info": {
           "serving_size": "1 Each",
           "calories": 177,
@@ -1050,7 +1050,7 @@
 
       "syrup": {
         "name": "Syrup",
-        "categories": ["Free of Gluten", "Vegan", "Meatless"],
+        "allergens": ["Free of Gluten", "Vegan", "Meatless"],
         "nutrition_info": {
           "serving_size": "1 Oz",
           "calories": 109,
@@ -1069,7 +1069,7 @@
 
       "yogurt_nut_bar": {
         "name": "Yogurt & Nut Bar",
-        "categories": ["Meatless"],
+        "allergens": ["Meatless"],
         "nutrition_info": {
           "calories": 66,
           "total_fat": "3.30g",
@@ -1089,7 +1089,7 @@
 
       "greek_plain_yogurt": {
         "name": "Greek Plain Yogurt",
-        "categories": ["Free of Gluten", "Heart Healthy", "Meatless", "Milk", "Dairy"],
+        "allergens": ["Free of Gluten", "Heart Healthy", "Meatless", "Milk", "Dairy"],
         "nutrition_info": {
           "serving_size": "4 Oz",
           "calories": 60,
@@ -1111,7 +1111,7 @@
 
       "non_fat_vanilla_yogurt": {
         "name": "Non-Fat Vanilla Yogurt",
-        "categories": ["Free of Gluten", "Heart Healthy", "Meatless", "Milk", "Dairy"],
+        "allergens": ["Free of Gluten", "Heart Healthy", "Meatless", "Milk", "Dairy"],
         "nutrition_info": {
           "serving_size": "4 Oz",
           "calories": 80,
@@ -1132,7 +1132,7 @@
       },
       "strawberry_yogurt": {
         "name": "Strawberry Yogurt",
-        "categories": ["Milk"],
+        "allergens": ["Milk"],
         "nutrition_info": {
           "serving_size": "4 Oz",
           "calories": 80,
