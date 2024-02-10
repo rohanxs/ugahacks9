@@ -12,5 +12,10 @@ let noSodium = document.getElementById("c11").checked;
 
 const nosaveButton = document.getElementById("nosave");
 nosaveButton.onclick = () => {
-  window.location.href = "app.html"
+  window.location.href = "app.html";
+}
+
+const saveButton = document.getElementById("save");
+saveButton.onclick = () => {
+  window.location.href = "app.html";
 }
