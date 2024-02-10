@@ -662,7 +662,7 @@
 
   "Apple": {
     "name": "Apple",
-    "allergens": ["Gluten"],
+    "allergens": ["Free of Gluten"],
     "serving_size": "1 Each",
     "nutrition_information": {
       "calories": 86,
@@ -685,7 +685,7 @@
 
   "Bananas": {
     "name": "Bananas",
-    "allergens": ["Gluten"],
+    "allergens": ["Free of Gluten"],
     "serving_size": "1 Each",
     "nutrition_information": {
       "calories": "N/A",
@@ -821,7 +821,7 @@
     }
   },
 
-  "Gluten Free Pizza Crust": {
+  "gluten free pizza crust": {
     "name": "Gluten Free Pizza Crust",
     "allergens": ["Free of Gluten", "Vegan", "Meatless", "Eggs", "Soybeans"],
     "serving_size": "1 Each",
@@ -867,7 +867,7 @@
     }
   },
 
-  "Croissant": {
+  "croissant": {
     "name": "Croissant",
     "allergens": ["Meatless", "Tree Nuts", "Milk", "Eggs", "Wheat", "Soybeans"],
     "serving_size": "N/A",
@@ -890,7 +890,7 @@
     }
   },
 
-  "Deli Roast Beef": {
+  "deli roast beef": {
     "name": "Deli Roast Beef",
     "allergens": ["Free of Gluten", "Soybeans"],
     "serving_size": "2 Oz",
@@ -913,7 +913,7 @@
     }
   },
 
-  "Deli Smoked Ham": {
+  "deli smoked ham": {
     "name": "Deli Smoked Ham",
     "allergens": ["Free of Gluten"],
     "serving_size": "2 Oz",
@@ -936,7 +936,7 @@
     }
   },
 
-  "Deli Turkey": {
+  "deli turkey": {
     "name": "Deli Turkey",
     "allergens": ["Free of Gluten"],
     "attributes": ["Heart Healthy"],
@@ -960,7 +960,7 @@
     }
   },
 
-  "Lemon Garlic Hummus": {
+  "lemon garlic hummus": {
     "name": "Lemon Garlic Hummus",
     "allergens": ["Free of Gluten", "Heart Healthy", "Vegan", "Meatless", "Protein"],
     "serving_size": "2 Oz",
@@ -983,7 +983,7 @@
     }
   },
 
-  "Ms. Gwen's Chicken Salad": {
+  "ms. gwen's chicken salad": {
     "name": "Ms. Gwen's Chicken Salad",
     "allergens": ["Free of Gluten", "Eggs", "Protein"],
     "serving_size": "4 Oz",
@@ -1006,7 +1006,7 @@
     }
   },
 
-  "Tuna Salad": {
+  "tuna salad": {
     "name": "Tuna Salad",
     "allergens": ["Free of Gluten", "Heart Healthy", "Eggs", "Fish", "Soybeans", "Protein", "Vegetable"],
     "serving_size": "4 Oz",
@@ -1029,7 +1029,7 @@
     }
   },
 
-  "Pimento Cheese": {
+  "pimento cheese": {
     "name": "Pimento Cheese",
     "allergens": ["Free of Gluten", "Meatless", "Milk", "Eggs", "Dairy"],
     "serving_size": "2 Oz",
@@ -1075,7 +1075,7 @@
     }
   },
 
-  "Saltine Crackers": {
+  "saltine crackers": {
     "name": "Saltine Crackers",
     "attributes": ["Heart Healthy", "Vegan", "Meatless", "Wheat"],
     "serving_size": "1 Each",
@@ -1098,7 +1098,7 @@
     }
   },
 
-  "Peanut Butter": {
+  "peanut butter": {
     "name": "Peanut Butter",
     "allergens": ["Free of Gluten", "Vegan", "Meatless", "Peanuts", "Protein"],
     "serving_size": "1 Oz",
@@ -1213,7 +1213,7 @@
     }
   },
 
-  "Turkey Burger Patty": {
+  "turkey_burger_patty": {
     "name": "Turkey Burger Patty",
     "allergens": ["Free of Gluten", "Protein"],
     "serving_size": "1 Each",
@@ -1236,7 +1236,7 @@
     }
   },
 
-  "Veggie Burger": {
+  "veggie_burger": {
     "name": "Veggie Burger",
     "allergens": ["Vegan", "Meatless", "Wheat", "Soybeans", "Protein"],
     "serving_size": "1 Each",
@@ -1304,7 +1304,7 @@
     }
   },
 
-  "Angus Beef Hamburger Patty": {
+  "angus_beef_hamburger_patty": {
     "name": "Angus Beef Hamburger Patty",
     "allergens": ["Free of Gluten", "Protein"],
     "serving_size": "1 Each",
@@ -1327,7 +1327,7 @@
     }
   },
 
-  "Breaded Chicken Patty": {
+  "breaded_chicken_patty": {
     "name": "Breaded Chicken Patty",
     "allergens": ["Milk", "Eggs", "Fish", "Crustacean Shellfish", "Wheat", "Soybeans"],
     "serving_size": "4 Oz",
@@ -1350,7 +1350,7 @@
     }
   },
 
-  "Crinkle Cut French Fries": {
+  "crinkle_cut_french_fries": {
     "name": "Crinkle Cut French Fries",
     "allergens": ["Milk", "Eggs", "Fish", "Crustacean Shellfish", "Wheat", "Soybeans"],
     "serving_size": "4 Oz",
@@ -1373,7 +1373,7 @@
     }
   },
 
-  "Fried Chicken Wings": {
+  "fried_chicken_wings": {
     "name": "Fried Chicken Wings",
     "allergens": ["Milk", "Eggs", "Fish", "Crustacean Shellfish", "Wheat", "Soybeans", "Protein"],
     "serving_size": "4 Oz",
@@ -1396,7 +1396,7 @@
     }
   },
  
-  "Grilled Cheese Sandwich": {
+  "grilled_cheese_sandwich": {
     "name": "Grilled Cheese Sandwich",
     "allergens": ["Meatless", "Milk", "Wheat", "Soybeans", "Dairy", "Grain"],
     "serving_size": "1 Each",
@@ -1419,7 +1419,7 @@
     }
   },
 
-  "Grilled Chicken Breast": {
+  "grilled_chicken_breast": {
     "name": "Grilled Chicken Breast",
     "allergens": ["Free of Gluten", "Heart Healthy"],
     "serving_size": "1 Each",
@@ -1442,7 +1442,7 @@
     }
   },
 
-  "Hot & Spicy Chicken Wings": {
+  "hot & spicy chicken wings": {
     "name": "Hot & Spicy Chicken Wings",
     "allergens": ["Milk", "Eggs", "Fish", "Crustacean Shellfish", "Wheat", "Soybeans", "Protein"],
     "serving_size": "4 Oz",
@@ -1510,7 +1510,7 @@
     }
   },
 
-  "Baked Mac & Cheese With Kale": {
+  "baked_mac & cheese_with_kale": {
     "name": "Baked Mac & Cheese With Kale",
     "allergens": ["Meatless", "Milk", "Eggs", "Wheat"],
     "serving_size": "6 Oz",
@@ -1533,7 +1533,7 @@
     }
   },
 
-  "Braised White Beans with Pancetta and Greens": {
+  "braised_white_beans_with_pancetta_and_greens": {
     "name": "Braised White Beans with Pancetta and Greens",
     "allergens": ["Free of Gluten", "Vegetable"],
     "serving_size": "3 Oz",

@@ -289,6 +289,217 @@
         }
       },
 
+      "Classico Italian Tomato & Sausage Sauce": {
+        "name": "Classico Italian Tomato & Sausage Sauce",
+        "allergens": ["Free of Gluten", "Protein", "Vegetable"],
+        "nutrition_info": {
+          "serving_size": "1 Oz",
+          "calories": 33,
+          "total_fat": "2g",
+          "saturated_fat": "0.50g",
+          "trans_fat": "0g",
+          "cholesterol": "4mg",
+          "sodium": "105mg",
+          "total_carbs": "2g",
+          "dietary_fiber": "0g",
+          "sugar": "1g",
+          "added_sugar": "0g",
+          "protein": "1g",
+          "calcium": "7.10mg",
+          "iron": "0.20mg",
+          "potassium": "84mg",
+          "vitamin_c": "2.50mg"
+        }
+      },
+      "Spinach & Mushroom Lasagna": {
+        "name": "Spinach & Mushroom Lasagna",
+        "allergens": ["Meatless", "Milk", "Eggs", "Wheat"],
+        "nutrition_info": {
+          "serving_size": "6 Oz",
+          "calories": 230,
+          "total_fat": "14g",
+          "saturated_fat": "6g",
+          "trans_fat": "0g",
+          "cholesterol": "35mg",
+          "sodium": "282mg",
+          "total_carbs": "15g",
+          "dietary_fiber": "1g",
+          "sugar": "4g",
+          "added_sugar": "0g",
+          "protein": "12g",
+          "calcium": "270mg",
+          "iron": "1.30mg",
+          "potassium": "444mg",
+          "vitamin_c": "9.10mg"
+        }
+      },
+      "Alfredo Sauce": {
+        "name": "Alfredo Sauce",
+        "allergens": ["Free of Gluten", "Meatless", "Milk"],
+        "nutrition_info": {
+          "serving_size": "4 Oz",
+          "calories": 263,
+          "total_fat": "24g",
+          "saturated_fat": "8g",
+          "trans_fat": "0.50g",
+          "cholesterol": "36mg",
+          "sodium": "698mg",
+          "total_carbs": "7g",
+          "dietary_fiber": "0g",
+          "sugar": "4g",
+          "added_sugar": "0g",
+          "protein": "5g",
+          "calcium": "163mg",
+          "iron": "0mg",
+          "potassium": "118mg"
+        }
+      },
+      
+      "Fresh Cherry Tomatoes": {
+        "name": "Fresh Cherry Tomatoes",
+        "allergens": ["Free of Gluten", "Heart Healthy", "Vegan", "Meatless", "Vegetable"],
+        "nutrition_info": {
+          "serving_size": "1 Oz",
+          "calories": 6,
+          "total_fat": "0g",
+          "saturated_fat": "0g",
+          "trans_fat": "0g",
+          "cholesterol": "0mg",
+          "sodium": "3mg",
+          "total_carbs": "1g",
+          "dietary_fiber": "0g",
+          "sugar": "0g",
+          "protein": "0g",
+          "calcium": "1.50mg",
+          "iron": "0.20mg",
+          "potassium": "54mg",
+          "vitamin_c": "4.30mg"
+        }
+      },
+      "Garlic Bread": {
+        "name": "Garlic Bread",
+        "allergens": ["Meatless", "Milk", "Eggs", "Wheat", "Soybeans"],
+        "nutrition_info": {
+          "serving_size": "1 Each",
+          "calories": 39,
+          "total_fat": "1.30g",
+          "saturated_fat": "0.60g",
+          "trans_fat": "0g",
+          "cholesterol": "0mg",
+          "sodium": "85mg",
+          "total_carbs": "6g",
+          "dietary_fiber": "0g",
+          "sugar": "0g",
+          "protein": "1g",
+          "calcium": "4.80mg",
+          "iron": "0.40mg",
+          "potassium": "2mg",
+          "vitamin_c": "0.10mg"
+        }
+      },
+      "Granny Smith Apples": {
+        "name": "Granny Smith Apples",
+        "allergens": ["Free of Gluten", "Heart Healthy", "Vegan", "Meatless", "Fruit"],
+        "nutrition_info": {
+          "serving_size": "1 Each",
+          "calories": 99,
+          "total_fat": "0g",
+          "trans_fat": "0g",
+          "sodium": "2mg",
+          "total_carbs": "23g",
+          "dietary_fiber": "5g",
+          "sugar": "16g",
+          "protein": "1g",
+          "calcium": "8.50mg",
+          "iron": "0.30mg",
+          "potassium": "204mg"
+        }
+      },
+      "Kalamata Olives": {
+        "name": "Kalamata Olives",
+        "allergens": ["Vegan", "Meatless"],
+        "nutrition_info": {
+          "serving_size": "1 Oz",
+          "calories": 71,
+          "total_fat": "8g",
+          "saturated_fat": "1g",
+          "trans_fat": "0g",
+          "sodium": "608mg",
+          "total_carbs": "1g",
+          "protein": "0g"
+        }
+      },
+      "Kale Super Salad Blend": {
+        "name": "Kale Super Salad Blend",
+        "allergens": ["Free of Gluten", "Heart Healthy", "Vegan", "Meatless"],
+        "nutrition_info": {
+          "serving_size": "4 Oz"
+        }
+      },
+      "Lemon-Dijon Vinaigrette": {
+        "name": "Lemon-Dijon Vinaigrette",
+        "allergens": ["Free of Gluten", "Heart Healthy", "Meatless"],
+        "nutrition_info": {
+          "serving_size": "2 Tbsp",
+          "calories": 128,
+          "total_fat": "12g",
+          "saturated_fat": "1.80g",
+          "trans_fat": "0g",
+          "cholesterol": "0mg",
+          "sodium": "118mg",
+          "total_carbs": "3g",
+          "dietary_fiber": "0g",
+          "sugar": "1g",
+          "added_sugar": "0g",
+          "protein": "0g",
+          "calcium": "9.90mg",
+          "iron": "0.10mg",
+          "potassium": "31mg",
+          "vitamin_c": "5.50mg"
+        }
+      },
+      "Marinara Sauce": {
+        "name": "Marinara Sauce",
+        "allergens": ["Free of Gluten", "Vegan", "Meatless", "Vegetable"],
+        "nutrition_info": {
+          "serving_size": "4 Oz",
+          "calories": 53,
+          "total_fat": "0g",
+          "saturated_fat": "0g",
+          "trans_fat": "0g",
+          "cholesterol": "0mg",
+          "sodium": "443mg",
+          "total_carbs": "12g",
+          "dietary_fiber": "3g",
+          "sugar": "6g",
+          "added_sugar": "1g",
+          "protein": "2g",
+          "calcium": "22.10mg",
+          "iron": "0.90mg",
+          "potassium": "390mg"
+        }
+      },
+    
+      "Pasta of the Day": {
+        "name": "Pasta of the Day",
+        "allergens": ["Heart Healthy", "Vegan", "Meatless", "Eggs", "Wheat"],
+        "nutrition_info": {
+          "serving_size": "4 Oz",
+          "calories": 243,
+          "total_fat": "1.20g",
+          "saturated_fat": "0g",
+          "trans_fat": "0g",
+          "cholesterol": "0mg",
+          "sodium": "4mg",
+          "total_carbs": "51g",
+          "dietary_fiber": "5g",
+          "sugar": "2g",
+          "protein": "10g",
+          "calcium": "17.80mg",
+          "iron": "2.40mg",
+          "potassium": "102mg"
+        }
+      },
       "Cheerios Cereal": {
         "name": "Cheerios Cereal",
         "allergens": ["Free of Gluten", "Vegan", "Meatless", "Grain"],
