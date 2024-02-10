@@ -77,82 +77,8 @@ body {
 }
 
 
-.motto-container {
+.preferences-container {
     margin-top: 0px;
     height: 600px;
-}
-
-.welcome-container {
-    margin: auto;
-    width: 750px;
-}
-
-.welcome {
-    color:white;
-    font-size: 120px;
-}
-
-b {
-    color:#BA0C2F;
-}
-
-.options-container {
-    margin: auto;
-    margin-top: -60px;
-    width: 750px;
-    display: flex;
-}
-
-#browse {
-    background-color: #BA0C2F;
-    font-family: Montserrat;
-    width: 300px;
-    height: 70px;
-    border: none;
-    border-radius: 40px;
-    color: white;
-    padding: 10px 24px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 22px;
-
-    transition-duration: 0.4s;
-    cursor: pointer;
-
-    margin-left: 20px;
-
-    transition-duration: 300ms;
-}
-
-#browse:hover {
-    background-color: #333;
-    color: white;
-    transition-duration: 300ms;
-}
-
-#preferences {
-    background-color: rgb(191, 191, 191);
-    font-family: Montserrat;
-    width: 300px;
-    height: 70px;
-    border: none;
-    border-radius: 40px;
-    color: black;
-    padding: 10px 24px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 22px;
-
-    transition-duration: 0.4s;
-    cursor: pointer;
-
-    margin-left: 80px;
-
-    transition-duration: 300ms;
-}
-
-#preferences:hover {
-    background-color: #333;
-    color: white;
-    transition-duration: 300ms;
+    background-color: white;
 }
