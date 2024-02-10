@@ -1,4 +1,4 @@
-Project submitted to the UGAHacks 9 competition.
+[![My Skills](https://skillicons.dev/icons?i=js,html,css,firebase,figma, cloudflare, nodejs)](https://skillicons.dev)
 
 Team Members: 
 1. Rohan Singh
