@@ -4,7 +4,7 @@ body {
     margin: 0;
     background-color: #BA0C2F;
     font-family: "Montserrat";
-
+    overscroll-behavior-y: none;
     background-image: url('assets/background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
