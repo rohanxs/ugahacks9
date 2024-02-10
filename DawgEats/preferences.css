@@ -3,6 +3,8 @@
 html {
     background: linear-gradient(rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.80)), url(assets/bolton.jpg);
     background-size:cover;
+
+    animation: 2s linear 0s 1 gradientFade;
 }
 
 body {
@@ -81,9 +83,22 @@ b {
     color: #333;
 }
 
+@keyframes slideUp {
+    0% {
+        opacity: 40%;
+        margin-top: 500px;
+    }
+    
+    100% {
+        opacity: 100%;
+        margin-top: 50px;
+    }
+}
 
 .preferences-container {
     margin-top: 50px;
+
+    animation: 1s ease-out 0s 1 slideUp;
 }
 
 .preferences {
@@ -109,6 +124,12 @@ p {
     margin-bottom: -60px;
     padding-bottom: 10px;
     border-bottom: solid #BA0C2F 5px;
+}
+
+#title2 {
+    margin-bottom: -60px;
+    padding-bottom: 10px;
+    border-bottom: solid #333 2px;
 }
 
 .question {

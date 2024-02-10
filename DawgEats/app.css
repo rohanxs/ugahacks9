@@ -91,7 +91,31 @@ body {
 .welcome {
     color:white;
     font-size: 120px;
+
+    animation: 2s ease-out 0s 1 slideFromTop;
 }
+
+@keyframes slideFromTop {
+    0% {
+        opacity: 0;
+        padding-top: 20px;
+    }
+    100% {
+        opacity: 100%;
+        padding-top: 0px;
+    }
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
+
+
 
 b {
     color:#BA0C2F;
@@ -123,6 +147,8 @@ b {
     margin-left: 20px;
 
     transition-duration: 300ms;
+
+    animation: 1s ease-out 0s 1 appear;
 }
 
 #browse:hover {
@@ -150,6 +176,8 @@ b {
     margin-left: 80px;
 
     transition-duration: 300ms;
+
+    animation: 1s ease-out 0s 1 appear;
 }
 
 #preferences:hover {
