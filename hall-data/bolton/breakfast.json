@@ -150,7 +150,347 @@
           "iron": "2.30mg",
           "potassium": "287mg"
         }
-      }
+      },
+
+      "gluten free hamburger bun": {
+        "name": "Gluten Free Hamburger Bun",
+        "category": "Free of Gluten",
+        "sub_category": "Heart Healthy",
+        "allergens": ["Eggs"],
+        "nutrition_info": {
+          "serving_size": "1 Each",
+          "calories": 227,
+          "total_fat": "7g",
+          "saturated_fat": "0.50g",
+          "trans_fat": "0g",
+          "cholesterol": "0mg",
+          "sodium": "416mg",
+          "total_carbs": "42g",
+          "dietary_fiber": "6g",
+          "sugar": "6g",
+          "added_sugar": "6g",
+          "protein": "5g",
+          "calcium": "28.30mg",
+          "iron": "0mg",
+          "potassium": "113mg"
+        }
+      },
+
+      "gluten free plain bagel": {
+        "name": "Gluten Free Plain Bagel",
+        "category": "Free of Gluten",
+        "sub_category": "Heart Healthy",
+        "allergens": ["Eggs", "Soybeans", "Grain"],
+        "nutrition_info": {
+          "serving_size": "1 Each",
+          "calories": 178,
+          "total_fat": "3g",
+          "saturated_fat": "0g",
+          "trans_fat": "0g",
+          "cholesterol": "0mg",
+          "sodium": "356mg",
+          "total_carbs": "40g",
+          "dietary_fiber": "4g",
+          "sugar": "6g",
+          "added_sugar": "0g",
+          "protein": "4g",
+          "calcium": "39.60mg",
+          "iron": "0.80mg",
+          "potassium": "178mg"
+        }
+      },
+
+      "gluten free white bread": {
+        "name": "Gluten Free White Bread",
+        "category": "Free of Gluten",
+        "sub_category": "Vegan",
+        "allergens": ["Soybeans", "Grain"],
+        "nutrition_info": {
+          "serving_size": "1 Slice",
+          "calories": 90,
+          "total_fat": "3g",
+          "saturated_fat": "0g",
+          "trans_fat": "0g",
+          "cholesterol": "0mg",
+          "sodium": "170mg",
+          "total_carbs": "16g",
+          "dietary_fiber": "2g",
+          "sugar": "2g",
+          "added_sugar": "0g",
+          "protein": "2g",
+          "calcium": "15mg",
+          "iron": "0.50mg",
+          "potassium": "80mg"
+        }
+      },
+
+      "chocolate glazed donut": {
+        "name": "Chocolate Glazed Donut",
+        "category": "Meatless",
+        "allergens": ["Milk", "Eggs", "Wheat", "Soybeans"],
+        "nutrition_info": {
+          "serving_size": "1 Each",
+          "calories": 431,
+          "total_fat": "25g",
+          "saturated_fat": "11g",
+          "trans_fat": "0g",
+          "cholesterol": "0mg",
+          "sodium": "390mg",
+          "total_carbs": "48g",
+          "dietary_fiber": "1g",
+          "sugar": "22g",
+          "added_sugar": "19g",
+          "protein": "5g",
+          "calcium": "20.30mg",
+          "iron": "2.20mg",
+          "potassium": "71mg"
+        }
+      },
+
+      "glazed donut": {
+        "name": "Glazed Donut",
+        "category": "Meatless",
+        "allergens": ["Milk", "Eggs", "Wheat", "Soybeans"],
+        "nutrition_info": {
+          "serving_size": "1 Each",
+          "calories": 400,
+          "total_fat": "20g",
+          "saturated_fat": "9g",
+          "trans_fat": "0g",
+          "cholesterol": "0mg",
+          "sodium": "324mg",
+          "total_carbs": "52g",
+          "dietary_fiber": "1g",
+          "sugar": "27g",
+          "added_sugar": "3g",
+          "protein": "5g",
+          "calcium": "20.30mg",
+          "iron": "1.70mg",
+          "potassium": "71mg",
+          "vitamin_c": "0mg"
+        }
+      },
+
+      "good morning muffins with coconut": {
+        "name": "Good Morning Muffins with Coconut",
+        "category": "Meatless",
+        "allergens": ["Milk", "Eggs", "Wheat", "Grain"],
+        "nutrition_info": {
+          "serving_size": "1 Ea",
+          "calories": 284,
+          "total_fat": "9g",
+          "saturated_fat": "6g",
+          "trans_fat": "0g",
+          "cholesterol": "19mg",
+          "sodium": "288mg",
+          "total_carbs": "46g",
+          "dietary_fiber": "1g",
+          "sugar": "22g",
+          "added_sugar": "20g",
+          "protein": "3g",
+          "calcium": "6.10mg",
+          "iron": "1.50mg",
+          "potassium": "80mg",
+          "vitamin_c": "0.60mg"
+        }
+      },
+
+      "lemon cinnamon rolls": {
+        "name": "Lemon Cinnamon Rolls",
+        "category": "Meatless",
+        "allergens": ["Milk", "Wheat", "Soybeans"],
+        "nutrition_info": {
+          "serving_size": "1 Each",
+          "calories": 170,
+          "total_fat": "5g",
+          "saturated_fat": "2.50g",
+          "trans_fat": "1g",
+          "cholesterol": "0mg",
+          "sodium": "213mg",
+          "total_carbs": "28g",
+          "dietary_fiber": "0g",
+          "sugar": "14g",
+          "added_sugar": "13g",
+          "protein": "3g",
+          "calcium": "0.10mg",
+          "iron": "1.10mg",
+          "potassium": "1mg",
+          "vitamin_c": "0.40mg"
+        }
+      },
+
+      "poppyseed orange bread": {
+        "name": "Poppyseed Orange Bread",
+        "category": "Meatless",
+        "sub_category": "Taste of Home",
+        "allergens": ["Milk", "Eggs", "Wheat", "Grain"],
+        "nutrition_info": {
+          "serving_size": "1 Slice",
+          "calories": 283,
+          "total_fat": "15g",
+          "saturated_fat": "2.50g",
+          "trans_fat": "0g",
+          "cholesterol": "25mg",
+          "sodium": "152mg",
+          "total_carbs": "35g",
+          "dietary_fiber": "0g",
+          "sugar": "24g",
+          "added_sugar": "22g",
+          "protein": "3g",
+          "calcium": "28.90mg",
+          "iron": "0.90mg",
+          "potassium": "39mg",
+          "vitamin_c": "1mg"
+        }
+      },
+
+      "2% milk": {
+        "name": "2% Milk",
+        "category": "Free of Gluten",
+        "sub_category": "Meatless",
+        "type": "Milk",
+        "nutrition_info": {
+          "calories": 184.50,
+          "total_fat": "7.73g",
+          "saturated_fat": "4.65g",
+          "trans_fat": "0g",
+          "cholesterol": "30.75mg",
+          "sodium": "184.50mg",
+          "total_carbs": "18.45g",
+          "sugar": "18.45g",
+          "protein": "12.30g",
+          "calcium": "461.25mg",
+          "iron": "0mg",
+          "potassium": "525.83mg"
+        }
+      },
+
+      "apple juice": {
+        "name": "Apple Juice",
+        "category": "Free of Gluten",
+        "sub_category": "Vegan",
+        "type": "Meatless",
+        "nutrition_info": {
+          "calories": 165,
+          "total_fat": "0g",
+          "saturated_fat": "0g",
+          "cholesterol": "0mg",
+          "sodium": "0mg",
+          "total_carbs": "42.30g",
+          "sugar": "39.30g",
+          "protein": "0g",
+          "calcium": "0mg",
+          "iron": "0mg",
+          "potassium": "0mg",
+          "vitamin_c": "0mg"
+        }
+      },
+
+      "brazilian dark roast": {
+        "name": "Brazilian Dark Roast",
+        "category": "Coffees, Cappuccinos, and lattes",
+        "sub_category": "Free of Gluten",
+        "type": "Meatless",
+        "nutrition_info": {
+          "calories": 0,
+          "total_fat": "0g",
+          "saturated_fat": "0g",
+          "cholesterol": "0mg",
+          "sodium": "0mg",
+          "total_carbs": "0g",
+          "protein": "0g",
+          "calcium": "0mg",
+          "iron": "0mg",
+          "potassium": "0mg",
+          "vitamin_c": "0mg"
+        }
+      },
+
+      "sweet tea": {
+        "name": "Sweet Tea",
+        "category": "Choose from a selection of teas",
+        "sub_category": "Free of Gluten",
+        "type": "Vegan",
+        "nutrition_info": {
+          "calories": 101.50,
+          "total_fat": "0g",
+          "saturated_fat": "0g",
+          "trans_fat": "0g",
+          "cholesterol": "0mg",
+          "sodium": "0mg",
+          "total_carbs": "27.35g",
+          "dietary_fiber": "0g",
+          "sugar": "27.35g",
+          "protein": "0g",
+          "calcium": "0mg",
+          "iron": "0mg",
+          "potassium": "0mg",
+          "vitamin_c": "0mg"
+        }
+      },
+
+      "buttermilk biscuits": {
+        "name": "Buttermilk Biscuits",
+        "category": "Meatless",
+        "allergens": ["Milk", "Eggs", "Wheat", "Soybeans", "Grain"],
+        "nutrition_info": {
+          "serving_size": "1 Each",
+          "calories": 201,
+          "total_fat": "11g",
+          "saturated_fat": "11g",
+          "trans_fat": "0g",
+          "cholesterol": "0mg",
+          "sodium": "634mg",
+          "total_carbs": "25g",
+          "dietary_fiber": "0g",
+          "sugar": "2g",
+          "protein": "4g",
+          "calcium": "20.10mg",
+          "iron": "1.80mg",
+          "potassium": "151mg"
+        }
+      },
+      "bacon": {
+        "name": "Bacon",
+        "category": "Free of Gluten",
+        "sub_category": "Protein",
+        "nutrition_info": {
+          "serving_size": "3 Each",
+          "calories": 128,
+          "total_fat": "11g",
+          "saturated_fat": "4.30g",
+          "trans_fat": "0g",
+          "cholesterol": "21mg",
+          "sodium": "411mg",
+          "total_carbs": "1g",
+          "protein": "7g"
+        }
+      },
+      "cheese grits": {
+        "name": "Cheese Grits",
+        "category": "Meatless",
+        "allergens": ["Milk", "Wheat", "Grain"],
+        "nutrition_info": {
+          "serving_size": "4 Oz",
+          "calories": 94,
+          "total_fat": "4.20g",
+          "saturated_fat": "2.70g",
+          "trans_fat": "0g",
+          "cholesterol": "14mg",
+          "sodium": "180mg",
+          "total_carbs": "10g",
+          "dietary_fiber": "1g",
+          "sugar": "0g",
+          "added_sugar": "0g",
+          "protein": "4g",
+          "calcium": "90.40mg",
+          "iron": "0.60mg",
+          "potassium": "17mg",
+          "vitamin_c": "0mg"
+        }
+      },
+      
+      
 
 
 
