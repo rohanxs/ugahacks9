@@ -4,13 +4,18 @@ html {
     background: linear-gradient(rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.80)), url(assets/bolton.jpg);
     background-size:cover;
 }
+
 body {
     margin: 0;
     font-family: "Montserrat";
-    
+    overscroll-behavior-y: none;
     background-position:center top;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+b {
+    color:#BA0C2F;
 }
   
 .topnav {
@@ -25,7 +30,6 @@ body {
 }
 
 .topnav #title {
-    border-bottom: solid #BA0C2F 5px;
     margin: 0;
     margin-left: -18px;
     font-size: 50px;
@@ -78,33 +82,185 @@ body {
 }
 
 
-.motto-container {
-    margin-top: 0px;
-    height: 600px;
+.preferences-container {
+    margin-top: 50px;
 }
 
-.welcome-container {
+.preferences {
+    background-color: rgb(191, 191, 191);
+    border-radius: 10px;
     margin: auto;
-    width: 750px;
+    width: 900px;
+    height: 980px;
+
+    margin-bottom: 50px;
 }
 
-.welcome {
-    color:white;
-    font-size: 120px;
+p {
+    color: #333;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 32px;
+
+    float: left;
 }
 
-b {
-    color:#BA0C2F;
+#title {
+    margin-bottom: -60px;
+    padding-bottom: 10px;
+    border-bottom: solid #BA0C2F 5px;
 }
 
-.options-container {
-    margin: auto;
-    margin-top: -60px;
-    width: 750px;
+.question {
+    margin: 60px;
+    margin-bottom: -100px;
+    display: flex;
+    align-items: center;
+
+}
+
+.switch {
+    position: relative;
+    width: 60px;
+    height: 34px;
+
+    margin-left: 390px;
+}
+
+/* Hide default HTML checkbox */
+    .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* The slider */
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked + .slider {
+    background-color: #BA0C2F;
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px #BA0C2F;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+#vegan {
+    margin-left: 465px;
+}
+
+#eggs {
+    margin-left: 416px;
+}
+
+#wheat {
+    margin-left: 195px;
+}
+
+#gluten {
+    margin-left: 380px;
+}
+
+#protein {
+    margin-left: 187px;
+}
+
+#lactose {
+    margin-left: 276px;
+}
+
+#loss {
+    margin-left: 222px;
+}
+
+#cholestrol {
+    margin-left: 239px;
+}
+
+#calories {
+    margin-left: 284px;
+}
+
+#sodium {
+    margin-left: 120px;
+}
+
+.exit-container {
+    margin-top: 110px;
     display: flex;
 }
 
-#browse {
+.nosave-container {
+    margin-left: 110px;
+}
+
+.save-container {
+    margin-left: 70px;
+}
+
+#nosave {
+    background-color: #333;
+    font-family: Montserrat;
+    width: 300px;
+    height: 70px;
+    border: none;
+    border-radius: 40px;
+    color: white;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 22px;
+
+    transition-duration: 0.4s;
+    cursor: pointer;
+
+    transition-duration: 300ms;
+}
+
+#nosave:hover {
+    background-color: #BA0C2F;
+    color: white;
+    transition-duration: 300ms;
+}
+
+#save {
     background-color: #BA0C2F;
     font-family: Montserrat;
     width: 300px;
@@ -120,40 +276,12 @@ b {
     transition-duration: 0.4s;
     cursor: pointer;
 
-    margin-left: 20px;
-
     transition-duration: 300ms;
 }
 
-#browse:hover {
+#save:hover {
     background-color: #333;
     color: white;
     transition-duration: 300ms;
 }
 
-#preferences {
-    background-color: rgb(191, 191, 191);
-    font-family: Montserrat;
-    width: 300px;
-    height: 70px;
-    border: none;
-    border-radius: 40px;
-    color: black;
-    padding: 10px 24px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 22px;
-
-    transition-duration: 0.4s;
-    cursor: pointer;
-
-    margin-left: 80px;
-
-    transition-duration: 300ms;
-}
-
-#preferences:hover {
-    background-color: #333;
-    color: white;
-    transition-duration: 300ms;
-}

@@ -4,12 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DawgEats</title>
-
     <link rel="stylesheet" href="app.css">
 </head>
 <body>
-    <p>Welcome to DawgEats</p>
-</body>
+    <div class="topnav">
+        <img id="dawgimg" class="logo" src="assets/dawg.png">
+        <h1 id="title" class="logo"><b>Dawg</b>Eats<h1>
 
-<script src="app.js"></script>
+        <a class="active" id="signout" href="#home">Sign Out</a>
+    </div>
+    
+    <div class="motto-container" style="padding-left:16px">
+        <div class="welcome-container">
+            <p class="welcome">Welcome to <b>Dawg</b><b style="color: white">Eats</b>.</p>
+        </div>
+
+        <div class="options-container">
+            <div class="browse-container">
+                <button id="browse">
+                    Browse Services
+                </button>
+            </div>
+
+            <div class="preferences-container">
+                <button id="preferences">
+                    Edit Preferences
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="app.js"></script>
+
+</body>
 </html>

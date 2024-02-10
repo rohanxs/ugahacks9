@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DawgEats</title>
+    <link rel="stylesheet" href="preferences.css">
+</head>
+<body>
+    <div class="topnav">
+        <img id="dawgimg" class="logo" src="assets/dawg.png">
+        <h1 id="title" class="logo"><b>Dawg</b>Eats<h1>
+
+        <a class="active" id="signout" href="#home">Sign Out</a>
+    </div>
+    
+    <div class="preferences-container" style="padding-left:16px">
+        <div class="preferences">
+            <div id="title" class="question">
+                <p style="color:#333; font-size: 60px; margin: auto; margin-top: 30px;">Edit Preferences</p>
+            </div>
+            <div class="question q1">
+                <p>Are you vegetarian?</p>
+                <label class="switch" id="vegetarian">
+                    <input type="checkbox" id="c1">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+
+            <div class="question q2">
+                <p>Are you vegan?</p>
+                <label class="switch" id="vegan">
+                    <input type="checkbox" id="c2">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+
+            <div class="question q3">
+                <p>Can you eat eggs?</p>
+                <label class="switch" id="eggs">
+                    <input type="checkbox" id="c3">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+
+            <div class="question q4">
+                <p>Are you allergic to wheat/grain?</p>
+                <label class="switch" id="wheat">
+                    <input type="checkbox" id="c4">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+
+            <div class="question q5">
+                <p>Are you gluten-free?</p>
+                <label class="switch" id="gluten">
+                    <input type="checkbox" id="c5">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+
+            <div class="question q6">
+                <p>Do you want additional protein?</p>
+                <label class="switch" id="protein">
+                    <input type="checkbox" id="c6">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+
+            <div class="question q7">
+                <p>Are you lactose intolerant?</p>
+                <label class="switch" id="lactose">
+                    <input type="checkbox" id="c7">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+
+            <div class="question q8">
+                <p>Are you trying to lose weight?</p>
+                <label class="switch" id="loss">
+                    <input type="checkbox" id="c8">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+
+            <div class="question q9">
+                <p>Do you have high cholestrol?</p>
+                <label class="switch" id="cholestrol">
+                    <input type="checkbox" id="c9">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+
+            <div class="question q10">
+                <p>Do you want less calories?</p>
+                <label class="switch" id="calories">
+                    <input type="checkbox" id="c10">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+
+            <div class="question q11">
+                <p>Do you want to limit sodium intake?</p>
+                <label class="switch" id="sodium">
+                    <input type="checkbox" id="c11">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+
+            <div class="exit-container">
+                <div class="nosave-container">
+                    <button id="nosave">
+                        Don't Save Changes
+                    </button>
+                </div>
+    
+                <div class="save-container">
+                    <button id="save">
+                        Save Changes
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="preferences.js"></script>
+
+</body>
+</html>

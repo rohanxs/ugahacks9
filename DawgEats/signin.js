@@ -9,6 +9,19 @@ function userAuthenticated() {
   return true;
 }
 
+const signinButton = document.getElementById("signin");
+const usernameField = document.getElementById("username");
+const passwordField = document.getElementById("password");
+
+signinButton.onclick = () => {
+  let username = usernameField.value.toString();
+  let password = passwordField.value.toString();
+  // oAuth2 login.
+  
+  userAuthenticated();
+}
+
+/*
 function login(email, password) {
   const request = require('request');
 
@@ -43,3 +56,4 @@ signinButton.onclick = () => {
     passwordField.value.toString()
   )
 }
+*/
