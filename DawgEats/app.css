@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 html {
-    background: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(assets/bolton.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.80)), url(assets/bolton.jpg);
     background-size:cover;
 }
 body {
@@ -17,7 +17,7 @@ body {
     overflow: hidden;
     background-color: #333;
 
-    border-bottom: 2px solid #746f6f;
+    border-bottom: 2px solid #ffffff;
 }
 
 .topnav .logo {
@@ -71,98 +71,82 @@ body {
     color: white;
 }
 
-.login-container {
-    margin-top: 80px;
-    height: 300px;
+.motto-container {
+    margin-top: 0px;
+    height: 600px;
 }
 
-.login {
-    width: 500px;
-    height: 550px;
-    background-color: white;
-    border-radius: 10px;
+.welcome-container {
     margin: auto;
+    width: 750px;
 }
 
-.login-instructions{
-    margin-top: 50px;
+.welcome {
+    color:white;
+    font-size: 120px;
 }
 
-#instructions {
-    display: inline-block;
-    color:#333;
-    font-weight: 800;
-    font-family: Montserrat;
-    margin-top: 50px;
-    margin-left: 85px;
-    font-size: 40px;
+b {
+    color:#BA0C2F;
 }
 
-#logindawg {
-    margin-left: 150px;
-    margin-top: -20px;
-    margin-bottom: 15px;
-    width: 200px;
+.options-container {
+    margin: auto;
+    margin-top: -50px;
+    width: 750px;
+    display: flex;
 }
 
-input[type="text"]{font: 15px/24px "Montserrat", Arial, sans-serif; color: #333; box-sizing: border-box; letter-spacing: 1px;}
-
-input[type="password"]{font: 15px/24px "Montserrat", Arial, sans-serif; color: #333; box-sizing: border-box; letter-spacing: 1px;}
-
-
-.effect-8 {border: 1px solid #ccc; padding: 7px 14px 9px; transition: 0.4s;}
-
-.effect-8 ~ .focus-border:before,
-.effect-8 ~ .focus-border:after{content: ""; position: absolute; top: 0; left: 0; width: 0; height: 2px; background-color: #4caf50; transition: 0.3s;}
-.effect-8 ~ .focus-border:after{top: auto; bottom: 0; left: auto; right: 0;}
-.effect-8 ~ .focus-border i:before,
-.effect-8 ~ .focus-border i:after{content: ""; position: absolute; top: 0; left: 0; width: 2px; height: 0; background-color: #4caf50; transition: 0.4s;}
-.effect-8 ~ .focus-border i:after{left: auto; right: 0; top: auto; bottom: 0;}
-.effect-8:focus ~ .focus-border:before,
-.effect-8:focus ~ .focus-border:after{width: 100%; transition: 0.3s;}
-.effect-8:focus ~ .focus-border i:before,
-.effect-8:focus ~ .focus-border i:after{height: 100%; transition: 0.4s;}
-
-.cred {
-    width: 440px;
-    margin-left: 30px;
-    border-radius: 20px;
-}
-
-#username {
-    margin-top: 10px;
-}
-
-#password {
-    margin-top: 15px;
-}
-
-.button-container {
-    margin-top: 30px;
-}
-
-#signin {
+#browse {
     background-color: #BA0C2F;
     font-family: Montserrat;
-    width: 150px;
+    width: 300px;
+    height: 70px;
     border: none;
-    border-radius: 30px;
+    border-radius: 40px;
     color: white;
     padding: 10px 24px;
     text-align: center;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 22px;
 
     transition-duration: 0.4s;
     cursor: pointer;
 
-    margin-left: 175px;
+    margin-left: 20px;
 
     transition-duration: 300ms;
 }
 
-#signin:hover {
+#browse:hover {
+    background-color: #333;
+    color: white;
+    transition-duration: 300ms;
+}
+
+#preferences {
     background-color: rgb(191, 191, 191);
+    font-family: Montserrat;
+    width: 300px;
+    height: 70px;
+    border: none;
+    border-radius: 40px;
     color: black;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 22px;
+
+    transition-duration: 0.4s;
+    cursor: pointer;
+
+    margin-left: 80px;
+
+    transition-duration: 300ms;
+}
+
+#preferences:hover {
+    background-color: #333;
+    color: white;
     transition-duration: 300ms;
 }

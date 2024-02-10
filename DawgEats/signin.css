@@ -9,12 +9,16 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+b {
+    color:#BA0C2F;
+}
   
 .topnav {
     overflow: hidden;
     background-color: #333;
 
-    border-bottom: 2px solid #746f6f;
+    border-bottom: 2px solid #ffffff;
 }
 
 .topnav .logo {
