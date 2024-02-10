@@ -1,0 +1,160 @@
+{
+    "cinnamon raisin bagel": {
+        "name": "cinnamon raisin bagel",
+        "allergens": ["Milk", "Eggs", "Wheat", "Soybeans", "Grain", "Meatless"],
+        "nutrition_info": {
+          "serving_size": "1 Each",
+          "calories": 291,
+          "total_fat": "1g",
+          "saturated_fat": "0g",
+          "trans_fat": "0g",
+          "cholesterol": "0mg",
+          "sodium": "482mg",
+          "total_carbs": "61g",
+          "dietary_fiber": "2g",
+          "sugar": "9g",
+          "protein": "10g",
+          "calcium": "90.30mg",
+          "iron": "3.30mg"
+        }
+    },
+
+    "everything bagel": {
+        "name": "Everything Bagel",
+        "category": "Meatless",
+        "allergens": ["Milk", "Eggs", "Wheat", "Soybeans", "Grain"],
+        "nutrition_info": {
+          "serving_size": "1 Each",
+          "calories": 301,
+          "total_fat": "4g",
+          "saturated_fat": "0.50g",
+          "trans_fat": "0g",
+          "cholesterol": "0mg",
+          "sodium": "903mg",
+          "total_carbs": "57g",
+          "dietary_fiber": "3g",
+          "sugar": "4g",
+          "protein": "11g",
+          "calcium": "150mg",
+          "iron": "3.90mg",
+          "potassium": "130mg"
+        }
+      },
+
+      "plain bagel": {
+        "name": "Plain Bagel",
+        "category": "Meatless",
+        "allergens": ["Milk", "Eggs", "Wheat", "Soybeans", "Grain"],
+        "nutrition_info": {
+          "serving_size": "1 Each",
+          "calories": 281,
+          "total_fat": "1g",
+          "saturated_fat": "0g",
+          "trans_fat": "0g",
+          "cholesterol": "0mg",
+          "sodium": "512mg",
+          "total_carbs": "58g",
+          "dietary_fiber": "2g",
+          "sugar": "4g",
+          "protein": "10g",
+          "calcium": "90.30mg",
+          "iron": "3.60mg",
+          "potassium": "80mg"
+        }
+      },
+
+      "very berry bagel": {
+        "name": "Very Berry Bagel",
+        "category": "Meatless",
+        "allergens": ["Milk", "Eggs", "Wheat", "Soybeans", "Grain"],
+        "nutrition_info": {
+          "serving_size": "1 Each",
+          "calories": 291,
+          "total_fat": "1.50g",
+          "saturated_fat": "0g",
+          "trans_fat": "0g",
+          "cholesterol": "0mg",
+          "sodium": "562mg",
+          "total_carbs": "60g",
+          "dietary_fiber": "2g",
+          "sugar": "5g",
+          "protein": "11g",
+          "calcium": "100mg",
+          "iron": "3.40mg",
+          "potassium": "80mg"
+        }
+      },
+
+      "wheat bran and oats bagel": {
+        "name": "Wheat Bran and Oats Bagel",
+        "category": "Heart Healthy",
+        "allergens": ["Milk", "Eggs", "Wheat", "Soybeans", "Grain"],
+        "nutrition_info": {
+          "serving_size": "1 Each",
+          "calories": 281,
+          "total_fat": "1.50g",
+          "saturated_fat": "0g",
+          "trans_fat": "0g",
+          "cholesterol": "0mg",
+          "sodium": "472mg",
+          "total_carbs": "59g",
+          "dietary_fiber": "5g",
+          "sugar": "2g",
+          "protein": "11g",
+          "calcium": "90.30mg",
+          "iron": "4mg",
+          "potassium": "181mg"
+        }
+      },
+
+      "gluten free blueberry muffin": {
+        "name": "Gluten Free Blueberry Muffin",
+        "category": "Meatless",
+        "allergens": ["Eggs"],
+        "nutrition_info": {
+          "serving_size": "1 Each",
+          "calories": 220,
+          "total_fat": "8g",
+          "saturated_fat": "1g",
+          "trans_fat": "0g",
+          "cholesterol": "75mg",
+          "sodium": "270mg",
+          "total_carbs": "38g",
+          "dietary_fiber": "4g",
+          "sugar": "18g",
+          "added_sugar": "17g",
+          "protein": "3g",
+          "calcium": "20mg",
+          "iron": "0.50mg",
+          "potassium": "40mg"
+        }
+      },
+
+      "gluten free double chocolate muffin": {
+        "name": "Gluten Free Double Chocolate Muffin",
+        "allergens": ["Eggs"],
+        "nutrition_info": {
+          "serving_size": "1 Each",
+          "calories": 306,
+          "total_fat": "17g",
+          "saturated_fat": "3.50g",
+          "trans_fat": "0g",
+          "cholesterol": "104mg",
+          "sodium": "316mg",
+          "total_carbs": "39g",
+          "dietary_fiber": "5g",
+          "sugar": "20g",
+          "added_sugar": "20g",
+          "protein": "5g",
+          "calcium": "29.70mg",
+          "iron": "2.30mg",
+          "potassium": "287mg"
+        }
+      }
+
+
+
+
+
+    
+}
