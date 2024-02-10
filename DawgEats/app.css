@@ -7,7 +7,7 @@ html {
 body {
     margin: 0;
     font-family: "Montserrat";
-    
+    overscroll-behavior-y: none;
     background-position:center top;
     background-repeat: no-repeat;
     background-size: cover;

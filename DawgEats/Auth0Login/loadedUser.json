@@ -1,0 +1,13 @@
+{
+  "noLactose": false,
+  "vegan": false,
+  "noCalories": false,
+  "noEggs": true,
+  "noGluten": false,
+  "protein": true,
+  "noCholestrol": true,
+  "vegetarian": true,
+  "loseWeight": false,
+  "noSodium": true,
+  "noWheat": false
+}
