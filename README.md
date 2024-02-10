@@ -1,2 +1,2 @@
 # ugahacks9
-Project submitted to the UGAHacks 9 competition.
+Introducing DawgEats! A multi-purpose application centered around the UGA dining halls. Browse the dataset of available food items, receive AI-based food recommendations, and monitor eating habits.
