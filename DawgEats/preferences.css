@@ -91,7 +91,7 @@ b {
     border-radius: 10px;
     margin: auto;
     width: 900px;
-    height: 1000px;
+    height: 980px;
 
     margin-bottom: 50px;
 }
@@ -217,3 +217,71 @@ input:checked + .slider:before {
 #calories {
     margin-left: 284px;
 }
+
+#sodium {
+    margin-left: 120px;
+}
+
+.exit-container {
+    margin-top: 110px;
+    display: flex;
+}
+
+.nosave-container {
+    margin-left: 110px;
+}
+
+.save-container {
+    margin-left: 70px;
+}
+
+#nosave {
+    background-color: #333;
+    font-family: Montserrat;
+    width: 300px;
+    height: 70px;
+    border: none;
+    border-radius: 40px;
+    color: white;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 22px;
+
+    transition-duration: 0.4s;
+    cursor: pointer;
+
+    transition-duration: 300ms;
+}
+
+#nosave:hover {
+    background-color: #BA0C2F;
+    color: white;
+    transition-duration: 300ms;
+}
+
+#save {
+    background-color: #BA0C2F;
+    font-family: Montserrat;
+    width: 300px;
+    height: 70px;
+    border: none;
+    border-radius: 40px;
+    color: white;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 22px;
+
+    transition-duration: 0.4s;
+    cursor: pointer;
+
+    transition-duration: 300ms;
+}
+
+#save:hover {
+    background-color: #333;
+    color: white;
+    transition-duration: 300ms;
+}
+
