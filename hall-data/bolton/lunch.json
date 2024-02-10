@@ -1,0 +1,292 @@
+{
+    "cinnamon raisin bagel": {
+        "name": "cinnamon raisin bagel",
+        "allergens": ["Milk", "Eggs", "Wheat", "Soybeans", "Grain", "Meatless"],
+        "nutrition_info": {
+          "serving_size": "1 Each",
+          "calories": 291,
+          "total_fat": "1g",
+          "saturated_fat": "0g",
+          "trans_fat": "0g",
+          "cholesterol": "0mg",
+          "sodium": "482mg",
+          "total_carbs": "61g",
+          "dietary_fiber": "2g",
+          "sugar": "9g",
+          "protein": "10g",
+          "calcium": "90.30mg",
+          "iron": "3.30mg"
+        }
+    },
+
+    "everything bagel": {
+        "name": "Everything Bagel",
+        "category": "Meatless",
+        "allergens": ["Meatless","Milk", "Eggs", "Wheat", "Soybeans", "Grain"],
+        "nutrition_info": {
+          "serving_size": "1 Each",
+          "calories": 301,
+          "total_fat": "4g",
+          "saturated_fat": "0.50g",
+          "trans_fat": "0g",
+          "cholesterol": "0mg",
+          "sodium": "903mg",
+          "total_carbs": "57g",
+          "dietary_fiber": "3g",
+          "sugar": "4g",
+          "protein": "11g",
+          "calcium": "150mg",
+          "iron": "3.90mg",
+          "potassium": "130mg"
+        }
+      },
+
+      "plain bagel": {
+        "name": "Plain Bagel",
+        "category": "Meatless",
+        "allergens": ["Meatless","Milk", "Eggs", "Wheat", "Soybeans", "Grain"],
+        "nutrition_info": {
+          "serving_size": "1 Each",
+          "calories": 281,
+          "total_fat": "1g",
+          "saturated_fat": "0g",
+          "trans_fat": "0g",
+          "cholesterol": "0mg",
+          "sodium": "512mg",
+          "total_carbs": "58g",
+          "dietary_fiber": "2g",
+          "sugar": "4g",
+          "protein": "10g",
+          "calcium": "90.30mg",
+          "iron": "3.60mg",
+          "potassium": "80mg"
+        }
+      },
+
+      "very berry bagel": {
+        "name": "Very Berry Bagel",
+        "category": "Meatless",
+        "allergens": ["Meatless","Milk", "Eggs", "Wheat", "Soybeans", "Grain"],
+        "nutrition_info": {
+          "serving_size": "1 Each",
+          "calories": 291,
+          "total_fat": "1.50g",
+          "saturated_fat": "0g",
+          "trans_fat": "0g",
+          "cholesterol": "0mg",
+          "sodium": "562mg",
+          "total_carbs": "60g",
+          "dietary_fiber": "2g",
+          "sugar": "5g",
+          "protein": "11g",
+          "calcium": "100mg",
+          "iron": "3.40mg",
+          "potassium": "80mg"
+        }
+      },
+
+      "wheat bran and oats bagel": {
+        "name": "Wheat Bran and Oats Bagel",
+        "category": "Heart Healthy",
+        "allergens": ["Milk", "Eggs", "Wheat", "Soybeans", "Grain"],
+        "nutrition_info": {
+          "serving_size": "1 Each",
+          "calories": 281,
+          "total_fat": "1.50g",
+          "saturated_fat": "0g",
+          "trans_fat": "0g",
+          "cholesterol": "0mg",
+          "sodium": "472mg",
+          "total_carbs": "59g",
+          "dietary_fiber": "5g",
+          "sugar": "2g",
+          "protein": "11g",
+          "calcium": "90.30mg",
+          "iron": "4mg",
+          "potassium": "181mg"
+        }
+      },
+
+      "gluten free blueberry muffin": {
+        "name": "Gluten Free Blueberry Muffin",
+        "category": "Meatless",
+        "allergens": ["Meatless","Eggs"],
+        "nutrition_info": {
+          "serving_size": "1 Each",
+          "calories": 220,
+          "total_fat": "8g",
+          "saturated_fat": "1g",
+          "trans_fat": "0g",
+          "cholesterol": "75mg",
+          "sodium": "270mg",
+          "total_carbs": "38g",
+          "dietary_fiber": "4g",
+          "sugar": "18g",
+          "added_sugar": "17g",
+          "protein": "3g",
+          "calcium": "20mg",
+          "iron": "0.50mg",
+          "potassium": "40mg"
+        }
+      },
+
+      "gluten free double chocolate muffin": {
+        "name": "Gluten Free Double Chocolate Muffin",
+        "allergens": ["Eggs"],
+        "nutrition_info": {
+          "serving_size": "1 Each",
+          "calories": 306,
+          "total_fat": "17g",
+          "saturated_fat": "3.50g",
+          "trans_fat": "0g",
+          "cholesterol": "104mg",
+          "sodium": "316mg",
+          "total_carbs": "39g",
+          "dietary_fiber": "5g",
+          "sugar": "20g",
+          "added_sugar": "20g",
+          "protein": "5g",
+          "calcium": "29.70mg",
+          "iron": "2.30mg",
+          "potassium": "287mg"
+        }
+      },
+
+      "gluten free hamburger bun": {
+        "name": "Gluten Free Hamburger Bun",
+        "category": "Free of Gluten",
+        "sub_category": "Heart Healthy",
+        "allergens": ["Free of Gluten","Eggs"],
+        "nutrition_info": {
+          "serving_size": "1 Each",
+          "calories": 227,
+          "total_fat": "7g",
+          "saturated_fat": "0.50g",
+          "trans_fat": "0g",
+          "cholesterol": "0mg",
+          "sodium": "416mg",
+          "total_carbs": "42g",
+          "dietary_fiber": "6g",
+          "sugar": "6g",
+          "added_sugar": "6g",
+          "protein": "5g",
+          "calcium": "28.30mg",
+          "iron": "0mg",
+          "potassium": "113mg"
+        }
+      },
+
+      "gluten free plain bagel": {
+        "name": "Gluten Free Plain Bagel",
+        "category": "Free of Gluten",
+        "sub_category": "Heart Healthy",
+        "allergens": ["Free of Gluten","Eggs", "Soybeans", "Grain"],
+        "nutrition_info": {
+          "serving_size": "1 Each",
+          "calories": 178,
+          "total_fat": "3g",
+          "saturated_fat": "0g",
+          "trans_fat": "0g",
+          "cholesterol": "0mg",
+          "sodium": "356mg",
+          "total_carbs": "40g",
+          "dietary_fiber": "4g",
+          "sugar": "6g",
+          "added_sugar": "0g",
+          "protein": "4g",
+          "calcium": "39.60mg",
+          "iron": "0.80mg",
+          "potassium": "178mg"
+        }
+      },
+
+      "gluten free white bread": {
+        "name": "Gluten Free White Bread",
+        "category": "Free of Gluten",
+        "sub_category": "Vegan",
+        "allergens": ["Free of Gluten","Soybeans", "Grain"],
+        "nutrition_info": {
+          "serving_size": "1 Slice",
+          "calories": 90,
+          "total_fat": "3g",
+          "saturated_fat": "0g",
+          "trans_fat": "0g",
+          "cholesterol": "0mg",
+          "sodium": "170mg",
+          "total_carbs": "16g",
+          "dietary_fiber": "2g",
+          "sugar": "2g",
+          "added_sugar": "0g",
+          "protein": "2g",
+          "calcium": "15mg",
+          "iron": "0.50mg",
+          "potassium": "80mg"
+        }
+      },
+
+      "2% milk": {
+        "name": "2% Milk",
+        "category": "Free of Gluten",
+        "sub_category": "Meatless",
+        "type": "Milk",
+        "nutrition_info": {
+          "calories": 184.50,
+          "total_fat": "7.73g",
+          "saturated_fat": "4.65g",
+          "trans_fat": "0g",
+          "cholesterol": "30.75mg",
+          "sodium": "184.50mg",
+          "total_carbs": "18.45g",
+          "sugar": "18.45g",
+          "protein": "12.30g",
+          "calcium": "461.25mg",
+          "iron": "0mg",
+          "potassium": "525.83mg"
+        }
+      },
+
+      "apple juice": {
+        "name": "Apple Juice",
+        "category": "Free of Gluten",
+        "sub_category": "Vegan",
+        "type": "Meatless",
+        "nutrition_info": {
+          "calories": 165,
+          "total_fat": "0g",
+          "saturated_fat": "0g",
+          "cholesterol": "0mg",
+          "sodium": "0mg",
+          "total_carbs": "42.30g",
+          "sugar": "39.30g",
+          "protein": "0g",
+          "calcium": "0mg",
+          "iron": "0mg",
+          "potassium": "0mg",
+          "vitamin_c": "0mg"
+        }
+      },
+
+      "sweet tea": {
+        "name": "Sweet Tea",
+        "category": "Choose from a selection of teas",
+        "sub_category": "Free of Gluten",
+        "type": "Vegan",
+        "nutrition_info": {
+          "calories": 101.50,
+          "total_fat": "0g",
+          "saturated_fat": "0g",
+          "trans_fat": "0g",
+          "cholesterol": "0mg",
+          "sodium": "0mg",
+          "total_carbs": "27.35g",
+          "dietary_fiber": "0g",
+          "sugar": "27.35g",
+          "protein": "0g",
+          "calcium": "0mg",
+          "iron": "0mg",
+          "potassium": "0mg",
+          "vitamin_c": "0mg"
+        }
+      }
+
+    }
