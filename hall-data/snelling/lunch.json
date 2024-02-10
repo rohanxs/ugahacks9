@@ -1,0 +1,1976 @@
+{
+"cinnamon_raisin_bagel": {
+    "name": "Cinnamon Raisin Bagel",
+    "allergens": ["Meatless", "Milk", "Eggs", "Wheat", "Soybeans", "Grain"],
+    "nutrition_info": {
+        "serving_size": "1 Each",
+        "calories": 291,
+        "total_fat": "1g",
+        "saturated_fat": "0g",
+        "trans_fat": "0g",
+        "cholesterol": "0mg",
+        "sodium": "482mg",
+        "total_carbs": "61g",
+        "dietary_fiber": "2g",
+        "sugar": "9g",
+        "protein": "10g",
+        "calcium": "90.30mg",
+        "iron": "3.30mg"
+    }
+},
+
+"cinnamon_raisin_bread": {
+    "name": "Cinnamon Raisin Bread",
+    "allergens": ["Heart Healthy", "Vegan", "Meatless", "Wheat", "Soybeans"],
+    "nutrition_info": {
+      "serving_size": "1 Slice",
+      "calories": 91,
+      "total_fat": "1g",
+      "saturated_fat": "0g",
+      "trans_fat": "0g",
+      "cholesterol": "0mg",
+      "sodium": "122mg",
+      "total_carbs": "20g",
+      "dietary_fiber": "0g",
+      "sugar": "8g",
+      "added_sugar": "2g",
+      "protein": "3g",
+      "calcium": "N/A",
+      "iron": "1mg",
+      "potassium": "N/A"
+    }
+  },
+
+"everything_bagel": {
+    "name": "Everything Bagel",
+    "allergens": ["Meatless", "Milk", "Eggs", "Wheat", "Soybeans", "Grain"],
+    "nutrition_info": {
+    "serving_size": "1 Each",
+    "calories": 301,
+    "total_fat": "4g",
+    "saturated_fat": "0.50g",
+    "trans_fat": "0g",
+    "cholesterol": "0mg",
+    "sodium": "903mg",
+    "total_carbs": "57g",
+    "dietary_fiber": "3g",
+    "sugar": "4g",
+    "protein": "11g",
+    "calcium": "150mg",
+    "iron": "3.90mg",
+    "potassium": "130mg"
+    }
+},
+
+"honey_wheat_bread": {
+    "name": "Honey Wheat Bread",
+    "allergens": ["Heart Healthy", "Meatless", "Wheat", "Soybeans", "Grain"],
+    "nutrition_info": {
+      "serving_size": "1 Slice",
+      "calories": 69,
+      "total_fat": "0.50g",
+      "saturated_fat": "0g",
+      "trans_fat": "0g",
+      "cholesterol": "0mg",
+      "sodium": "109mg",
+      "total_carbs": "13g",
+      "dietary_fiber": "0g",
+      "sugar": "2g",
+      "added_sugar": "2g",
+      "protein": "3g",
+      "calcium": "49.60mg",
+      "iron": "1mg",
+      "potassium": "0mg"
+    }
+  },
+
+  "new_york_rye_bread": {
+    "name": "New York Rye Bread",
+    "allergens": ["Heart Healthy", "Vegan", "Meatless", "Wheat", "Soybeans", "Grain"],
+    "nutrition_info": {
+      "serving_size": "1 Slice",
+      "calories": 109,
+      "total_fat": "1.50g",
+      "saturated_fat": "0g",
+      "trans_fat": "0g",
+      "cholesterol": "0mg",
+      "sodium": "257mg",
+      "total_carbs": "21g",
+      "dietary_fiber": "1g",
+      "sugar": "1g",
+      "added_sugar": "1g",
+      "protein": "4g",
+      "calcium": "39.60mg",
+      "iron": "1.10mg",
+      "potassium": "50mg"
+    }
+  },
+
+  "plain_bagel": {
+    "name": "Plain Bagel",
+    "allergens": ["Meatless", "Milk", "Eggs", "Wheat", "Soybeans", "Grain"],
+    "nutrition_info": {
+      "serving_size": "1 Each",
+      "calories": 281,
+      "total_fat": "1g",
+      "saturated_fat": "0g",
+      "trans_fat": "0g",
+      "cholesterol": "0mg",
+      "sodium": "512mg",
+      "total_carbs": "58g",
+      "dietary_fiber": "2g",
+      "sugar": "4g",
+      "protein": "10g",
+      "calcium": "90.30mg",
+      "iron": "3.60mg",
+      "potassium": "80mg"
+    }
+  },
+
+  "very_berry_bagel": {
+    "name": "Very Berry Bagel",
+    "allergens": ["Meatless", "Milk", "Eggs", "Wheat", "Soybeans", "Grain"],
+    "nutrition_info": {
+      "serving_size": "1 Each",
+      "calories": 291,
+      "total_fat": "1.50g",
+      "saturated_fat": "0g",
+      "trans_fat": "0g",
+      "cholesterol": "0mg",
+      "sodium": "562mg",
+      "total_carbs": "60g",
+      "dietary_fiber": "2g",
+      "sugar": "5g",
+      "protein": "11g",
+      "calcium": "100mg",
+      "iron": "3.40mg",
+      "potassium": "80mg"
+    }
+  },
+
+  "wheat_bran_oats_bagel": {
+    "name": "Wheat Bran and Oats Bagel",
+    "allergens": ["Heart Healthy", "Meatless", "Milk", "Eggs", "Wheat", "Soybeans", "Grain"],
+    "nutrition_info": {
+      "serving_size": "1 Each",
+      "calories": 281,
+      "total_fat": "1.50g",
+      "saturated_fat": "0g",
+      "trans_fat": "0g",
+      "cholesterol": "0mg",
+      "sodium": "472mg",
+      "total_carbs": "59g",
+      "dietary_fiber": "5g",
+      "sugar": "2g",
+      "protein": "11g",
+      "calcium": "90.30mg",
+      "iron": "4mg",
+      "potassium": "181mg"
+    }
+  },
+
+  "white_bread": {
+    "name": "White Bread",
+    "allergens": ["Heart Healthy", "Vegan", "Meatless", "Wheat", "Soybeans", "Grain"],
+    "nutrition_info": {
+      "serving_size": "1 Slice",
+      "calories": 69,
+      "total_fat": "0.80g",
+      "saturated_fat": "0g",
+      "trans_fat": "0g",
+      "cholesterol": "0mg",
+      "sodium": "138mg",
+      "total_carbs": "13g",
+      "dietary_fiber": "0g",
+      "sugar": "2g",
+      "added_sugar": "2g",
+      "protein": "2g",
+      "calcium": "0mg",
+      "iron": "0.70mg",
+      "potassium": "0mg"
+    }
+  },
+
+"whole_wheat_bread": {
+"name": "Whole Wheat Bread",
+"allergens": ["Heart Healthy", "Vegan", "Meatless", "Wheat", "Grain"],
+"nutrition_info": {
+    "serving_size": "1 Each",
+    "calories": 60,
+    "total_fat": "0.50g",
+    "saturated_fat": "0g",
+    "trans_fat": "0g",
+    "cholesterol": "40mg",
+    "sodium": "120mg",
+    "total_carbs": "12g",
+    "dietary_fiber": "2g",
+    "sugar": "1g",
+    "protein": "3g",
+    "calcium": "30mg",
+    "iron": "0.70mg",
+    "vitamin_c": "0mg"
+    }
+},
+
+"gluten_free_blueberry_muffin": {
+    "name": "Gluten-Free Blueberry Muffin",
+    "allergens": ["Meatless", "Eggs"],
+    "nutrition_info": {
+      "serving_size": "1 Each",
+      "calories": 220,
+      "total_fat": "8g",
+      "saturated_fat": "1g",
+      "trans_fat": "0g",
+      "cholesterol": "75mg",
+      "sodium": "270mg",
+      "total_carbs": "38g",
+      "dietary_fiber": "4g",
+      "sugar": "18g",
+      "added_sugar": "17g",
+      "protein": "3g",
+      "calcium": "20mg",
+      "iron": "0.50mg",
+      "potassium": "40mg"
+    }
+  },
+
+  "gluten_free_double_chocolate_muffin": {
+    "name": "Gluten-Free Double Chocolate Muffin",
+    "allergens": ["Eggs"],
+    "nutrition_info": {
+      "serving_size": "1 Each",
+      "calories": 306,
+      "total_fat": "17g",
+      "saturated_fat": "3.50g",
+      "trans_fat": "0g",
+      "cholesterol": "104mg",
+      "sodium": "316mg",
+      "total_carbs": "39g",
+      "dietary_fiber": "5g",
+      "sugar": "20g",
+      "added_sugar": "20g",
+      "protein": "5g",
+      "calcium": "29.70mg",
+      "iron": "2.30mg",
+      "potassium": "287mg"
+    }
+},
+"gluten_free_hamburger_bun": {
+    "name": "Gluten-Free Hamburger Bun",
+    "allergens": ["Free of Gluten", "Heart Healthy", "Meatless", "Eggs"],
+    "nutrition_info": {
+      "serving_size": "1 Each",
+      "calories": 227,
+      "total_fat": "7g",
+      "saturated_fat": "0.50g",
+      "trans_fat": "0g",
+      "cholesterol": "0mg",
+      "sodium": "416mg",
+      "total_carbs": "42g",
+      "dietary_fiber": "6g",
+      "sugar": "6g",
+      "added_sugar": "6g",
+      "protein": "5g",
+      "calcium": "28.30mg",
+      "iron": "0mg",
+      "potassium": "113mg"
+    }
+  },
+
+  "gluten_free_plain_bagel": {
+    "name": "Gluten-Free Plain Bagel",
+    "allergens": ["Free of Gluten", "Heart Healthy", "Meatless", "Eggs", "Soybeans", "Grain"],
+    "nutrition_info": {
+      "serving_size": "1 Each",
+      "calories": 178,
+      "total_fat": "3g",
+      "saturated_fat": "0g",
+      "trans_fat": "0g",
+      "cholesterol": "0mg",
+      "sodium": "356mg",
+      "total_carbs": "40g",
+      "dietary_fiber": "4g",
+      "sugar": "6g",
+      "added_sugar": "0g",
+      "protein": "4g",
+      "calcium": "39.60mg",
+      "iron": "0.80mg",
+      "potassium": "178mg"
+    }
+  },
+
+  "gluten_free_white_bread": {
+    "name": "Gluten-Free White Bread",
+    "allergens": ["Free of Gluten", "Vegan", "Meatless", "Soybeans", "Grain"],
+    "nutrition_info": {
+      "serving_size": "1 Slice",
+      "calories": 90,
+      "total_fat": "3g",
+      "saturated_fat": "0g",
+      "trans_fat": "0g",
+      "cholesterol": "0mg",
+      "sodium": "170mg",
+      "total_carbs": "16g",
+      "dietary_fiber": "2g",
+      "sugar": "2g",
+      "added_sugar": "0g",
+      "protein": "2g",
+      "calcium": "15mg",
+      "iron": "0.50mg",
+      "potassium": "80mg"
+    }
+  },
+
+  "sweet_tea": {
+    "name": "Sweet Tea",
+    "allergens": ["Free of Gluten", "Vegan", "Meatless"],
+    "nutrition_info": {
+      "calories": 203,
+      "total_fat": "0g",
+      "saturated_fat": "0g",
+      "trans_fat": "0g",
+      "cholesterol": "0mg",
+      "sodium": "0mg",
+      "total_carbs": "54.70g",
+      "dietary_fiber": "0g",
+      "sugar": "54.70g",
+      "protein": "0g",
+      "calcium": "0mg",
+      "iron": "0mg",
+      "potassium": "0mg",
+      "vitamin_c": "0mg"
+    }
+  },
+
+  "2% milk": {
+    "name": "2% Milk",
+    "allergens": ["Free of Gluten", "Meatless"],
+    "nutrition_info": {
+      "calories": 246,
+      "total_fat": "10.30g",
+      "saturated_fat": "6.20g",
+      "trans_fat": "0g",
+      "cholesterol": "41mg",
+      "sodium": "246mg",
+      "total_carbs": "24.60g",
+      "sugar": "24.60g",
+      "protein": "16.40g",
+      "calcium": "615mg",
+      "iron": "0mg",
+      "potassium": "701.10mg"
+    }
+  },
+  "white_chocolate_caramel_cappuccino": {
+    "name": "White Chocolate Caramel Cappuccino",
+    "allergens": ["Milk"],
+    "nutrition_info": {
+      "serving_size": "8 Fl Oz",
+      "calories": 0,
+      "total_fat": "0g",
+      "saturated_fat": "0g",
+      "cholesterol": "0mg",
+      "sodium": "0mg",
+      "total_carbs": "0g",
+      "protein": "0g",
+      "calcium": "0mg",
+      "iron": "0mg",
+      "potassium": "0mg",
+      "vitamin_c": "0mg"
+    }
+  },
+
+  "brazilian_dark_roast": {
+    "name": "Brazilian Dark Roast",
+    "allergens": ["Free of Gluten", "Meatless"],
+    "nutrition_info": {
+      "calories": 0,
+      "total_fat": "0g",
+      "saturated_fat": "0g",
+      "cholesterol": "0mg",
+      "sodium": "0mg",
+      "total_carbs": "0g",
+      "protein": "0g",
+      "calcium": "0mg",
+      "iron": "0mg",
+      "potassium": "0mg",
+      "vitamin_c": "0mg"
+    }
+  },
+  "capn_crunch_cereal": {
+    "name": "Cap'N Crunch Cereal",
+    "allergens": ["Vegan", "Meatless", "Wheat", "Grain"],
+    "nutrition_info": {
+      "serving_size": "1 Cups",
+      "calories": 146,
+      "total_fat": "2g",
+      "saturated_fat": "0.50g",
+      "trans_fat": "0g",
+      "cholesterol": "0mg",
+      "sodium": "283mg",
+      "total_carbs": "32g",
+      "dietary_fiber": "0g",
+      "sugar": "17g",
+      "added_sugar": "17g",
+      "protein": "2g",
+      "calcium": "N/A",
+      "iron": "7.30mg",
+      "potassium": "49mg",
+      "vitamin_c": "N/A"
+    }
+  },
+
+  "cheerios_cereal": {
+    "name": "Cheerios Cereal",
+    "allergens": ["Free of Gluten", "Heart Healthy", "Vegan", "Meatless", "Grain"],
+    "nutrition_info": {
+      "serving_size": "1 Cups",
+      "calories": 95,
+      "total_fat": "1.70g",
+      "saturated_fat": "0g",
+      "trans_fat": "0g",
+      "cholesterol": "0mg",
+      "sodium": "129mg",
+      "total_carbs": "20g",
+      "dietary_fiber": "3g",
+      "sugar": "1g",
+      "added_sugar": "1g",
+      "protein": "3g",
+      "calcium": "88.40mg",
+      "iron": "8.60mg",
+      "potassium": "170mg",
+      "vitamin_c": "4.10mg"
+    }
+  },
+
+  "chocolate_cheesecake_squares": {
+    "name": "Chocolate Cheesecake Squares",
+    "allergens": ["Meatless", "Milk", "Wheat", "Soybeans"],
+    "nutrition_info": {
+      "serving_size": "1 Square",
+      "calories": 381,
+      "total_fat": "24g",
+      "saturated_fat": "15g",
+      "trans_fat": "0g",
+      "cholesterol": "27mg",
+      "sodium": "138mg",
+      "total_carbs": "42g",
+      "dietary_fiber": "1g",
+      "sugar": "34g",
+      "added_sugar": "33g",
+      "protein": "3g",
+      "calcium": "42.30mg",
+      "iron": "1.80mg",
+      "potassium": "117mg",
+      "vitamin_c": "0mg"
+    }
+},
+
+"fudge_brownie_cookies": {
+    "name": "Fudge Brownie Cookies",
+    "allergens": ["Meatless", "Peanuts", "Tree Nuts", "Milk", "Eggs", "Wheat", "Soybeans"],
+    "nutrition_info": {
+      "serving_size": "1 Each",
+      "calories": 150,
+      "total_fat": "7g",
+      "saturated_fat": "3.50g",
+      "trans_fat": "0g",
+      "cholesterol": "13mg",
+      "sodium": "124mg",
+      "total_carbs": "23g",
+      "dietary_fiber": "1g",
+      "sugar": "12g",
+      "protein": "2g",
+      "calcium": "14.10mg",
+      "iron": "1.80mg",
+      "potassium": "43mg"
+    }
+  },
+
+  "Peach Crisp": {
+    "allergens": ["Vegan", "Meatless", "Wheat"],
+    "serving_size": "4 Oz",
+    "nutrition_information": {
+      "calories": 254,
+      "total_fat": "8g",
+      "saturated_fat": "3.30g",
+      "trans_fat": "0g",
+      "cholesterol": "0mg",
+      "sodium": "9mg",
+      "total_carbs": "43g",
+      "dietary_fiber": "1g",
+      "sugar": "31g",
+      "added_sugar": "29g",
+      "protein": "1g",
+      "calcium": "5.70mg",
+      "iron": "0.50mg",
+      "potassium": "98mg"
+    }
+  },
+
+  "Fudge Topping": {
+    "allergens": ["Free of Gluten", "Meatless"],
+    "serving_size": "2 Oz",
+    "nutrition_information": {
+      "calories": 164,
+      "total_fat": "0g",
+      "saturated_fat": "0g",
+      "trans_fat": "0g",
+      "cholesterol": "0mg",
+      "sodium": "112mg",
+      "total_carbs": "37g",
+      "dietary_fiber": "2g",
+      "sugar": "25g",
+      "added_sugar": "24g",
+      "protein": "2g",
+      "calcium": "0mg",
+      "iron": "0.70mg",
+      "potassium": "0mg"
+    }
+  },
+  "Caramel Topping": {
+    "allergens": ["Free of Gluten", "Meatless", "Milk"],
+    "serving_size": "2 Oz",
+    "nutrition_information": {
+      "calories": 152,
+      "total_fat": "0.70g",
+      "saturated_fat": "0g",
+      "trans_fat": "0g",
+      "cholesterol": "0mg",
+      "sodium": "83mg",
+      "total_carbs": "37g",
+      "dietary_fiber": "0g",
+      "sugar": "24g",
+      "added_sugar": "24g",
+      "protein": "0g",
+      "calcium": "15.20mg",
+      "iron": "0mg",
+      "potassium": "22mg"
+    }
+  },
+
+  "Cheesy Vegetable Casserole": {
+    "allergens": ["Meatless", "Taste of Home", "Milk", "Eggs", "Wheat", "Soybeans", "Vegetable"],
+    "serving_size": "4 Oz",
+    "nutrition_information": {
+      "calories": 251,
+      "total_fat": "19g",
+      "saturated_fat": "4.90g",
+      "trans_fat": "0g",
+      "cholesterol": "17mg",
+      "sodium": "336mg",
+      "total_carbs": "16g",
+      "dietary_fiber": "2g",
+      "sugar": "3g",
+      "added_sugar": "1g",
+      "protein": "6g",
+      "calcium": "104mg",
+      "iron": "0.90mg",
+      "potassium": "50mg",
+      "vitamin_c": "4.80mg"
+    }
+  },
+
+  "Lentil Chili with Corn Chips": {
+    "allergens": ["Free of Gluten", "Vegan", "Meatless", "Grain", "Protein", "Vegetable"],
+    "serving_size": "8 Oz",
+    "nutrition_information": {
+      "calories": 304,
+      "total_fat": "11g",
+      "saturated_fat": "1.70g",
+      "trans_fat": "0g",
+      "cholesterol": "0mg",
+      "sodium": "377mg",
+      "total_carbs": "42g",
+      "dietary_fiber": "7g",
+      "sugar": "3g",
+      "added_sugar": "0g",
+      "protein": "9g",
+      "calcium": "48.40mg",
+      "iron": "0.70mg",
+      "potassium": "217mg",
+      "vitamin_c": "4.60mg"
+    }
+  },
+
+  "Pork Chops 'N Stuffin'": {
+    "source": "Taste of Home",
+    "allergens": ["Tree Nuts", "Milk", "Wheat", "Soybeans"],
+    "serving_size": "1 Each",
+    "nutrition_information": {
+      "calories": 460,
+      "total_fat": "19g",
+      "saturated_fat": "6g",
+      "trans_fat": "0g",
+      "cholesterol": "95mg",
+      "sodium": "1426mg",
+      "total_carbs": "39g",
+      "dietary_fiber": "2g",
+      "sugar": "4g",
+      "added_sugar": "3g",
+      "protein": "33g",
+      "calcium": "30.60mg",
+      "iron": "1.50mg",
+      "potassium": "134mg",
+      "vitamin_c": "0.50mg"
+    }
+  },
+
+  "Steamed Swiss Chard": {
+    "name": "Steamed Swiss Chard",
+    "allergens": ["Gluten"],
+    "serving_size": "4 Oz",
+    "nutrition_information": {
+      "calories": 22,
+      "total_fat": "0g",
+      "saturated_fat": "0g",
+      "trans_fat": "0g",
+      "cholesterol": "0mg",
+      "sodium": "242mg",
+      "total_carbs": "4g",
+      "dietary_fiber": "2g",
+      "sugar": "1g",
+      "protein": "2g",
+      "calcium": "57.80mg",
+      "iron": "2mg",
+      "potassium": "430mg",
+      "vitamin_c": "34mg"
+    }
+  },
+
+  "Veracruz Garbanzo Beans": {
+    "name": "Veracruz Garbanzo Beans",
+    "allergens": ["Gluten"],
+    "serving_size": "4 Oz",
+    "nutrition_information": {
+      "calories": 70,
+      "total_fat": "1.10g",
+      "saturated_fat": "0g",
+      "trans_fat": "0g",
+      "cholesterol": "0mg",
+      "sodium": "204mg",
+      "total_carbs": "12g",
+      "dietary_fiber": "3g",
+      "sugar": "2g",
+      "added_sugar": "0g",
+      "protein": "3g",
+      "calcium": "30.10mg",
+      "iron": "1.10mg",
+      "potassium": "181mg",
+      "vitamin_c": "1.20mg"
+    }
+  },
+
+  "Apple": {
+    "name": "Apple",
+    "allergens": ["Gluten"],
+    "serving_size": "1 Each",
+    "nutrition_information": {
+      "calories": 86,
+      "total_fat": "0g",
+      "saturated_fat": "N/A",
+      "trans_fat": "0g",
+      "cholesterol": "N/A",
+      "sodium": "2mg",
+      "total_carbs": "20g",
+      "dietary_fiber": "3g",
+      "sugar": "15g",
+      "added_sugar": "N/A",
+      "protein": "0g",
+      "calcium": "8.70mg",
+      "iron": "0.20mg",
+      "potassium": "151mg",
+      "vitamin_c": "N/A"
+    }
+  },
+
+  "Bananas": {
+    "name": "Bananas",
+    "allergens": ["Gluten"],
+    "serving_size": "1 Each",
+    "nutrition_information": {
+      "calories": "N/A",
+      "total_fat": "N/A",
+      "saturated_fat": "N/A",
+      "trans_fat": "N/A",
+      "cholesterol": "N/A",
+      "sodium": "N/A",
+      "total_carbs": "N/A",
+      "dietary_fiber": "N/A",
+      "sugar": "N/A",
+      "added_sugar": "N/A",
+      "protein": "N/A",
+      "calcium": "N/A",
+      "iron": "N/A",
+      "potassium": "N/A",
+      "vitamin_c": "15.60mg"
+    }
+  },
+
+  "Hot Wing Pizza with Ranch & Bacon": {
+    "name": "Hot Wing Pizza with Ranch & Bacon",
+    "allergens": ["Milk", "Eggs", "Wheat", "Soybeans"],
+    "serving_size": "1 Slice",
+    "nutrition_information": {
+      "calories": 363,
+      "total_fat": "17g",
+      "saturated_fat": "7g",
+      "trans_fat": "0g",
+      "cholesterol": "50mg",
+      "sodium": "1020mg",
+      "total_carbs": "32g",
+      "dietary_fiber": "1g",
+      "sugar": "3g",
+      "added_sugar": "0g",
+      "protein": "21g",
+      "calcium": "190mg",
+      "iron": "2mg",
+      "potassium": "92mg",
+      "vitamin_c": "0.40mg"
+    }
+  },
+
+  "Rigatoni with Creamy Italian Sausage & Tomato Sauce": {
+    "name": "Rigatoni with Creamy Italian Sausage & Tomato Sauce",
+    "allergens": ["Milk", "Eggs", "Wheat"],
+    "serving_size": "4 Oz",
+    "nutrition_information": {
+      "calories": 281,
+      "total_fat": "16g",
+      "saturated_fat": "6g",
+      "trans_fat": "0g",
+      "cholesterol": "39mg",
+      "sodium": "1221mg",
+      "total_carbs": "21g",
+      "dietary_fiber": "1g",
+      "sugar": "1g",
+      "added_sugar": "0g",
+      "protein": "13g",
+      "calcium": "89.80mg",
+      "iron": "1.20mg",
+      "potassium": "280mg",
+      "vitamin_c": "0.90mg"
+    }
+  },
+
+  "The Wright Thin Crust Pizza": {
+    "name": "The Wright Thin Crust Pizza",
+    "allergens": ["Meatless", "Milk", "Wheat", "Soybeans"],
+    "serving_size": "1 Slice",
+    "nutrition_information": {
+      "calories": 326,
+      "total_fat": "15g",
+      "saturated_fat": "7g",
+      "trans_fat": "0g",
+      "cholesterol": "22mg",
+      "sodium": "857mg",
+      "total_carbs": "33g",
+      "dietary_fiber": "1g",
+      "sugar": "3g",
+      "added_sugar": "0g",
+      "protein": "19g",
+      "calcium": "400mg",
+      "iron": "1.90mg",
+      "potassium": "50mg",
+      "vitamin_c": "0mg"
+    }
+  },
+
+  "Cheese Pizza": {
+    "name": "Cheese Pizza",
+    "allergens": ["Meatless", "Milk", "Eggs", "Wheat", "Soybeans"],
+    "serving_size": "1 Slice",
+    "nutrition_information": {
+      "calories": 240,
+      "total_fat": "8g",
+      "saturated_fat": "4.40g",
+      "trans_fat": "0g",
+      "cholesterol": "17mg",
+      "sodium": "580mg",
+      "total_carbs": "32g",
+      "dietary_fiber": "1g",
+      "sugar": "3g",
+      "added_sugar": "0g",
+      "protein": "12g",
+      "calcium": "189mg",
+      "iron": "1.90mg",
+      "potassium": "56mg",
+      "vitamin_c": "0mg"
+    }
+  },
+
+  "Cheesy Bread": {
+    "name": "Cheesy Bread",
+    "allergens": ["Meatless", "Milk", "Wheat", "Soybeans"],
+    "serving_size": "0.06 Each",
+    "nutrition_information": {
+      "calories": 125,
+      "total_fat": "4.50g",
+      "saturated_fat": "2.20g",
+      "trans_fat": "0g",
+      "cholesterol": "13mg",
+      "sodium": "260mg",
+      "total_carbs": "15g",
+      "dietary_fiber": "0g",
+      "sugar": "1g",
+      "added_sugar": "0g",
+      "protein": "7g",
+      "calcium": "127mg",
+      "iron": "0.90mg",
+      "potassium": "0mg",
+      "vitamin_c": "0mg"
+    }
+  },
+
+  "Gluten Free Pizza Crust": {
+    "name": "Gluten Free Pizza Crust",
+    "allergens": ["Free of Gluten", "Vegan", "Meatless", "Eggs", "Soybeans"],
+    "serving_size": "1 Each",
+    "nutrition_information": {
+      "calories": 680,
+      "total_fat": "20g",
+      "saturated_fat": "4g",
+      "trans_fat": "0g",
+      "cholesterol": "0mg",
+      "sodium": "1480mg",
+      "total_carbs": "120g",
+      "dietary_fiber": "4g",
+      "sugar": "12g",
+      "added_sugar": "N/A",
+      "protein": "8g",
+      "calcium": "40mg",
+      "iron": "0.80mg",
+      "potassium": "680mg",
+      "vitamin_c": "N/A"
+    }
+  },
+
+  "Pepperoni Pizza": {
+    "name": "Pepperoni Pizza",
+    "allergens": ["Milk", "Eggs", "Wheat", "Soybeans"],
+    "serving_size": "1 Slice",
+    "nutrition_information": {
+      "calories": 267,
+      "total_fat": "10g",
+      "saturated_fat": "5g",
+      "trans_fat": "0g",
+      "cholesterol": "22mg",
+      "sodium": "674mg",
+      "total_carbs": "32g",
+      "dietary_fiber": "1g",
+      "sugar": "3g",
+      "added_sugar": "0g",
+      "protein": "13g",
+      "calcium": "189mg",
+      "iron": "2mg",
+      "potassium": "56mg",
+      "vitamin_c": "0mg"
+    }
+  },
+
+  "Croissant": {
+    "name": "Croissant",
+    "allergens": ["Meatless", "Tree Nuts", "Milk", "Eggs", "Wheat", "Soybeans"],
+    "serving_size": "N/A",
+    "nutrition_information": {
+      "calories": 330,
+      "total_fat": "17g",
+      "saturated_fat": "10g",
+      "trans_fat": "0.50g",
+      "cholesterol": "50mg",
+      "sodium": "320mg",
+      "total_carbs": "39g",
+      "dietary_fiber": "0g",
+      "sugar": "4g",
+      "added_sugar": "N/A",
+      "protein": "6g",
+      "calcium": "32mg",
+      "iron": "2mg",
+      "potassium": "65mg",
+      "vitamin_c": "N/A"
+    }
+  },
+
+  "Deli Roast Beef": {
+    "name": "Deli Roast Beef",
+    "allergens": ["Free of Gluten", "Soybeans"],
+    "serving_size": "2 Oz",
+    "nutrition_information": {
+      "calories": 81,
+      "total_fat": "3g",
+      "saturated_fat": "1g",
+      "trans_fat": "N/A",
+      "cholesterol": "40mg",
+      "sodium": "506mg",
+      "total_carbs": "0g",
+      "dietary_fiber": "N/A",
+      "sugar": "N/A",
+      "added_sugar": "N/A",
+      "protein": "10g",
+      "calcium": "N/A",
+      "iron": "1.10mg",
+      "potassium": "N/A",
+      "vitamin_c": "N/A"
+    }
+  },
+
+  "Deli Smoked Ham": {
+    "name": "Deli Smoked Ham",
+    "allergens": ["Free of Gluten"],
+    "serving_size": "2 Oz",
+    "nutrition_information": {
+      "calories": 81,
+      "total_fat": "3g",
+      "saturated_fat": "1g",
+      "trans_fat": "0g",
+      "cholesterol": "40mg",
+      "sodium": "537mg",
+      "total_carbs": "1g",
+      "dietary_fiber": "0g",
+      "sugar": "1g",
+      "added_sugar": "N/A",
+      "protein": "12g",
+      "calcium": "0mg",
+      "iron": "0.70mg",
+      "potassium": "N/A",
+      "vitamin_c": "0mg"
+    }
+  },
+
+  "Deli Turkey": {
+    "name": "Deli Turkey",
+    "allergens": ["Free of Gluten"],
+    "attributes": ["Heart Healthy"],
+    "serving_size": "2 Oz",
+    "nutrition_information": {
+      "calories": 51,
+      "total_fat": "0.50g",
+      "saturated_fat": "N/A",
+      "trans_fat": "N/A",
+      "cholesterol": "25mg",
+      "sodium": "395mg",
+      "total_carbs": "0g",
+      "dietary_fiber": "N/A",
+      "sugar": "N/A",
+      "added_sugar": "N/A",
+      "protein": "11g",
+      "calcium": "N/A",
+      "iron": "N/A",
+      "potassium": "192mg",
+      "vitamin_c": "N/A"
+    }
+  },
+
+  "Lemon Garlic Hummus": {
+    "name": "Lemon Garlic Hummus",
+    "allergens": ["Free of Gluten", "Heart Healthy", "Vegan", "Meatless", "Protein"],
+    "serving_size": "2 Oz",
+    "nutrition_information": {
+      "calories": 109,
+      "total_fat": "8g",
+      "saturated_fat": "1.20g",
+      "trans_fat": "0g",
+      "cholesterol": "0mg",
+      "sodium": "174mg",
+      "total_carbs": "6g",
+      "dietary_fiber": "2g",
+      "sugar": "1g",
+      "added_sugar": "0g",
+      "protein": "3g",
+      "calcium": "21.60mg",
+      "iron": "0.90mg",
+      "potassium": "85mg",
+      "vitamin_c": "1.50mg"
+    }
+  },
+
+  "Ms. Gwen's Chicken Salad": {
+    "name": "Ms. Gwen's Chicken Salad",
+    "allergens": ["Free of Gluten", "Eggs", "Protein"],
+    "serving_size": "4 Oz",
+    "nutrition_information": {
+      "calories": 253,
+      "total_fat": "21g",
+      "saturated_fat": "3.60g",
+      "trans_fat": "0g",
+      "cholesterol": "49mg",
+      "sodium": "415mg",
+      "total_carbs": "2g",
+      "dietary_fiber": "1g",
+      "sugar": "1g",
+      "added_sugar": "0g",
+      "protein": "14g",
+      "calcium": "23.20mg",
+      "iron": "0.50mg",
+      "potassium": "87mg",
+      "vitamin_c": "1.30mg"
+    }
+  },
+
+  "Tuna Salad": {
+    "name": "Tuna Salad",
+    "allergens": ["Free of Gluten", "Heart Healthy", "Eggs", "Fish", "Soybeans", "Protein", "Vegetable"],
+    "serving_size": "4 Oz",
+    "nutrition_information": {
+      "calories": 192,
+      "total_fat": "13g",
+      "saturated_fat": "1.80g",
+      "trans_fat": "0g",
+      "cholesterol": "31mg",
+      "sodium": "355mg",
+      "total_carbs": "3g",
+      "dietary_fiber": "0g",
+      "sugar": "3g",
+      "added_sugar": "0g",
+      "protein": "15g",
+      "calcium": "11.70mg",
+      "iron": "0.70mg",
+      "potassium": "213mg",
+      "vitamin_c": "0.90mg"
+    }
+  },
+
+  "Pimento Cheese": {
+    "name": "Pimento Cheese",
+    "allergens": ["Free of Gluten", "Meatless", "Milk", "Eggs", "Dairy"],
+    "serving_size": "2 Oz",
+    "nutrition_information": {
+      "calories": 218,
+      "total_fat": "21g",
+      "saturated_fat": "7g",
+      "trans_fat": "0g",
+      "cholesterol": "30mg",
+      "sodium": "283mg",
+      "total_carbs": "0g",
+      "dietary_fiber": "0g",
+      "sugar": "0g",
+      "added_sugar": "0g",
+      "protein": "6g",
+      "calcium": "164mg",
+      "iron": "0.20mg",
+      "potassium": "13mg",
+      "vitamin_c": "0mg"
+    }
+  },
+
+  "Chicken Noodle Soup": {
+    "name": "Chicken Noodle Soup",
+    "allergens": ["Milk", "Eggs", "Wheat", "Soybeans"],
+    "serving_size": "6 Oz",
+    "nutrition_information": {
+      "calories": 49,
+      "total_fat": "1.40g",
+      "saturated_fat": "0g",
+      "trans_fat": "0g",
+      "cholesterol": "10mg",
+      "sodium": "563mg",
+      "total_carbs": "7g",
+      "dietary_fiber": "0g",
+      "sugar": "1g",
+      "added_sugar": "0g",
+      "protein": "3g",
+      "calcium": "7mg",
+      "iron": "0.40mg",
+      "potassium": "56mg",
+      "vitamin_c": "0mg"
+    }
+  },
+
+  "Saltine Crackers": {
+    "name": "Saltine Crackers",
+    "attributes": ["Heart Healthy", "Vegan", "Meatless", "Wheat"],
+    "serving_size": "1 Each",
+    "nutrition_information": {
+      "calories": 10,
+      "total_fat": "0g",
+      "saturated_fat": "0g",
+      "trans_fat": "0g",
+      "cholesterol": "0mg",
+      "sodium": "20mg",
+      "total_carbs": "2g",
+      "dietary_fiber": "0g",
+      "sugar": "0g",
+      "added_sugar": "0g",
+      "protein": "0g",
+      "calcium": "0mg",
+      "iron": "0.10mg",
+      "potassium": "3mg",
+      "vitamin_c": "N/A"
+    }
+  },
+
+  "Peanut Butter": {
+    "name": "Peanut Butter",
+    "allergens": ["Free of Gluten", "Vegan", "Meatless", "Peanuts", "Protein"],
+    "serving_size": "1 Oz",
+    "nutrition_information": {
+      "calories": 163,
+      "total_fat": "14g",
+      "saturated_fat": "3g",
+      "trans_fat": "0g",
+      "cholesterol": "0mg",
+      "sodium": "120mg",
+      "total_carbs": "7g",
+      "dietary_fiber": "2g",
+      "sugar": "3g",
+      "added_sugar": "2g",
+      "protein": "6g",
+      "calcium": "14.60mg",
+      "iron": "0.40mg",
+      "potassium": "158mg",
+      "vitamin_c": "N/A"
+    }
+  },
+
+  "Peanuts": {
+    "name": "Peanuts",
+    "allergens": ["Peanuts", "Tree Nuts", "Milk", "Eggs", "Wheat", "Soybeans"],
+    "serving_size": "0.5 Oz",
+    "nutrition_information": {
+      "calories": 91,
+      "total_fat": "8g",
+      "saturated_fat": "1.30g",
+      "trans_fat": "0g",
+      "cholesterol": "0mg",
+      "sodium": "101mg",
+      "total_carbs": "3g",
+      "dietary_fiber": "1g",
+      "sugar": "0g",
+      "added_sugar": "N/A",
+      "protein": "3g",
+      "calcium": "5.10mg",
+      "iron": "0.20mg",
+      "potassium": "86mg",
+      "vitamin_c": "N/A"
+    }
+  },
+
+  "Salad Bar - Build Your Own": {
+    "name": "Salad Bar - Build Your Own",
+    "serving_size": "N/A",
+    "nutrition_information": {
+      "calories": 4,
+      "total_fat": "0.10g",
+      "saturated_fat": "0g",
+      "trans_fat": "N/A",
+      "cholesterol": "0mg",
+      "sodium": "1.40mg",
+      "total_carbs": "0.60g",
+      "dietary_fiber": "0.30g",
+      "sugar": "0.30g",
+      "added_sugar": "N/A",
+      "protein": "0.40g",
+      "calcium": "9.90mg",
+      "iron": "0.40mg",
+      "potassium": "67.50mg",
+      "vitamin_c": "1mg"
+    }
+  },
+
+  "Fiesta Pasta Salad": {
+    "name": "Fiesta Pasta Salad",
+    "allergens": ["Meatless", "Milk", "Eggs", "Wheat", "Grain", "Vegetable"],
+    "serving_size": "4 Oz",
+    "nutrition_information": {
+      "calories": 235,
+      "total_fat": "17g",
+      "saturated_fat": "3.40g",
+      "trans_fat": "0g",
+      "cholesterol": "13mg",
+      "sodium": "338mg",
+      "total_carbs": "18g",
+      "dietary_fiber": "2g",
+      "sugar": "2g",
+      "added_sugar": "0g",
+      "protein": "4g",
+      "calcium": "26.80mg",
+      "iron": "1mg",
+      "potassium": "197mg",
+      "vitamin_c": "18.30mg"
+    }
+  },
+
+  "Tabbouleh with Cauliflower": {
+    "name": "Tabbouleh with Cauliflower",
+    "source": "Taste of Home",
+    "allergens": ["Wheat", "Vegetable", "Heart Healthy", "Vegan", "Meatless"],
+    "serving_size": "3 Oz",
+    "nutrition_information": {
+      "calories": 68,
+      "total_fat": "5g",
+      "saturated_fat": "0.80g",
+      "trans_fat": "0g",
+      "cholesterol": "0mg",
+      "sodium": "150mg",
+      "total_carbs": "6g",
+      "dietary_fiber": "2g",
+      "sugar": "1g",
+      "added_sugar": "0g",
+      "protein": "1g",
+      "calcium": "29.10mg",
+      "iron": "1.20mg",
+      "potassium": "208mg",
+      "vitamin_c": "30.20mg"
+    }
+  },
+
+  "Turkey Burger Patty": {
+    "name": "Turkey Burger Patty",
+    "allergens": ["Free of Gluten", "Protein"],
+    "serving_size": "1 Each",
+    "nutrition_information": {
+      "calories": 291,
+      "total_fat": "23g",
+      "saturated_fat": "6g",
+      "trans_fat": "0g",
+      "cholesterol": "76mg",
+      "sodium": "671mg",
+      "total_carbs": "0g",
+      "dietary_fiber": "0g",
+      "sugar": "0g",
+      "added_sugar": "N/A",
+      "protein": "20g",
+      "calcium": "0mg",
+      "iron": "0.50mg",
+      "potassium": "N/A",
+      "vitamin_c": "0mg"
+    }
+  },
+
+  "Veggie Burger": {
+    "name": "Veggie Burger",
+    "allergens": ["Vegan", "Meatless", "Wheat", "Soybeans", "Protein"],
+    "serving_size": "1 Each",
+    "nutrition_information": {
+      "calories": 190,
+      "total_fat": "5g",
+      "saturated_fat": "0g",
+      "trans_fat": "0g",
+      "cholesterol": "0mg",
+      "sodium": "680mg",
+      "total_carbs": "27g",
+      "dietary_fiber": "6g",
+      "sugar": "3g",
+      "added_sugar": "0g",
+      "protein": "11g",
+      "calcium": "50mg",
+      "iron": "2.90mg",
+      "potassium": "460mg",
+      "vitamin_c": "N/A"
+    }
+  },
+
+  "White Bread": {
+    "name": "White Bread",
+    "allergens": ["Meatless", "Wheat", "Soybeans", "Grain"],
+    "serving_size": "Options Nutrition Info",
+    "nutrition_information": {
+      "calories": 69.50,
+      "total_fat": "0.80g",
+      "saturated_fat": "0g",
+      "trans_fat": "0g",
+      "cholesterol": "0mg",
+      "sodium": "138.85mg",
+      "total_carbs": "13.35g",
+      "dietary_fiber": "0.25g",
+      "sugar": "1.60g",
+      "added_sugar": "1.60g",
+      "protein": "2.15g",
+      "calcium": "0mg",
+      "iron": "0.75mg",
+      "potassium": "0mg",
+      "vitamin_c": "N/A"
+    }
+  },
+
+  "Gluten-Free Hamburger Bun": {
+    "name": "Gluten-Free Hamburger Bun",
+    "allergens": ["Meatless", "Eggs"],
+    "nutrition_information": {
+      "calories": 227,
+      "total_fat": "6.60g",
+      "saturated_fat": "0.50g",
+      "trans_fat": "0g",
+      "cholesterol": "0mg",
+      "sodium": "415.60mg",
+      "total_carbs": "41.60g",
+      "dietary_fiber": "5.70g",
+      "sugar": "5.70g",
+      "added_sugar": "5.70g",
+      "protein": "4.70g",
+      "calcium": "28.30mg",
+      "iron": "0mg",
+      "potassium": "113.30mg",
+      "vitamin_c": "N/A"
+    }
+  },
+
+  "Angus Beef Hamburger Patty": {
+    "name": "Angus Beef Hamburger Patty",
+    "allergens": ["Free of Gluten", "Protein"],
+    "serving_size": "1 Each",
+    "nutrition_information": {
+      "calories": "N/A",
+      "total_fat": "N/A",
+      "saturated_fat": "N/A",
+      "trans_fat": "N/A",
+      "cholesterol": "N/A",
+      "sodium": "N/A",
+      "total_carbs": "N/A",
+      "dietary_fiber": "N/A",
+      "sugar": "N/A",
+      "added_sugar": "N/A",
+      "protein": "N/A",
+      "calcium": "N/A",
+      "iron": "N/A",
+      "potassium": "N/A",
+      "vitamin_c": "N/A"
+    }
+  },
+
+  "Breaded Chicken Patty": {
+    "name": "Breaded Chicken Patty",
+    "allergens": ["Milk", "Eggs", "Fish", "Crustacean Shellfish", "Wheat", "Soybeans"],
+    "serving_size": "4 Oz",
+    "nutrition_information": {
+      "calories": 310,
+      "total_fat": "18g",
+      "saturated_fat": "2.60g",
+      "trans_fat": "0g",
+      "cholesterol": "52mg",
+      "sodium": "770mg",
+      "total_carbs": "19g",
+      "dietary_fiber": "0g",
+      "sugar": "0g",
+      "added_sugar": "N/A",
+      "protein": "14g",
+      "calcium": "0mg",
+      "iron": "0.70mg",
+      "potassium": "0mg",
+      "vitamin_c": "0mg"
+    }
+  },
+
+  "Crinkle Cut French Fries": {
+    "name": "Crinkle Cut French Fries",
+    "allergens": ["Milk", "Eggs", "Fish", "Crustacean Shellfish", "Wheat", "Soybeans"],
+    "serving_size": "4 Oz",
+    "nutrition_information": {
+      "calories": 335,
+      "total_fat": "25g",
+      "saturated_fat": "2.70g",
+      "trans_fat": "0g",
+      "cholesterol": "0mg",
+      "sodium": "47mg",
+      "total_carbs": "30g",
+      "dietary_fiber": "1g",
+      "sugar": "1g",
+      "added_sugar": "0g",
+      "protein": "1g",
+      "calcium": "0mg",
+      "iron": "0.70mg",
+      "potassium": "338mg",
+      "vitamin_c": "N/A"
+    }
+  },
+
+  "Fried Chicken Wings": {
+    "name": "Fried Chicken Wings",
+    "allergens": ["Milk", "Eggs", "Fish", "Crustacean Shellfish", "Wheat", "Soybeans", "Protein"],
+    "serving_size": "4 Oz",
+    "nutrition_information": {
+      "calories": 551,
+      "total_fat": "51g",
+      "saturated_fat": "7g",
+      "trans_fat": "0g",
+      "cholesterol": "135mg",
+      "sodium": "608mg",
+      "total_carbs": "3g",
+      "dietary_fiber": "0g",
+      "sugar": "0g",
+      "added_sugar": "0g",
+      "protein": "22g",
+      "calcium": "13.50mg",
+      "iron": "0.50mg",
+      "potassium": "230mg",
+      "vitamin_c": "N/A"
+    }
+  },
+ 
+  "Grilled Cheese Sandwich": {
+    "name": "Grilled Cheese Sandwich",
+    "allergens": ["Meatless", "Milk", "Wheat", "Soybeans", "Dairy", "Grain"],
+    "serving_size": "1 Each",
+    "nutrition_information": {
+      "calories": 336,
+      "total_fat": "20g",
+      "saturated_fat": "7g",
+      "trans_fat": "0g",
+      "cholesterol": "30mg",
+      "sodium": "883mg",
+      "total_carbs": "30g",
+      "dietary_fiber": "1g",
+      "sugar": "4g",
+      "added_sugar": "4g",
+      "protein": "9g",
+      "calcium": "137mg",
+      "iron": "1.60mg",
+      "potassium": "0mg",
+      "vitamin_c": "N/A"
+    }
+  },
+
+  "Grilled Chicken Breast": {
+    "name": "Grilled Chicken Breast",
+    "allergens": ["Free of Gluten", "Heart Healthy"],
+    "serving_size": "1 Each",
+    "nutrition_information": {
+      "calories": 140,
+      "total_fat": "3g",
+      "saturated_fat": "0.50g",
+      "trans_fat": "0g",
+      "cholesterol": "80mg",
+      "sodium": "271mg",
+      "total_carbs": "2g",
+      "dietary_fiber": "0g",
+      "sugar": "0g",
+      "added_sugar": "0g",
+      "protein": "25g",
+      "calcium": "7mg",
+      "iron": "0mg",
+      "potassium": "375mg",
+      "vitamin_c": "N/A"
+    }
+  },
+
+  "Hot & Spicy Chicken Wings": {
+    "name": "Hot & Spicy Chicken Wings",
+    "allergens": ["Milk", "Eggs", "Fish", "Crustacean Shellfish", "Wheat", "Soybeans", "Protein"],
+    "serving_size": "4 Oz",
+    "nutrition_information": {
+      "calories": 481,
+      "total_fat": "42g",
+      "saturated_fat": "7g",
+      "trans_fat": "0g",
+      "cholesterol": "135mg",
+      "sodium": "1208mg",
+      "total_carbs": "4g",
+      "dietary_fiber": "0g",
+      "sugar": "0g",
+      "added_sugar": "0g",
+      "protein": "22g",
+      "calcium": "14.50mg",
+      "iron": "0.50mg",
+      "potassium": "260mg",
+      "vitamin_c": "N/A"
+    }
+  },
+
+  "Spicy Green Beans": {
+    "name": "Spicy Green Beans",
+    "allergens": ["Free of Gluten", "Heart Healthy", "Vegan", "Meatless", "Vegetable"],
+    "serving_size": "3 Oz",
+    "nutrition_information": {
+      "calories": 49,
+      "total_fat": "2.50g",
+      "saturated_fat": "0g",
+      "trans_fat": "0g",
+      "cholesterol": "0mg",
+      "sodium": "160mg",
+      "total_carbs": "6g",
+      "dietary_fiber": "2g",
+      "sugar": "3g",
+      "added_sugar": "0g",
+      "protein": "2g",
+      "calcium": "31.10mg",
+      "iron": "0.90mg",
+      "potassium": "182mg",
+      "vitamin_c": "10.10mg"
+    }
+  },
+  "Rosemary Flank Steak": {
+    "name": "Rosemary Flank Steak",
+    "allergens": ["Free of Gluten", "Protein"],
+    "serving_size": "6 Oz",
+    "nutrition_information": {
+      "calories": 326,
+      "total_fat": "18g",
+      "saturated_fat": "7g",
+      "trans_fat": "0g",
+      "cholesterol": "74mg",
+      "sodium": "469mg",
+      "total_carbs": "0g",
+      "dietary_fiber": "0g",
+      "sugar": "0g",
+      "added_sugar": "0g",
+      "protein": "38g",
+      "calcium": "49.20mg",
+      "iron": "2.80mg",
+      "potassium": "3mg",
+      "vitamin_c": "0mg"
+    }
+  },
+
+  "Baked Mac & Cheese With Kale": {
+    "name": "Baked Mac & Cheese With Kale",
+    "allergens": ["Meatless", "Milk", "Eggs", "Wheat"],
+    "serving_size": "6 Oz",
+    "nutrition_information": {
+      "calories": 343,
+      "total_fat": "24g",
+      "saturated_fat": "14g",
+      "trans_fat": "0g",
+      "cholesterol": "74mg",
+      "sodium": "336mg",
+      "total_carbs": "22g",
+      "dietary_fiber": "3g",
+      "sugar": "3g",
+      "added_sugar": "0g",
+      "protein": "13g",
+      "calcium": "266mg",
+      "iron": "1.20mg",
+      "potassium": "332mg",
+      "vitamin_c": "7.60mg"
+    }
+  },
+
+  "Braised White Beans with Pancetta and Greens": {
+    "name": "Braised White Beans with Pancetta and Greens",
+    "allergens": ["Free of Gluten", "Vegetable"],
+    "serving_size": "3 Oz",
+    "nutrition_information": {
+      "calories": 81,
+      "total_fat": "4g",
+      "saturated_fat": "1.10g",
+      "trans_fat": "0g",
+      "cholesterol": "4mg",
+      "sodium": "195mg",
+      "total_carbs": "8g",
+      "dietary_fiber": "3g",
+      "sugar": "0g",
+      "added_sugar": "0g",
+      "protein": "3g",
+      "calcium": "63.50mg",
+      "iron": "1.20mg",
+      "potassium": "258mg",
+      "vitamin_c": "16mg"
+    }
+  },
+
+  "Cajun Shrimp": {
+    "name": "Cajun Shrimp",
+    "allergens": ["Free of Gluten", "Milk", "Crustacean Shellfish", "Protein"],
+    "serving_size": "3 Oz",
+    "nutrition_information": {
+      "calories": 132,
+      "total_fat": "7g",
+      "saturated_fat": "3.30g",
+      "trans_fat": "0g",
+      "cholesterol": "100mg",
+      "sodium": "1429mg",
+      "total_carbs": "0g",
+      "dietary_fiber": "0g",
+      "sugar": "0g",
+      "added_sugar": "0g",
+      "protein": "8g",
+      "calcium": "43.50mg",
+      "iron": "0mg",
+      "potassium": "63mg",
+      "vitamin_c": "2mg"
+    }
+  },
+
+  "Cuban Sweet Potatoes": {
+    "name": "Cuban Sweet Potatoes",
+    "allergens": ["Free of Gluten", "Heart Healthy", "Vegan", "Meatless", "Vegetable"],
+    "serving_size": "4 Oz",
+    "nutrition_information": {
+      "calories": 118,
+      "total_fat": "2.20g",
+      "saturated_fat": "0g",
+      "trans_fat": "0g",
+      "cholesterol": "0mg",
+      "sodium": "248mg",
+      "total_carbs": "24g",
+      "dietary_fiber": "4g",
+      "sugar": "5g",
+      "protein": "2g",
+      "calcium": "35.60mg",
+      "iron": "0.70mg",
+      "potassium": "395mg",
+      "vitamin_c": "4.70mg"
+    }
+  },
+
+  "Ginger & Tamari Slaw": {
+    "name": "Ginger & Tamari Slaw",
+    "allergens": ["Free of Gluten", "Heart Healthy", "Meatless", "Soybeans"],
+    "serving_size": "2 Oz",
+    "nutrition_information": {
+      "calories": 51,
+      "total_fat": "2.80g",
+      "saturated_fat": "0g",
+      "trans_fat": "0g",
+      "cholesterol": "0mg",
+      "sodium": "39mg",
+      "total_carbs": "6g",
+      "dietary_fiber": "2g",
+      "sugar": "4g",
+      "added_sugar": "0g",
+      "protein": "1g",
+      "calcium": "27.50mg",
+      "iron": "0.50mg",
+      "potassium": "159mg",
+      "vitamin_c": "21.10mg"
+    }
+  },
+
+  "Italian Tofu": {
+    "name": "Italian Tofu",
+    "allergens": ["Vegan", "Meatless", "Wheat", "Soybeans", "Protein"],
+    "serving_size": "4 Oz",
+    "nutrition_information": {
+      "calories": 112,
+      "total_fat": "6g",
+      "saturated_fat": "0g",
+      "trans_fat": "0g",
+      "cholesterol": "0mg",
+      "sodium": "522mg",
+      "total_carbs": "3g",
+      "dietary_fiber": "1g",
+      "sugar": "0g",
+      "added_sugar": "0g",
+      "protein": "11g",
+      "calcium": "142mg",
+      "iron": "2mg",
+      "potassium": "21mg",
+      "vitamin_c": "0.30mg"
+    }
+  },
+
+  "Marinated Tuscan Kale": {
+    "name": "Marinated Tuscan Kale",
+    "allergens": ["Free of Gluten", "Vegan", "Meatless", "Vegetable"],
+    "serving_size": "3 Oz",
+    "nutrition_information": {
+      "calories": 192,
+      "total_fat": "17g",
+      "saturated_fat": "2.40g",
+      "trans_fat": "0g",
+      "cholesterol": "0mg",
+      "sodium": "578mg",
+      "total_carbs": "8g",
+      "dietary_fiber": "3g",
+      "sugar": "2g",
+      "added_sugar": "0g",
+      "protein": "4g",
+      "calcium": "131mg",
+      "iron": "1.30mg",
+      "potassium": "434mg",
+      "vitamin_c": "105mg"
+    }
+  },
+
+  "Quinoa and Black Beans": {
+    "name": "Quinoa and Black Beans",
+    "allergens": ["Free of Gluten", "Heart Healthy", "Vegan", "Meatless", "Taste of Home", "Grain", "Protein"],
+    "serving_size": "4 Oz",
+    "nutrition_information": {
+      "calories": 126,
+      "total_fat": "2.40g",
+      "saturated_fat": "0g",
+      "trans_fat": "0g",
+      "cholesterol": "0mg",
+      "sodium": "149mg",
+      "total_carbs": "21g",
+      "dietary_fiber": "4g",
+      "sugar": "1g",
+      "added_sugar": "0g",
+      "protein": "5g",
+      "calcium": "26.40mg",
+      "iron": "1.40mg",
+      "potassium": "286mg",
+      "vitamin_c": "2.40mg"
+    }
+  },
+
+  "Roasted Portobello Mushrooms with Soy Sauce & Balsamic": {
+    "name": "Roasted Portobello Mushrooms with Soy Sauce & Balsamic",
+    "allergens": ["Vegan", "Meatless", "Wheat", "Soybeans", "Vegetable"],
+    "serving_size": "3 Oz",
+    "nutrition_information": {
+      "calories": 103,
+      "total_fat": "7g",
+      "saturated_fat": "1g",
+      "trans_fat": "0g",
+      "cholesterol": "0mg",
+      "sodium": "967mg",
+      "total_carbs": "6g",
+      "dietary_fiber": "1g",
+      "sugar": "2g",
+      "added_sugar": "0g",
+      "protein": "5g",
+      "calcium": "7mg",
+      "iron": "0.10mg",
+      "potassium": "414mg",
+      "vitamin_c": "0mg"
+    }
+  },
+
+  "Hard Cooked Eggs": {
+    "name": "Hard Cooked Eggs",
+    "allergens": ["Free of Gluten", "Heart Healthy", "Meatless", "Eggs", "Protein"],
+    "serving_size": "1 Each",
+    "nutrition_information": {
+      "calories": 74,
+      "total_fat": "4.80g",
+      "saturated_fat": "2.10g",
+      "trans_fat": "0g",
+      "cholesterol": "207mg",
+      "sodium": "48mg",
+      "total_carbs": "0g",
+      "dietary_fiber": "0g",
+      "sugar": "0g",
+      "protein": "7g",
+      "calcium": "31.90mg",
+      "iron": "1.10mg",
+      "potassium": "42mg"
+    }
+  },
+
+  "Kimchi": {
+    "name": "Kimchi",
+    "allergens": ["Free of Gluten", "Heart Healthy", "Fish", "Crustacean Shellfish", "Vegetable"],
+    "serving_size": "1 Oz",
+    "nutrition_information": {
+      "calories": 19,
+      "total_fat": "0g",
+      "saturated_fat": "0g",
+      "trans_fat": "0g",
+      "cholesterol": "0mg",
+      "sodium": "61mg",
+      "total_carbs": "1g",
+      "dietary_fiber": "2g",
+      "sugar": "0g",
+      "added_sugar": "0g",
+      "protein": "0g",
+      "calcium": "0mg",
+      "iron": "10.10mg",
+      "potassium": "0mg"
+    }
+  },
+
+  "Maple Tahini Dressing": {
+    "name": "Maple Tahini Dressing",
+    "allergens": ["Free of Gluten", "Vegan", "Meatless"],
+    "serving_size": "2 Tbsp",
+    "nutrition_information": {
+      "calories": 145,
+      "total_fat": "13g",
+      "saturated_fat": "2g",
+      "trans_fat": "0g",
+      "cholesterol": "0mg",
+      "sodium": "148mg",
+      "total_carbs": "6g",
+      "dietary_fiber": "0g",
+      "sugar": "4g",
+      "added_sugar": "0g",
+      "protein": "2g",
+      "calcium": "24.50mg",
+      "iron": "0.80mg",
+      "potassium": "65mg",
+      "vitamin_c": "0.30mg"
+    }
+  },
+
+  "Mashed Avocado": {
+    "name": "Mashed Avocado",
+    "allergens": ["Free of Gluten", "Heart Healthy", "Vegan", "Meatless", "Vegetable"],
+    "serving_size": "1 Tbsp",
+    "nutrition_information": {
+      "calories": 32,
+      "total_fat": "2.90g",
+      "saturated_fat": "0g",
+      "trans_fat": "0g",
+      "cholesterol": "0mg",
+      "sodium": "2mg",
+      "total_carbs": "1g",
+      "dietary_fiber": "1g",
+      "sugar": "0g",
+      "added_sugar": "0g",
+      "protein": "0g",
+      "calcium": "0mg",
+      "iron": "0mg",
+      "potassium": "56mg"
+    }
+  },
+
+  "Nutritional Yeast Flakes Topping": {
+    "name": "Nutritional Yeast Flakes Topping",
+    "allergens": ["Free of Gluten", "Heart Healthy", "Vegan", "Meatless"],
+    "serving_size": "0.5 Oz",
+    "nutrition_information": {
+      "calories": 20,
+      "total_fat": "0g",
+      "saturated_fat": "0g",
+      "trans_fat": "0g",
+      "cholesterol": "0mg",
+      "sodium": "0mg",
+      "total_carbs": "2g",
+      "dietary_fiber": "1g",
+      "sugar": "0g",
+      "protein": "3g",
+      "calcium": "3.40mg",
+      "iron": "0.30mg",
+      "potassium": "101mg"
+    }
+  },
+
+  "Spicy Honey Mustard Dressing": {
+    "name": "Spicy Honey Mustard Dressing",
+    "allergens": ["Free of Gluten", "Meatless", "Eggs"],
+    "serving_size": "2 Tbsp",
+    "nutrition_information": {
+      "calories": 120,
+      "total_fat": "9g",
+      "saturated_fat": "1.40g",
+      "trans_fat": "0g",
+      "cholesterol": "3mg",
+      "sodium": "219mg",
+      "total_carbs": "8g",
+      "dietary_fiber": "0g",
+      "sugar": "7g",
+      "protein": "1g",
+      "calcium": "5.60mg",
+      "iron": "0.30mg",
+      "potassium": "15mg",
+      "vitamin_c": "0mg"
+    }
+  },
+
+  "make_your_own_belgian_waffle": {
+    "name": "Make-Your-Own Belgian Waffle",
+    "allergens": ["Meatless", "Milk", "Eggs", "Wheat", "Soybeans"],
+    "nutrition_info": {
+      "serving_size": "1 Each",
+      "calories": 177,
+      "total_fat": "1.60g",
+      "saturated_fat": "0.70g",
+      "trans_fat": "0g",
+      "cholesterol": "3mg",
+      "sodium": "703mg",
+      "total_carbs": "36g",
+      "dietary_fiber": "1g",
+      "sugar": "6g",
+      "protein": "1g",
+      "calcium": "32.20mg",
+      "iron": "0.70mg",
+      "potassium": "80mg",
+      "vitamin_c": "0mg"
+    }
+  },
+
+  "syrup": {
+    "name": "Syrup",
+    "allergens": ["Free of Gluten", "Vegan", "Meatless"],
+    "nutrition_info": {
+      "serving_size": "1 Oz",
+      "calories": 109,
+      "total_fat": "0g",
+      "saturated_fat": "0g",
+      "trans_fat": "0g",
+      "cholesterol": "0mg",
+      "sodium": "15mg",
+      "total_carbs": "27g",
+      "dietary_fiber": "0g",
+      "sugar": "18g",
+      "added_sugar": "18g",
+      "protein": "0g"
+    }
+  },
+
+  "yogurt_nut_bar": {
+    "name": "Yogurt & Nut Bar",
+    "allergens": ["Meatless"],
+    "nutrition_info": {
+      "calories": 66,
+      "total_fat": "3.30g",
+      "saturated_fat": "3.30g",
+      "trans_fat": "0g",
+      "sodium": "18.90mg",
+      "total_carbs": "7.60g",
+      "dietary_fiber": "0g",
+      "sugar": "4.70g",
+      "added_sugar": "3.80g",
+      "protein": "0g",
+      "calcium": "0.90mg",
+      "iron": "0mg",
+      "potassium": "52mg"
+    }
+  },
+
+  "greek_plain_yogurt": {
+    "name": "Greek Plain Yogurt",
+    "allergens": ["Free of Gluten", "Heart Healthy", "Meatless", "Milk", "Dairy"],
+    "nutrition_info": {
+      "serving_size": "4 Oz",
+      "calories": 60,
+      "total_fat": "0g",
+      "saturated_fat": "0g",
+      "trans_fat": "0g",
+      "cholesterol": "3mg",
+      "sodium": "47mg",
+      "total_carbs": "5g",
+      "dietary_fiber": "0g",
+      "sugar": "4g",
+      "added_sugar": "0g",
+      "protein": "11g",
+      "calcium": "127mg",
+      "iron": "0mg",
+      "potassium": "127mg"
+    }
+  },
+
+  "non_fat_vanilla_yogurt": {
+    "name": "Non-Fat Vanilla Yogurt",
+    "allergens": ["Free of Gluten", "Heart Healthy", "Meatless", "Milk", "Dairy"],
+    "nutrition_info": {
+      "serving_size": "4 Oz",
+      "calories": 80,
+      "total_fat": "0g",
+      "saturated_fat": "0g",
+      "trans_fat": "0g",
+      "cholesterol": "3mg",
+      "sodium": "63mg",
+      "total_carbs": "17g",
+      "dietary_fiber": "0g",
+      "sugar": "13g",
+      "added_sugar": "9g",
+      "protein": "4g",
+      "calcium": "147mg",
+      "iron": "0.10mg",
+      "potassium": "187mg"
+    }
+  },
+  "strawberry_yogurt": {
+    "name": "Strawberry Yogurt",
+    "allergens": ["Milk"],
+    "nutrition_info": {
+      "serving_size": "4 Oz",
+      "calories": 80,
+      "total_fat": "0g",
+      "saturated_fat": "0g",
+      "trans_fat": "0g",
+      "cholesterol": "3mg",
+      "sodium": "63mg",
+      "total_carbs": "16g",
+      "dietary_fiber": "0g",
+      "sugar": "13g",
+      "protein": "4g",
+      "calcium": "147mg",
+      "iron": "0.10mg",
+      "potassium": "187mg"
+    }
+  }
+
+
+}
