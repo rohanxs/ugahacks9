@@ -1,0 +1,217 @@
+{
+    "cinnamon_raisin_bagel": {
+        "name": "Cinnamon Raisin Bagel",
+        "allergens": ["Meatless", "Milk", "Eggs", "Wheat", "Soybeans", "Grain"],
+        "nutrition_info": {
+            "serving_size": "1 Each",
+            "calories": 291,
+            "total_fat": "1g",
+            "saturated_fat": "0g",
+            "trans_fat": "0g",
+            "cholesterol": "0mg",
+            "sodium": "482mg",
+            "total_carbs": "61g",
+            "dietary_fiber": "2g",
+            "sugar": "9g",
+            "protein": "10g",
+            "calcium": "90.30mg",
+            "iron": "3.30mg"
+        }
+    },
+    
+    "cinnamon_raisin_bread": {
+        "name": "Cinnamon Raisin Bread",
+        "categories": ["Heart Healthy", "Vegan", "Meatless", "Wheat", "Soybeans"],
+        "nutrition_info": {
+          "serving_size": "1 Slice",
+          "calories": "91",
+          "total_fat": "1g",
+          "saturated_fat": "0g",
+          "trans_fat": "0g",
+          "cholesterol": "0mg",
+          "sodium": "122mg",
+          "total_carbs": "20g",
+          "dietary_fiber": "0g",
+          "sugar": "8g",
+          "added_sugar": "2g",
+          "protein": "3g",
+          "calcium": "N/A",
+          "iron": "1mg",
+          "potassium": "N/A"
+        }
+      },
+
+    "everything_bagel": {
+        "name": "Everything Bagel",
+        "categories": ["Meatless", "Milk", "Eggs", "Wheat", "Soybeans", "Grain"],
+        "nutrition_info": {
+        "serving_size": "1 Each",
+        "calories": "301",
+        "total_fat": "4g",
+        "saturated_fat": "0.50g",
+        "trans_fat": "0g",
+        "cholesterol": "0mg",
+        "sodium": "903mg",
+        "total_carbs": "57g",
+        "dietary_fiber": "3g",
+        "sugar": "4g",
+        "protein": "11g",
+        "calcium": "150mg",
+        "iron": "3.90mg",
+        "potassium": "130mg"
+        }
+    },
+
+    "honey_wheat_bread": {
+        "name": "Honey Wheat Bread",
+        "categories": ["Heart Healthy", "Meatless", "Wheat", "Soybeans", "Grain"],
+        "nutrition_info": {
+          "serving_size": "1 Slice",
+          "calories": "69",
+          "total_fat": "0.50g",
+          "saturated_fat": "0g",
+          "trans_fat": "0g",
+          "cholesterol": "0mg",
+          "sodium": "109mg",
+          "total_carbs": "13g",
+          "dietary_fiber": "0g",
+          "sugar": "2g",
+          "added_sugar": "2g",
+          "protein": "3g",
+          "calcium": "49.60mg",
+          "iron": "1mg",
+          "potassium": "0mg"
+        }
+      },
+
+      "new_york_rye_bread": {
+        "name": "New York Rye Bread",
+        "categories": ["Heart Healthy", "Vegan", "Meatless", "Wheat", "Soybeans", "Grain"],
+        "nutrition_info": {
+          "serving_size": "1 Slice",
+          "calories": "109",
+          "total_fat": "1.50g",
+          "saturated_fat": "0g",
+          "trans_fat": "0g",
+          "cholesterol": "0mg",
+          "sodium": "257mg",
+          "total_carbs": "21g",
+          "dietary_fiber": "1g",
+          "sugar": "1g",
+          "added_sugar": "1g",
+          "protein": "4g",
+          "calcium": "39.60mg",
+          "iron": "1.10mg",
+          "potassium": "50mg"
+        }
+      },
+
+      "plain_bagel": {
+        "name": "Plain Bagel",
+        "categories": ["Meatless", "Milk", "Eggs", "Wheat", "Soybeans", "Grain"],
+        "nutrition_info": {
+          "serving_size": "1 Each",
+          "calories": "281",
+          "total_fat": "1g",
+          "saturated_fat": "0g",
+          "trans_fat": "0g",
+          "cholesterol": "0mg",
+          "sodium": "512mg",
+          "total_carbs": "58g",
+          "dietary_fiber": "2g",
+          "sugar": "4g",
+          "protein": "10g",
+          "calcium": "90.30mg",
+          "iron": "3.60mg",
+          "potassium": "80mg"
+        }
+      },
+
+      "very_berry_bagel": {
+        "name": "Very Berry Bagel",
+        "categories": ["Meatless", "Milk", "Eggs", "Wheat", "Soybeans", "Grain"],
+        "nutrition_info": {
+          "serving_size": "1 Each",
+          "calories": "291",
+          "total_fat": "1.50g",
+          "saturated_fat": "0g",
+          "trans_fat": "0g",
+          "cholesterol": "0mg",
+          "sodium": "562mg",
+          "total_carbs": "60g",
+          "dietary_fiber": "2g",
+          "sugar": "5g",
+          "protein": "11g",
+          "calcium": "100mg",
+          "iron": "3.40mg",
+          "potassium": "80mg"
+        }
+      },
+
+      "wheat_bran_oats_bagel": {
+        "name": "Wheat Bran and Oats Bagel",
+        "categories": ["Heart Healthy", "Meatless", "Milk", "Eggs", "Wheat", "Soybeans", "Grain"],
+        "nutrition_info": {
+          "serving_size": "1 Each",
+          "calories": "281",
+          "total_fat": "1.50g",
+          "saturated_fat": "0g",
+          "trans_fat": "0g",
+          "cholesterol": "0mg",
+          "sodium": "472mg",
+          "total_carbs": "59g",
+          "dietary_fiber": "5g",
+          "sugar": "2g",
+          "protein": "11g",
+          "calcium": "90.30mg",
+          "iron": "4mg",
+          "potassium": "181mg"
+        }
+      },
+
+      "white_bread": {
+        "name": "White Bread",
+        "categories": ["Heart Healthy", "Vegan", "Meatless", "Wheat", "Soybeans", "Grain"],
+        "nutrition_info": {
+          "serving_size": "1 Slice",
+          "calories": "69",
+          "total_fat": "0.80g",
+          "saturated_fat": "0g",
+          "trans_fat": "0g",
+          "cholesterol": "0mg",
+          "sodium": "138mg",
+          "total_carbs": "13g",
+          "dietary_fiber": "0g",
+          "sugar": "2g",
+          "added_sugar": "2g",
+          "protein": "2g",
+          "calcium": "0mg",
+          "iron": "0.70mg",
+          "potassium": "0mg"
+        }
+      },
+
+    "whole_wheat_bread": {
+    "name": "Whole Wheat Bread",
+    "categories": ["Heart Healthy", "Vegan", "Meatless", "Wheat", "Grain"],
+    "nutrition_info": {
+        "serving_size": "1 Each",
+        "calories": "60",
+        "total_fat": "0.50g",
+        "saturated_fat": "0g",
+        "trans_fat": "0g",
+        "cholesterol": "40mg",
+        "sodium": "120mg",
+        "total_carbs": "12g",
+        "dietary_fiber": "2g",
+        "sugar": "1g",
+        "protein": "3g",
+        "calcium": "30mg",
+        "iron": "0.70mg",
+        "vitamin_c": "0mg"
+        }
+    }
+
+
+
+}
