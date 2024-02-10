@@ -1,6 +1,8 @@
-# DawgEats
-### Submitted to the UGAHacks9 Hackathon
+# ![DawgEats](https://media.discordapp.net/attachments/384088851649396747/1205974116377690122/Screenshot_2024-02-10_at_3.30.32_PM.png?ex=65da51eb&is=65c7dceb&hm=a1537d036532bef2542c34d90487d1dc20d9b0b9fc79a4d48069d9b1a4fd98dc&=&format=webp&quality=lossless&width=1400&height=359)
+
 [![My Skills](https://skillicons.dev/icons?i=js,html,css,firebase,figma,cloudflare,nodejs)](https://skillicons.dev)
+
+A project submission to the UGAHacks9 Hackathon.
 
 ## Team Members
 - Rohan Singh
