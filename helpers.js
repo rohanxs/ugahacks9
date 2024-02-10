@@ -145,5 +145,15 @@ function currentMeal(diningHall) {
     else return "closed";
 }
 
-const info = searchItem(snellingBreakfast, "peanut butter");
-console.log(info);
+const listItems = (diningHall, filter) => {
+    let items = [];
+    for (const key in diningHall) {
+        if (diningHall.hasOwnProperty(key) && filter(key)) {
+            items.push(key);
+        }
+    }
+    return items;
+}
+
+items = listItems(snellingBreakfast, (item) => parseInt(snellingBreakfast[item]["nutrition_info"]["protein"]) >= 15);
+console.log(items);
