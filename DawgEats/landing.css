@@ -2,12 +2,15 @@
 
 body {
     margin: 0;
+    background-color: #BA0C2F;
     font-family: "Montserrat";
 }
   
 .topnav {
     overflow: hidden;
     background-color: #333;
+
+    border-bottom: 2px solid #ffffff;
 }
 
 .topnav .logo {
@@ -15,8 +18,9 @@ body {
 }
 
 .topnav #title {
-    margin-left: -10px;
-    font-size: 30px;
+    margin: 0;
+    margin-left: -18px;
+    font-size: 50px;
 }
 
 .topnav #dawgimg {
@@ -37,18 +41,35 @@ body {
     float: right;
     color: #f2f2f2;
     text-align: center;
-    padding: 10px 20px;
+    padding: 20px 20px;
     margin-right: 10px;
+    margin-top: -20px;
     text-decoration: none;
     font-size: 24px;
+
+    transition-duration: 300ms;
 }
   
 .topnav a:hover {
+    transition-duration: 300ms;
     background-color: #ddd;
     color: black;
 }
   
 .topnav a.active {
-    background-color: #aa0404;
+    background-color: #BA0C2F;
     color: white;
+}
+
+.login-container {
+    margin-top: 60px;
+    height: 300px;
+}
+
+.login {
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    border-radius: 10px;
+    margin: auto;
 }
