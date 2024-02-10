@@ -76,7 +76,7 @@ b {
 .login-container {
     margin-top: 80px;
     height: 300px;
-    animation: 2s ease-out 0s 1 fadeUp;
+    animation: 1s ease-out 0s 1 fadeUp;
 }
 
 @keyframes fadeUp {
