@@ -4,12 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DawgEats</title>
-
     <link rel="stylesheet" href="app.css">
 </head>
 <body>
-    <p>Welcome to DawgEats</p>
-</body>
+    <div class="topnav">
+        <img id="dawgimg" class="logo" src="assets/dawg.png">
+        <h1 id="title" class="logo">DawgEats<h1>
 
-<script src="app.js"></script>
+        <a class="active" id="signout" href="#home">Sign Out</a>
+    </div>
+    
+    <div class="login-container" style="padding-left:16px">
+        <div class="login">
+            <div class="login-instructions">
+                <p id="instructions">Welcome Back</p>
+                <img id="logindawg" src="assets/dawgsq.png" alt="">
+            </div>
+            <div class="username-container">
+                <input id="username" class="cred effect-8" type="text" placeholder="Email or username">
+            </div>
+            
+            <div class="password-container">
+                <input id="password" class="cred effect-8" type="password" placeholder="Password">
+            </div>
+
+            <div class="button-container">
+                <button id="signin">
+                    Sign in
+                </button>
+
+            </div>
+
+        </div>
+    </div>
+
+    <script type="module" src="app.js"></script>
+
+</body>
 </html>
