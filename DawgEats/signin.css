@@ -27,6 +27,7 @@ b {
 
 .topnav #title {
     margin: 0;
+    border-bottom: solid #BA0C2F 5px;
     margin-left: -18px;
     font-size: 50px;
 }

@@ -205,3 +205,15 @@ input:checked + .slider:before {
 #lactose {
     margin-left: 276px;
 }
+
+#loss {
+    margin-left: 222px;
+}
+
+#cholestrol {
+    margin-left: 239px;
+}
+
+#calories {
+    margin-left: 284px;
+}

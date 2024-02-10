@@ -25,6 +25,7 @@ body {
 }
 
 .topnav #title {
+    border-bottom: solid #BA0C2F 5px;
     margin: 0;
     margin-left: -18px;
     font-size: 50px;
