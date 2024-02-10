@@ -4,7 +4,7 @@ const config = {
   authRequired: false,
   auth0Logout: true,
   secret: 'nfjrnefourewnfiuernfouerhfoiwerugoraieghi',
-  baseURL: 'http://localhost:3000',
+  baseURL: 'http://127.0.0.1:5500',
   clientID: 'uWM6Sg9AZHIPIBAMQciRkezixDdp66Qe',
   issuerBaseURL: 'https://dev-12vqsshcaagvhrxk.us.auth0.com'
 };
