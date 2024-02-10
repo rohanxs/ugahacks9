@@ -257,13 +257,13 @@ input:checked + .slider:before {
 }
 
 #nosave {
-    background-color: #333;
+    background-color: #989898;
     font-family: Montserrat;
     width: 300px;
     height: 70px;
     border: none;
     border-radius: 40px;
-    color: white;
+    color: #000000;
     padding: 10px 24px;
     text-align: center;
     text-decoration: none;
@@ -276,7 +276,7 @@ input:checked + .slider:before {
 }
 
 #nosave:hover {
-    background-color: #BA0C2F;
+    background-color: #333;
     color: white;
     transition-duration: 300ms;
 }
