@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    margin: 0;
+    background-color: #BA0C2F;
+    font-family: "Montserrat";
+    overscroll-behavior-y: none;
+    background-image: url('assets/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  
+.topnav {
+    overflow: hidden;
+    background-color: #333333;
+
+    border-bottom: 2px solid #746f6f;
+}
+
+.topnav .logo {
+    float: left;
+}
+
+.topnav #title {
+    border-bottom: solid #BA0C2F 5px;
+    margin: 0;
+    margin-left: -18px;
+    font-size: 50px;
+}
+
+.topnav #dawgimg {
+    margin-top: 6px;
+    width: 125px;
+}
+
+.topnav h1 {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-size: 24px;
+}
+  
+.topnav a {
+    border-radius: 40px;
+    float: right;
+    font-weight: 600;
+    color: #333;
+    background-color: white;
+    text-align: center;
+    padding: 20px 20px;
+    margin-right: 0px;
+    margin-left: 20px;
+    margin-top: -16px;
+    text-decoration: none;
+    font-size: 18px;
+
+    transition-duration: 300ms;
+}
+  
+.topnav a:hover {
+    transition-duration: 300ms;
+    background-color: #6f6f6f;
+    color: #cacaca;
+}
+  
+.topnav a.active {
+    background-color: #BA0C2F;
+    color: white;
+}
+
+.login-container {
+    margin-top: 80px;
+    height: 300px;
+}
+
+.login {
+    width: 500px;
+    height: 550px;
+    background-color: white;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.login-instructions{
+    margin-top: 50px;
+}
+
+#instructions {
+    display: inline-block;
+    color:#333;
+    font-weight: 800;
+    font-family: Montserrat;
+    margin-top: 50px;
+    margin-left: 85px;
+    font-size: 40px;
+}
+
+#logindawg {
+    margin-left: 150px;
+    margin-top: -20px;
+    margin-bottom: 15px;
+    width: 200px;
+}
+
+input[type="text"]{font: 15px/24px "Montserrat", Arial, sans-serif; color: #333; box-sizing: border-box; letter-spacing: 1px;}
+
+input[type="password"]{font: 15px/24px "Montserrat", Arial, sans-serif; color: #333; box-sizing: border-box; letter-spacing: 1px;}
+
+
+.effect-8 {border: 1px solid #ccc; padding: 7px 14px 9px; transition: 0.4s;}
+
+.effect-8 ~ .focus-border:before,
+.effect-8 ~ .focus-border:after{content: ""; position: absolute; top: 0; left: 0; width: 0; height: 2px; background-color: #4caf50; transition: 0.3s;}
+.effect-8 ~ .focus-border:after{top: auto; bottom: 0; left: auto; right: 0;}
+.effect-8 ~ .focus-border i:before,
+.effect-8 ~ .focus-border i:after{content: ""; position: absolute; top: 0; left: 0; width: 2px; height: 0; background-color: #4caf50; transition: 0.4s;}
+.effect-8 ~ .focus-border i:after{left: auto; right: 0; top: auto; bottom: 0;}
+.effect-8:focus ~ .focus-border:before,
+.effect-8:focus ~ .focus-border:after{width: 100%; transition: 0.3s;}
+.effect-8:focus ~ .focus-border i:before,
+.effect-8:focus ~ .focus-border i:after{height: 100%; transition: 0.4s;}
+
+.cred {
+    width: 440px;
+    margin-left: 30px;
+    border-radius: 20px;
+}
+
+#username {
+    margin-top: 10px;
+}
+
+#password {
+    margin-top: 15px;
+}
+
+.button-container {
+    margin-top: 30px;
+}
+
+#signin {
+    background-color: #BA0C2F;
+    font-family: Montserrat;
+    width: 150px;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+
+    transition-duration: 0.4s;
+    cursor: pointer;
+
+    margin-left: 175px;
+
+    transition-duration: 300ms;
+}
+
+#signin:hover {
+    background-color: rgb(191, 191, 191);
+    color: black;
+    transition-duration: 300ms;
+}
