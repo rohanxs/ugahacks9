@@ -142,7 +142,6 @@ button:hover {
 
 .list-container {
     margin-top: 50px;
-
     animation: 1s ease-out 0s 1 slideUp;
 }
 
@@ -151,7 +150,7 @@ button:hover {
     border-radius: 10px;
     margin: auto;
     width: 900px;
-    height: 980px;
+    height: auto;
 
     margin-bottom: 50px;
 }
@@ -211,3 +210,38 @@ p {
 .dropdown:hover .dropdown-content {display: block;}
 
 .dropdown:hover .dropbtn {background-color: #870821;}
+
+.food-list {
+    margin-top: 10px;
+}
+
+.food-container {
+    background-color: rgb(217, 217, 217);
+    height: 100px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.food {
+    display: flex;
+}
+
+.name {
+    font-size: 24px;
+}
+
+.allergens {
+    margin-top: 21px;
+    margin-left: 18px;
+    font-size: 10px;
+}
+
+.stats {
+    font-size: 12px;
+}
+
+.imstats {
+    font-size: 16px;
+}

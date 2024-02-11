@@ -30,18 +30,46 @@
                 <div class="dropdown">
                     <button class="dropbtn">Select Hall</button>
                     <div class="dropdown-content">
-                      <a href="#">Bolton</a>
-                      <a href="#">Snelling</a>
-                      <a href="#">O-House</a>
-                      <a href="#">Joe Frank</a>
-                      <a href="#">The Niche</a>
+                      <a onclick="loadDiningHall('bolton')">Bolton</a>
+                      <a onclick="loadDiningHall('snelling')">Snelling</a>
+                      <a onclick="loadDiningHall('ohouse')">O-House</a>
+                      <a onclick="loadDiningHall('joefrank')">Joe Frank</a>
+                      <a onclick="loadDiningHall('theniche')">The Niche</a>
                     </div>
                 </div>
+            </div>
+
+            <div id="render-list" class="food-list">
+                <div class="food-container">
+                    <div class="food">
+                        <div style="width: 1000px; margin-bottom: -20px;">
+                            <p class="name">Non-Fat Vanilla Yogurt</p>
+                            <p class="allergens"><b>Free of Gluten, Heart Healthy, Meatless, Milk, Dairy</b></p>
+                        </div>
+                        <div style="width: 300px;">
+                            <p class="stats"><b>63mg</b> sodium, <b>3g</b> cholestrol, <b>13g</b> sugar, <b>147mg</b> calcium.</p>
+                        </div>
+                    </div>
+                    <p class="imstats"><b>80</b> calories, <b>4g</b> protein, <b>0g</b> total fat, <b>4 Oz</b> serving size.</p>
+                </div>
+                
+                <div class="food-container">
+                    <div class="food">
+                        <div style="width: 1000px; margin-bottom: -20px;">
+                            <p class="name">Non-Fat Vanilla Yogurt</p>
+                            <p class="allergens"><b>Free of Gluten, Heart Healthy, Meatless, Milk, Dairy</b></p>
+                        </div>
+                        <div style="width: 300px;">
+                            <p class="stats"><b>63mg</b> sodium, <b>3g</b> cholestrol, <b>13g</b> sugar, <b>147mg</b> calcium.</p>
+                        </div>
+                    </div>
+                    <p class="imstats"><b>80</b> calories, <b>4g</b> protein, <b>0g</b> total fat, <b>4 Oz</b> serving size.</p>
+                </div>
+                
             </div>
         </div>
     </div>
 
-    <script type="module" src="browse.js"></script>
-
+    <script src="browse.js"></script>
 </body>
 </html>
