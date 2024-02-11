@@ -41,6 +41,7 @@ function loadDiningHall(diningHall) {
       if (Object.hasOwn(element, "name")) {
         nameString = element["name"];
       } else {
+        // what the f*ck?
         nameString = key.replace(/(^\w{1})|(\s+\w{1})/g, letter => letter.toUpperCase());
       }
 
