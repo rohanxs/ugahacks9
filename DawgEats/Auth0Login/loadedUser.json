@@ -2,12 +2,12 @@
   "noLactose": false,
   "vegan": false,
   "noCalories": false,
-  "noEggs": true,
+  "noEggs": false,
   "noGluten": false,
-  "protein": true,
-  "noCholestrol": true,
-  "vegetarian": true,
+  "protein": false,
+  "noCholestrol": false,
+  "vegetarian": false,
   "loseWeight": false,
-  "noSodium": true,
-  "noWheat": false
+  "noSodium": false,
+  "noWheat": true
 }

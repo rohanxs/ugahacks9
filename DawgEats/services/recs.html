@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DawgEats</title>
+    <link rel="stylesheet" href="recs.css">
+</head>
+<body>
+    <div class="topnav">
+        <img id="dawgimg" class="logo" src="../assets/dawg.png">
+        <h1 id="title" class="logo"><b>Dawg</b>Eats<h1>
+
+        <a class="active" id="signout" href="#home">Sign Out</a>
+    </div>
+    
+    <nav class="nav-container">
+        <div class="nav-wrapper">
+            <button class="hbmenu" id="browse">Browse Foods</button>
+            <button class="hbmenu active" id="recs">Recommendations</button>
+            <button class="hbmenu" id="track">Nutrition Tracking</button>
+        </div>
+    </nav>
+
+    <div class="list-container" style="padding-left:16px">
+        <div class="list">
+            <div class="selection-container">
+                <p id="directions" style="margin-right: 10px;"> Select dining hall for recommendations: </p>
+                <p class="clarify">Recommendations are based on your <b>preferences</b>. If you want to change your <b>preferences</b>, return to the <a id="landlink" href="../app.html">landing page</a>.</p>
+                <p class="clarify" id="prefs">Your preferences are: </p>
+                
+                <div class="dropdown">
+                    <button id="hallbtn" class="dropbtn">Select Hall</button>
+                    <div class="dropdown-content">
+                      <a onclick="loadDiningHall('bolton')">Bolton</a>
+                      <a onclick="loadDiningHall('snelling')">Snelling</a>
+                      <a onclick="loadDiningHall('ohouse')">O-House</a>
+                      <a onclick="loadDiningHall('joefrank')">Joe Frank</a>
+                      <a onclick="loadDiningHall('theniche')">The Niche</a>
+                    </div>
+                </div>
+            </div>
+            <div id="render-list" class="food-list">
+            
+            </div>
+        </div>
+    </div>
+
+    <script src="recs.js"></script>
+</body>
+</html>

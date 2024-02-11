@@ -4,10 +4,10 @@ signOutButton.onclick = () => {
   window.location.href = "../signin.html";
 }
 
-const recsButton = document.getElementById("recs");
+const browseButton = document.getElementById("browse");
 
-recsButton.onclick = () => {
-  window.location.href = "./recs.html";
+browseButton.onclick = () => {
+  window.location.href = "./browse.html";
 }
 
 const trackButton = document.getElementById("track");
@@ -16,8 +16,91 @@ trackButton.onclick = () => {
   //
 }
 
+let noLactose = null;
+let vegan = null;
+let noCalories = null;
+let noEggs = null;
+let noGluten = null;
+let protein = null;
+let noCholestrol = null;
+let vegetarian = null;
+let loseWeight = null;
+let noSodium = null;
+let noWheat = null;
+
 const directionsElement = document.getElementById("directions");
 const hallBtn = document.getElementById("hallbtn");
+
+function renderPrefs() {
+  let prefsText = '<b style="color:#870821;">Your preferences are:</b> ';
+  console.log(prefsText);
+  fetch('../Auth0Login/loadedUser.json').then(response => {
+    return response.json();
+  }).then(data => {
+    noLactose = data["noLactose"];
+    if (data["noLactose"]) {
+      prefsText += "no lactose foods, ";
+    }
+
+    vegan = data["vegan"];
+    if (data["vegan"]) {
+      prefsText += "only vegan foods, ";
+    };
+
+    noCalories = data["noCalories"];
+    if (data["noCalories"]) {
+      prefsText += "less calories, ";
+    };
+
+    noEggs = data["noEggs"];
+    if (data["noEggs"]) {
+      prefsText += "no eggs, ";
+    };
+
+    noGluten = data["noGluten"];
+    if (data["noGluten"]) {
+      prefsText += "no gluten, ";
+    }
+
+    protein = data["protein"];
+    if (data["protein"]) {
+      prefsText += "more protein, ";
+    }
+
+    noCholestrol = data["noCholestrol"];
+    if (data["noCholestrol"]) {
+      prefsText += "less cholestrol, ";
+    }
+
+    vegetarian = data["vegetarian"];
+    if (data["vegetarian"]) {
+      prefsText += "only vegetarian foods, ";
+    }
+
+    loseWeight = data["loseWeight"];
+    if (data["loseWeight"]) {
+      prefsText += "weight loss foods, ";
+    }
+
+    noSodium = data["noSodium"];
+    if (data["noSodium"]) {
+      prefsText += "less sodium, "
+    }
+
+    noWheat = data["noWheat"];
+    if (data["noWheat"]) {
+      prefsText += "no wheat, ";
+    }
+
+    prefsText = prefsText.substring(0, prefsText.length-2) + ".";
+
+    document.getElementById("prefs").innerHTML = prefsText;
+  }).catch(err => {
+    return console.log(err);
+  });
+}
+
+renderPrefs();
 
 let render_list = document.getElementById("render-list");
 
@@ -45,7 +128,7 @@ function loadDiningHall(diningHall) {
       console.log("N/A dining hall.");
   }
 
-  directionsElement.innerText = "Showing food available at ";
+  directionsElement.innerText = "Showing recommended food at ";
   hallBtn.innerText = directionText;
 
   fetch(`../../hall-data/${diningHall}/lunch.json`).then(response => {
@@ -79,6 +162,51 @@ function loadDiningHall(diningHall) {
         allergensArray = element["attributes"];
       } else {
         continue;
+      }
+
+      if (noLactose) {
+        if (allergensArray.includes("Milk") || allergensArray.includes("Dairy")) continue;
+      }
+
+      if (noEggs) {
+        if (allergensArray.includes("Eggs")) continue;
+      }
+
+      if (vegan) {
+        if (!allergensArray.includes("Fruit") && !allergensArray.includes("Meatless") &&
+          !allergensArray.includes("Vegan")) continue;
+      }
+
+      if (noCalories) {
+        if (nutritionInfo["calories"] > 200) continue;
+      }
+
+      if (noGluten) {
+        if (!allergensArray.includes("Free of Gluten")) continue;
+      }
+
+      if (noCholestrol) {
+        if (Object.hasOwn(nutritionInfo, "cholesterol")) {
+          if (parseInt(nutritionInfo["cholesterol"].substring(0, nutritionInfo["cholesterol"].length-2)) > 30)
+            continue;
+        }
+      }
+
+      if (vegetarian) {
+        if (!allergensArray.includes("Meatless") && !allergensArray.includes("Fruit") && nutritionInfo["calories"] > 40) {
+          continue;
+        }
+      }
+
+      if (noSodium) {
+        if (Object.hasOwn(nutritionInfo, "sodium")) {
+          if (parseInt(nutritionInfo["sodium"].substring(0, nutritionInfo["sodium"].length-2)) > 100)
+            continue;
+        }
+      }
+
+      if (noWheat) {
+        if (allergensArray.includes("Wheat")) continue;
       }
 
       let allergensString = "";

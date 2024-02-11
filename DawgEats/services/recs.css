@@ -165,12 +165,21 @@ p {
     float: left;
 }
 
+.clarify {
+    font-size: 16px;
+}
+
+#landlink {
+    text-decoration: underline;
+    color: #870821;
+}
+
 .selection-container {
     padding-top: 20px;
     padding-left: 20px;
-
+    padding-right: 20px;
     align-items: center;
-
+    height: 200px;
     padding-bottom: 18px;
     border-bottom: dotted  #333 2px;
 }
