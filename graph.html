@@ -3,71 +3,70 @@
 <body>
 <div id="container"></div>
 <script type="module">
+    import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7/+esm";
 
-import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7/+esm";
+    // Chart dimensions and margins
+    const width = 928;
+    const height = 500;
+    const marginTop = 20;
+    const marginRight = 30;
+    const marginBottom = 30;
+    const marginLeft = 40;
+    const xs = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+    const ys = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100];
+    const data = xs.map((x, i) => ({x, y: ys[i]}));
 
-// Chart dimensions and margins
-const width = 928;
-const height = 500;
-const marginTop = 20;
-const marginRight = 30;
-const marginBottom = 30;
-const marginLeft = 40;
-const xs = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-const ys = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100];
-const data = xs.map((x, i) => ({x, y: ys[i]}));
+    // Scales
+    const xScale = d3.scaleLinear()
+        .domain(d3.extent(data, d => d.x)) // Use the extent of your data for the domain
+        .range([marginLeft, width - marginRight]);
 
-// Scales
-const xScale = d3.scaleLinear()
-    .domain(d3.extent(data, d => d.x)) // Use the extent of your data for the domain
-    .range([marginLeft, width - marginRight]);
+    const yScale = d3.scaleLinear()
+        .domain([0, d3.max(data, d => d.y)]) // Use the maximum of your y values for the domain
+        .range([height - marginBottom, marginTop]);
 
-const yScale = d3.scaleLinear()
-    .domain([0, d3.max(data, d => d.y)]) // Use the maximum of your y values for the domain
-    .range([height - marginBottom, marginTop]);
+    // Line generator
+    const line = d3.line()
+        .x(d => xScale(d.x))
+        .y(d => yScale(d.y));
 
-// Line generator
-const line = d3.line()
-    .x(d => xScale(d.x))
-    .y(d => yScale(d.y));
+    // Create SVG element
+    const svg = d3.create("svg")
+        .attr("width", width)
+        .attr("height", height)
+        .attr("viewBox", [0, 0, width, height])
+        .attr("style", "max-width: 100%; height: auto; height: intrinsic;");
 
-// Create SVG element
-const svg = d3.create("svg")
-    .attr("width", width)
-    .attr("height", height)
-    .attr("viewBox", [0, 0, width, height])
-    .attr("style", "max-width: 100%; height: auto; height: intrinsic;");
+    // Append the x-axis
+    svg.append("g")
+        .attr("transform", `translate(0,${height - marginBottom})`)
+        .call(d3.axisBottom(xScale).ticks(width / 80).tickSizeOuter(0));
 
-// Append the x-axis
-svg.append("g")
-    .attr("transform", `translate(0,${height - marginBottom})`)
-    .call(d3.axisBottom(xScale).ticks(width / 80).tickSizeOuter(0));
+    // Append the y-axis
+    svg.append("g")
+        .attr("transform", `translate(${marginLeft},0)`)
+        .call(d3.axisLeft(yScale))
+        .call(g => g.select(".domain").remove())
+        .call(g => g.selectAll(".tick line").clone()
+            .attr("x2", width - marginLeft - marginRight)
+            .attr("stroke-opacity", 0.1))
+        .call(g => g.append("text")
+            .attr("x", -marginLeft)
+            .attr("y", 10)
+            .attr("fill", "currentColor")
+            .attr("text-anchor", "start")
+            .text("↑ Value"));
 
-// Append the y-axis
-svg.append("g")
-    .attr("transform", `translate(${marginLeft},0)`)
-    .call(d3.axisLeft(yScale))
-    .call(g => g.select(".domain").remove())
-    .call(g => g.selectAll(".tick line").clone()
-        .attr("x2", width - marginLeft - marginRight)
-        .attr("stroke-opacity", 0.1))
-    .call(g => g.append("text")
-        .attr("x", -marginLeft)
-        .attr("y", 10)
-        .attr("fill", "currentColor")
-        .attr("text-anchor", "start")
-        .text("↑ Value"));
+    // Append the line path using the data
+    svg.append("path")
+        .datum(data) // Bind data to the path
+        .attr("fill", "none")
+        .attr("stroke", "steelblue")
+        .attr("stroke-width", 1.5)
+        .attr("d", line);
 
-// Append the line path using the data
-svg.append("path")
-    .datum(data) // Bind data to the path
-    .attr("fill", "none")
-    .attr("stroke", "steelblue")
-    .attr("stroke-width", 1.5)
-    .attr("d", line);
-
-// Append the SVG element to the container
-document.getElementById("container").appendChild(svg.node());
+    // Append the SVG element to the container
+    document.getElementById("container").appendChild(svg.node());
 
 </script>
 </body>
