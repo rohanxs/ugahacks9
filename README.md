@@ -30,9 +30,9 @@ With the ease of use of our website, users who may have different health goals, 
 - Cloudflare Workers API (llama-2 7b NLP Model) <br>
 
 ## Public Assets Used
-The UGA Dawg logo has no official source, but is repeatedly used as an official logo for the **University of Georgia.** \
-The UGA Background seen on the login screen is from the [**official UGA Twitter account**](https://twitter.com/universityofga/status/1247231365734715392). \
-The Bolton Dining Commons picture seen in the background of the landing page is from the [**Bolton Dining Commons website**](https://dining.uga.edu/locations/bolton/).
+- The UGA Dawg logo has no official source, but is repeatedly used as an official logo for the **University of Georgia.**
+- The UGA Background seen on the login screen is from the [**official UGA Twitter account**](https://twitter.com/universityofga/status/1247231365734715392).
+- The Bolton Dining Commons picture seen in the background of the landing page is from the [**Bolton Dining Commons website**](https://dining.uga.edu/locations/bolton/).
 
 ## Problems and Solutions
 - The immediate problem we encountered in the project was the issue of gathering data. While information about dining halls at UGA is publicly available, it is inconsistent, scattered, and in an unreadable format to use on a large scale. However, we knew we would require a comprehensive database of food offered at UGA, so we opted to create this database ourselves. Rather than manually inputting every food item at each dining hall on campus manually for hundreds of items which would be unfeasible for the timespan of the hackathon, we opted to use the Cloudflare Workers API with the llama-2 7b Natural Language Processing model to parse the unreadable data and format it into several JSON files (seen in the `hall-data` folder). Utilizing some clever prompt engineering, the text summarizer could convert paragraphs of text about a datapoint into a convenient JSON object. This allowed us to collect over ten thousand lines of data about UGA dining options in the span of 2 hours.
