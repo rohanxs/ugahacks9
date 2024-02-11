@@ -170,12 +170,38 @@ input[type="password"]{font: 15px/24px "Montserrat", Arial, sans-serif; color: #
     transition-duration: 0.4s;
     cursor: pointer;
 
-    margin-left: 175px;
+    margin-left: 70px;
 
     transition-duration: 300ms;
 }
 
 #signin:hover {
+    background-color: rgb(191, 191, 191);
+    color: black;
+    transition-duration: 300ms;
+}
+
+#register {
+    background-color: #BA0C2F;
+    font-family: Montserrat;
+    width: 150px;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+
+    transition-duration: 0.4s;
+    cursor: pointer;
+
+    margin-left: 60px;
+
+    transition-duration: 300ms;
+}
+
+#register:hover {
     background-color: rgb(191, 191, 191);
     color: black;
     transition-duration: 300ms;

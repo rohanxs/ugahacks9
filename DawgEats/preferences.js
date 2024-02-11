@@ -43,7 +43,7 @@ fetch('./Auth0Login/loadedUser.json').then(response => {
   if (localStorage.getItem('noCalories')=='true') noCalories.checked = true;
   if (localStorage.getItem('noEggs')=='true') noEggs.checked = true;
   if (localStorage.getItem('noGluten')=='true') noGluten.checked = true;
-  if (localStorage.getItem('noProtein')=='true') protein.checked = true;
+  if (localStorage.getItem('protein')=='true') protein.checked = true;
   if (localStorage.getItem('noCholestrol')=='true') noCholestrol.checked = true;
   if (localStorage.getItem('vegetarian')=='true') vegetarian.checked = true;
   if (localStorage.getItem('loseWeight')=='true') loseWeight.checked = true;

@@ -1,6 +1,5 @@
 function unrecognizedCredentials() {
-  window.location.href = "failedsignin.html";
-  console.log("hello");
+  window.location.href = "signin.html";
   return false;
 }
 
@@ -10,6 +9,7 @@ function userAuthenticated() {
 }
 
 const signinButton = document.getElementById("signin");
+const registerButton = document.getElementById("register");
 const usernameField = document.getElementById("username");
 const passwordField = document.getElementById("password");
 
@@ -17,8 +17,24 @@ signinButton.onclick = () => {
   let username = usernameField.value.toString();
   let password = passwordField.value.toString();
   // oAuth2 login.
-  
-  userAuthenticated();
+
+  if (localStorage.getItem(username) != password) {
+    unrecognizedCredentials();
+  } else {
+    userAuthenticated();
+  } 
+}
+
+registerButton.onclick = () => {
+  let username = usernameField.value.toString();
+  let password = passwordField.value.toString();
+
+  if (localStorage.getItem(username) == null) {
+    localStorage.setItem(username, password);
+    window.location.href = "app.html";
+  } else {
+    window.location.href = "signin.html";
+  }
 }
 
 /*
