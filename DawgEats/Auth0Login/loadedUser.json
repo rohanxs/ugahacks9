@@ -3,7 +3,7 @@
   "vegan": false,
   "noCalories": false,
   "noEggs": false,
-  "noGluten": false,
+  "noGluten": true,
   "protein": false,
   "noCholestrol": false,
   "vegetarian": false,

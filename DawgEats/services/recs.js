@@ -37,64 +37,65 @@ function renderPrefs() {
   fetch('../Auth0Login/loadedUser.json').then(response => {
     return response.json();
   }).then(data => {
-    noLactose = data["noLactose"];
-    if (data["noLactose"]) {
+    noLactose = localStorage.getItem('noLactose')=='true';
+    if (noLactose) {
       prefsText += "no lactose foods, ";
     }
 
-    vegan = data["vegan"];
-    if (data["vegan"]) {
+    vegan = localStorage.getItem('vegan')=='true';
+    if (vegan) {
       prefsText += "only vegan foods, ";
     };
 
-    noCalories = data["noCalories"];
-    if (data["noCalories"]) {
+    noCalories = localStorage.getItem('noCalories')=='true';
+    if (noCalories) {
       prefsText += "less calories, ";
     };
 
-    noEggs = data["noEggs"];
-    if (data["noEggs"]) {
+    noEggs = localStorage.getItem('noEggs')=='true';
+    if (noEggs) {
       prefsText += "no eggs, ";
     };
 
-    noGluten = data["noGluten"];
-    if (data["noGluten"]) {
+    noGluten = localStorage.getItem('noGluten')=='true';
+    if (noGluten) {
       prefsText += "no gluten, ";
     }
 
-    protein = data["protein"];
-    if (data["protein"]) {
+    protein = localStorage.getItem('protein')=='true';
+    if (protein) {
       prefsText += "more protein, ";
     }
 
-    noCholestrol = data["noCholestrol"];
-    if (data["noCholestrol"]) {
+    noCholestrol = localStorage.getItem('noCholestrol')=='true';
+    if (noCholestrol) {
       prefsText += "less cholestrol, ";
     }
 
-    vegetarian = data["vegetarian"];
-    if (data["vegetarian"]) {
+    vegetarian = localStorage.getItem('vegetarian')=='true';
+    if (vegetarian) {
       prefsText += "only vegetarian foods, ";
     }
 
-    loseWeight = data["loseWeight"];
-    if (data["loseWeight"]) {
+    loseWeight = localStorage.getItem('loseWeight')=='true';
+    if (loseWeight) {
       prefsText += "weight loss foods, ";
     }
 
-    noSodium = data["noSodium"];
-    if (data["noSodium"]) {
+    noSodium = localStorage.getItem('noSodium')=='true';
+    if (noSodium) {
       prefsText += "less sodium, "
     }
 
-    noWheat = data["noWheat"];
-    if (data["noWheat"]) {
+    noWheat = localStorage.getItem('noWheat')=='true';
+    if (noWheat) {
       prefsText += "no wheat, ";
     }
 
     prefsText = prefsText.substring(0, prefsText.length-2) + ".";
 
     document.getElementById("prefs").innerHTML = prefsText;
+    
   }).catch(err => {
     return console.log(err);
   });
