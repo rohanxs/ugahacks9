@@ -1,7 +1,7 @@
 const signOutButton = document.getElementById("signout");
 
 signOutButton.onclick = () => {
-  window.location.href = "signin.html";
+  window.location.href = "../signin.html";
 }
 
 const recsButton = document.getElementById("recs");
@@ -16,20 +16,37 @@ trackButton.onclick = () => {
   //
 }
 
-let renderedFoodItems = [];
-
-const neededProperties = [
-  'name', 'allergens',
-]
-
-const neededInfo = [
-  'calories', 'serving_size', 'total_fat', 'sodium', 'sugar', 'protein', 'calcium', 'cholestrol'
-]
+const directionsElement = document.getElementById("directions");
+const hallBtn = document.getElementById("hallbtn");
 
 let render_list = document.getElementById("render-list");
 
 function loadDiningHall(diningHall) {
   render_list.innerHTML = "";
+
+  let directionText = "";
+  switch(diningHall) {
+    case "bolton":
+      directionText = "Bolton";
+      break;
+    case "joefrank":
+      directionText = "Joe Frank";
+      break;
+    case "ohouse":
+      directionText = "O-House";
+      break;
+    case "snelling":
+      directionText = "Snelling";
+      break;
+    case "theniche":
+        directionText = "The Niche";
+      break;
+    default:
+      console.log("N/A dining hall.");
+  }
+
+  directionsElement.innerText = "Showing food available at ";
+  hallBtn.innerText = directionText;
 
   fetch(`../../hall-data/${diningHall}/lunch.json`).then(response => {
     return response.json();

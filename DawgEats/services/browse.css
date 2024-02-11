@@ -131,7 +131,7 @@ button:hover {
 @keyframes slideUp {
     0% {
         opacity: 40%;
-        margin-top: 500px;
+        margin-top: 100px;
     }
     
     100% {
@@ -179,10 +179,23 @@ p {
     background-color: #BA0C2F;
     color: white;
     padding: 16px;
-    font-size: 16px;
+    font-size: 18px;
+    font-weight: 600;
     border: none;
     border-radius: 30px;
-  }
+
+
+    margin-left: auto;
+}
+
+#directions {
+    float: left;
+    display: block;
+}
+
+.space {
+    width: 10px;
+}
   
 .dropdown {
     position: relative;

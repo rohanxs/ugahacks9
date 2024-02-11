@@ -25,10 +25,9 @@
     <div class="list-container" style="padding-left:16px">
         <div class="list">
             <div class="selection-container">
-                <p style="margin-right: 235px;">Select which dining hall to browse.</p>
-
+                <p id="directions" style="margin-right: 10px;"> Select which dining hall to browse: </p>
                 <div class="dropdown">
-                    <button class="dropbtn">Select Hall</button>
+                    <button id="hallbtn" class="dropbtn">Select Hall</button>
                     <div class="dropdown-content">
                       <a onclick="loadDiningHall('bolton')">Bolton</a>
                       <a onclick="loadDiningHall('snelling')">Snelling</a>
@@ -38,7 +37,6 @@
                     </div>
                 </div>
             </div>
-
             <div id="render-list" class="food-list">
             
             </div>
