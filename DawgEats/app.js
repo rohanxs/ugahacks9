@@ -7,7 +7,7 @@ signOutButton.onclick = () => {
 const browseButton = document.getElementById("browse");
 
 browseButton.onclick = () => {
-  // impl later
+  window.location.href = "./services/browse.html";
 }
 
 const preferencesButton = document.getElementById("preferences");

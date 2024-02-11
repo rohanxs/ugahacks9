@@ -8,28 +8,35 @@
 </head>
 <body>
     <div class="topnav">
-        <img id="dawgimg" class="logo" src="assets/dawg.png">
+        <img id="dawgimg" class="logo" src="../assets/dawg.png">
         <h1 id="title" class="logo"><b>Dawg</b>Eats<h1>
 
         <a class="active" id="signout" href="#home">Sign Out</a>
     </div>
     
-    <div class="motto-container" style="padding-left:16px">
-        <div class="welcome-container">
-            <p class="welcome">Welcome to <b>Dawg</b><b style="color: white">Eats</b>.</p>
+    <nav class="nav-container">
+        <div class="nav-wrapper">
+            <button class="hbmenu active" id="browse">Browse Foods</button>
+            <button class="hbmenu" id="recs">Recommendations</button>
+            <button class="hbmenu" id="track">Nutrition Tracking</button>
         </div>
+    </nav>
 
-        <div class="options-container">
-            <div class="browse-container">
-                <button id="browse">
-                    Browse Services
-                </button>
-            </div>
+    <div class="list-container" style="padding-left:16px">
+        <div class="list">
+            <div class="selection-container">
+                <p style="margin-right: 235px;">Select which dining hall to browse.</p>
 
-            <div class="preferences-container">
-                <button id="preferences">
-                    Edit Preferences
-                </button>
+                <div class="dropdown">
+                    <button class="dropbtn">Select Hall</button>
+                    <div class="dropdown-content">
+                      <a href="#">Bolton</a>
+                      <a href="#">Snelling</a>
+                      <a href="#">O-House</a>
+                      <a href="#">Joe Frank</a>
+                      <a href="#">The Niche</a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
