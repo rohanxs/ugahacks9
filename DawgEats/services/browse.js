@@ -13,7 +13,7 @@ recsButton.onclick = () => {
 const trackButton = document.getElementById("track");
 
 trackButton.onclick = () => {
-  //
+  window.location.href = "./track.html";
 }
 
 const directionsElement = document.getElementById("directions");

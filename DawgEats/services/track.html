@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DawgEats</title>
-    <link rel="stylesheet" href="browse.css">
+    <link rel="stylesheet" href="track.css">
 </head>
 <body>
     <div class="topnav">
@@ -16,16 +16,34 @@
     
     <nav class="nav-container">
         <div class="nav-wrapper">
-            <button class="hbmenu active" id="browse">Browse Foods</button>
+            <button class="hbmenu" id="browse">Browse Foods</button>
             <button class="hbmenu" id="recs">Recommendations</button>
-            <button class="hbmenu" id="track">Nutrition Tracking</button>
+            <button class="hbmenu active" id="track">Nutrition Tracking</button>
         </div>
     </nav>
+
+    <div class="list-container" style="padding-left:16px; margin-bottom: -30px;">
+        <div class="list">
+            <div class="selection-container">
+                <p style="margin-right: 400px;"> See your dining selections:</p>
+                <div class="dropdown">
+                    <button class="dropbtn">Edit</button>
+                    <div class="dropdown-content">
+                      <a onclick="clearSelections()">Clear</a>
+                      <a onclick="clearLast()">Erase Last</a>
+                    </div>
+                </div>
+            </div>
+            <div id="eat-list" class="food-list">
+                
+            </div>
+        </div>
+    </div>
 
     <div class="list-container" style="padding-left:16px">
         <div class="list">
             <div class="selection-container">
-                <p id="directions" style="margin-right: 10px;"> Select which dining hall to browse: </p>
+                <p id="directions" style="margin-right: 10px;"> Select which dining hall to eat at: </p>
                 <div class="dropdown">
                     <button id="hallbtn" class="dropbtn">Select Hall</button>
                     <div class="dropdown-content">
@@ -44,6 +62,6 @@
         </div>
     </div>
 
-    <script src="browse.js"></script>
+    <script src="track.js"></script>
 </body>
 </html>

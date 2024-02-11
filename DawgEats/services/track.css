@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: Montserrat;
+}
+
+html {
+    background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85));
+    background-size: fill;
+}
+body {
+    margin: 0;
+    font-family: "Montserrat";
+    overscroll-behavior-y: none;
+    background-position:center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+b {
+    color:#BA0C2F;
+}
+  
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+
+    border-bottom: 3px solid white;
+}
+
+.topnav .logo {
+    float: left;
+}
+
+.topnav #title {
+    border-bottom: solid #BA0C2F 3px;
+    margin: 0;
+    margin-left: -18px;
+    font-size: 50px;
+}
+
+.topnav #dawgimg {
+    margin-top: 6px;
+    width: 125px;
+}
+
+.topnav h1 {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-size: 24px;
+}
+  
+.topnav a {
+    border-radius: 40px;
+    float: right;
+    font-weight: 600;
+    color: #333;
+    background-color: white;
+    text-align: center;
+    padding: 20px 20px;
+    margin-right: 0px;
+    margin-left: 20px;
+    margin-top: -16px;
+    text-decoration: none;
+    font-size: 18px;
+
+    transition-duration: 300ms;
+}
+  
+.topnav a:hover {
+    transition-duration: 300ms;
+    background-color: #6f6f6f;
+    color: #cacaca;
+}
+  
+.topnav a.active {
+    background-color: #BA0C2F;
+    color: white;
+}
+
+.topnav a.active:hover {
+    background-color: white;
+    color: #333;
+}
+
+.nav-container {
+    padding-top: 30px;
+    background-color: #BA0C2F;
+    padding-bottom: 15px;
+
+    border-bottom: 3px solid white;
+}
+
+.nav-wrapper {
+    padding-left: 30px;
+    width: 700px;
+    margin: auto;
+}
+
+.hbmenu {
+    border-radius: 40px;
+    font-weight: 600;
+    color: #333;
+    background-color: white;
+    text-align: center;
+    padding: 20px 20px;
+    margin-right: 0px;
+    margin-left: 20px;
+    margin-top: -16px;
+    text-decoration: none;
+    font-size: 18px;
+
+    border: none;
+
+    transition-duration: 300ms;
+}
+  
+button:hover {
+    transition-duration: 300ms;
+    background-color: #333;
+    color: white;
+}
+
+.active {
+    background-color: #333;
+    color: white;
+}
+
+@keyframes slideUp {
+    0% {
+        opacity: 40%;
+        margin-top: 100px;
+    }
+    
+    100% {
+        opacity: 100%;
+        margin-top: 50px;
+    }
+}
+
+.list-container {
+    margin-top: 50px;
+    animation: 0.5s ease-out 0s 1 slideUp;
+    margin-right: 10px;
+}
+
+.list {
+    background-color: rgb(191, 191, 191);
+    border-radius: 10px;
+    margin: auto;
+    width: 900px;
+    height: auto;
+
+    margin-bottom: 50px;
+}
+
+p {
+    color: #333;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 27px;
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+}
+
+.selection-container {
+    padding-top: 20px;
+    padding-left: 20px;
+
+    align-items: center;
+
+    padding-bottom: 18px;
+    border-bottom: dotted  #333 2px;
+}
+
+.dropbtn {
+    background-color: #BA0C2F;
+    color: white;
+    padding: 16px;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    border-radius: 30px;
+
+
+    margin-left: auto;
+}
+
+#directions {
+    float: left;
+    display: block;
+}
+
+.space {
+    width: 10px;
+}
+  
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #d2d2d2;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #BA0C2F; color: white;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #870821;}
+
+.food-list {
+    margin-top: 10px;
+}
+
+.food-container {
+    background-color: rgb(217, 217, 217);
+    height: 100px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.food {
+    display: flex;
+}
+
+.name {
+    margin-top: 12px;
+    font-size: 24px;
+}
+
+.allergens {
+    margin-top: 21px;
+    margin-left: 18px;
+    font-size: 10px;
+}
+
+.stats {
+    font-size: 10px;
+}
+
+.imstats {
+    font-size: 16px;
+}

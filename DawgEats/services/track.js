@@ -4,106 +4,42 @@ signOutButton.onclick = () => {
   window.location.href = "../signin.html";
 }
 
+const recsButton = document.getElementById("recs");
+
+recsButton.onclick = () => {
+  window.location.href = "./recs.html";
+}
+
 const browseButton = document.getElementById("browse");
 
 browseButton.onclick = () => {
   window.location.href = "./browse.html";
 }
 
-const trackButton = document.getElementById("track");
-
-trackButton.onclick = () => {
-  window.location.href = "./track.html";
-}
-
-let noLactose = null;
-let vegan = null;
-let noCalories = null;
-let noEggs = null;
-let noGluten = null;
-let protein = null;
-let noCholestrol = null;
-let vegetarian = null;
-let loseWeight = null;
-let noSodium = null;
-let noWheat = null;
-
 const directionsElement = document.getElementById("directions");
 const hallBtn = document.getElementById("hallbtn");
 
-function renderPrefs() {
-  let prefsText = '<b style="color:#870821;">Your preferences are:</b> ';
-  console.log(prefsText);
-  fetch('../Auth0Login/loadedUser.json').then(response => {
-    return response.json();
-  }).then(data => {
-    noLactose = localStorage.getItem('noLactose')=='true';
-    if (noLactose) {
-      prefsText += "no lactose foods, ";
-    }
+let render_list = document.getElementById("render-list");
 
-    vegan = localStorage.getItem('vegan')=='true';
-    if (vegan) {
-      prefsText += "only vegan foods, ";
-    };
+let eat_list = document.getElementById("eat-list");
+eat_list.innerHTML = "";
 
-    noCalories = localStorage.getItem('noCalories')=='true';
-    if (noCalories) {
-      prefsText += "less calories, ";
-    };
-
-    noEggs = localStorage.getItem('noEggs')=='true';
-    if (noEggs) {
-      prefsText += "no eggs, ";
-    };
-
-    noGluten = localStorage.getItem('noGluten')=='true';
-    if (noGluten) {
-      prefsText += "no gluten, ";
-    }
-
-    protein = localStorage.getItem('protein')=='true';
-    if (protein) {
-      prefsText += "more protein, ";
-    }
-
-    noCholestrol = localStorage.getItem('noCholestrol')=='true';
-    if (noCholestrol) {
-      prefsText += "less cholestrol, ";
-    }
-
-    vegetarian = localStorage.getItem('vegetarian')=='true';
-    if (vegetarian) {
-      prefsText += "only vegetarian foods, ";
-    }
-
-    loseWeight = localStorage.getItem('loseWeight')=='true';
-    if (loseWeight) {
-      prefsText += "weight loss foods, ";
-    }
-
-    noSodium = localStorage.getItem('noSodium')=='true';
-    if (noSodium) {
-      prefsText += "less sodium, "
-    }
-
-    noWheat = localStorage.getItem('noWheat')=='true';
-    if (noWheat) {
-      prefsText += "no wheat, ";
-    }
-
-    prefsText = prefsText.substring(0, prefsText.length-2) + ".";
-
-    document.getElementById("prefs").innerHTML = prefsText;
-    
-  }).catch(err => {
-    return console.log(err);
-  });
+function onClickFood(target) {
+  eat_list.innerHTML += (
+    '<div class="food-container">' + target.innerHTML + '</div>'
+  );
 }
 
-renderPrefs();
+function clearSelections() {
+  eat_list.innerHTML = "";
+}
 
-let render_list = document.getElementById("render-list");
+function clearLast() {
+  let parent = eat_list;
+  let child = eat_list.children[eat_list.children.length - 1];
+
+  parent.removeChild(child);
+}
 
 function loadDiningHall(diningHall) {
   render_list.innerHTML = "";
@@ -129,7 +65,7 @@ function loadDiningHall(diningHall) {
       console.log("N/A dining hall.");
   }
 
-  directionsElement.innerText = "Showing recommended food at ";
+  directionsElement.innerText = "Showing food available at ";
   hallBtn.innerText = directionText;
 
   fetch(`../../hall-data/${diningHall}/lunch.json`).then(response => {
@@ -165,51 +101,6 @@ function loadDiningHall(diningHall) {
         continue;
       }
 
-      if (noLactose) {
-        if (allergensArray.includes("Milk") || allergensArray.includes("Dairy")) continue;
-      }
-
-      if (noEggs) {
-        if (allergensArray.includes("Eggs")) continue;
-      }
-
-      if (vegan) {
-        if (!allergensArray.includes("Fruit") && !allergensArray.includes("Meatless") &&
-          !allergensArray.includes("Vegan")) continue;
-      }
-
-      if (noCalories) {
-        if (nutritionInfo["calories"] > 200) continue;
-      }
-
-      if (noGluten) {
-        if (!allergensArray.includes("Free of Gluten")) continue;
-      }
-
-      if (noCholestrol) {
-        if (Object.hasOwn(nutritionInfo, "cholesterol")) {
-          if (parseInt(nutritionInfo["cholesterol"].substring(0, nutritionInfo["cholesterol"].length-2)) > 30)
-            continue;
-        }
-      }
-
-      if (vegetarian) {
-        if (!allergensArray.includes("Meatless") && !allergensArray.includes("Fruit") && nutritionInfo["calories"] > 40) {
-          continue;
-        }
-      }
-
-      if (noSodium) {
-        if (Object.hasOwn(nutritionInfo, "sodium")) {
-          if (parseInt(nutritionInfo["sodium"].substring(0, nutritionInfo["sodium"].length-2)) > 100)
-            continue;
-        }
-      }
-
-      if (noWheat) {
-        if (allergensArray.includes("Wheat")) continue;
-      }
-
       let allergensString = "";
 
       i = 0;
@@ -238,7 +129,7 @@ function loadDiningHall(diningHall) {
       if (stats.length > 0) stats = stats.substring(0, stats.length - 2) + ".";
       
       render_list.innerHTML += (
-        `<div class="food-container">
+        `<div onclick="onClickFood(this)" class="food-container">
           <div class="food">
             <div style="width: 1000px; margin-bottom: -20px;">
               <p class="name">${nameString}</p>
