@@ -143,6 +143,7 @@ button:hover {
 .list-container {
     margin-top: 50px;
     animation: 0.5s ease-out 0s 1 slideUp;
+    margin-right: 10px;
 }
 
 .list {

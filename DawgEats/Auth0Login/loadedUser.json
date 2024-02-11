@@ -9,5 +9,5 @@
   "vegetarian": false,
   "loseWeight": false,
   "noSodium": false,
-  "noWheat": true
+  "noWheat": false
 }
