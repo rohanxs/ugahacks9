@@ -30,8 +30,8 @@ With the ease of use of our website, users who may have different health goals, 
 - Cloudflare Workers API (llama-2 7b NLP Model) <br>
 
 ## Public Assets Used
-The UGA Dawg logo has no official source, but is repeatedly used as an official logo for the **University of Georgia.**
-The UGA Background seen on the login screen is from the [**official UGA Twitter account**](https://twitter.com/universityofga/status/1247231365734715392).
+The UGA Dawg logo has no official source, but is repeatedly used as an official logo for the **University of Georgia.** \
+The UGA Background seen on the login screen is from the [**official UGA Twitter account**](https://twitter.com/universityofga/status/1247231365734715392). \
 The Bolton Dining Commons picture seen in the background of the landing page is from the [**Bolton Dining Commons website**](https://dining.uga.edu/locations/bolton/).
 
 ## Problems and Solutions
