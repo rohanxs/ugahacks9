@@ -2,8 +2,8 @@
 
 [![My Skills](https://skillicons.dev/icons?i=vscode,js,html,css,firebase,gcp,figma,cloudflare,workers,nodejs)](https://skillicons.dev)
 
-A [project submission](https://devpost.com/software/dawgeats?ref_content=user-portfolio) to the [UGAHacks9 Hackathon](https://ugahacks-9.devpost.com/) on February 11th. **Won as the best Cloudflare integrated project!**
-### ![Winner](https://media.discordapp.net/attachments/863515626814701619/1206569826936688651/Screenshot_2024-02-12_at_6.57.41_AM.png?ex=65dc7cb7&is=65ca07b7&hm=678f149b367d81b720e46f8a30c559cb9e91dd27de60b9d2afe3dcc29f16b9a5&=&format=webp&quality=lossless&width=952&height=504)
+A [project submission](https://devpost.com/software/dawgeats?ref_content=user-portfolio) to the [UGAHacks9 Hackathon](https://ugahacks-9.devpost.com/) on February 11th. Won an award for the best AI application built with Cloudflare!
+### ![Winner](https://media.discordapp.net/attachments/863515626814701619/1206648689242931210/Screenshot_2024-02-12_at_12.11.01_PM.png?ex=65dcc629&is=65ca5129&hm=820e28d8611e07f8ff14c567f9338b9b91e4306760a0938691dafc6839250a2c&=&format=webp&quality=lossless&width=996&height=644)
 
 ## Team Members
 - Rohan Singh
